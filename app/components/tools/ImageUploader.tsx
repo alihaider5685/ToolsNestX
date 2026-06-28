@@ -4,7 +4,8 @@ import { useState } from "react";
 
 export default function ImageUploader() {
   const [image, setImage] = useState<File | null>(null);
-  const [preview, setPreview] = useState<string>("");
+  const [preview, setPreview] = useState("");
+  const [format, setFormat] = useState("png");
 
   const handleImageChange = (
     e: React.ChangeEvent<HTMLInputElement>
@@ -37,6 +38,7 @@ export default function ImageUploader() {
 
       {image && (
         <div className="mt-8">
+
           <h3 className="text-xl font-semibold">
             Selected Image
           </h3>
@@ -54,6 +56,31 @@ export default function ImageUploader() {
             alt="Preview"
             className="mt-6 w-72 rounded-xl border border-gray-700"
           />
+
+          {/* Output Format */}
+          <div className="mt-8">
+            <label className="mb-2 block font-medium text-white">
+              Select Output Format
+            </label>
+
+            <select
+              value={format}
+              onChange={(e) => setFormat(e.target.value)}
+              className="w-full rounded-lg border border-gray-700 bg-[#1a1a1a] px-4 py-3 text-white"
+            >
+              <option value="png">PNG</option>
+              <option value="jpg">JPG</option>
+              <option value="webp">WEBP</option>
+            </select>
+          </div>
+
+          {/* Convert Button */}
+          <button
+            className="mt-6 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+          >
+            Convert Image
+          </button>
+
         </div>
       )}
     </div>
