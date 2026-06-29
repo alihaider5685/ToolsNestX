@@ -31,18 +31,26 @@ export default function ToolCard() {
   name: "JSON Formatter",
   href: "/tools/json-formatter",
 },
-    {
-      name: "Base64 Encoder",
-      href: "/tools/base64-encoder",
-    },
-    {
-  name: "JSON Formatter",
-  href: "/tools/json-formatter",
-   },
-   {
-  name: "Password Generator",
-  href: "/tools/password-generator",
-  }
+{
+  name: "Base64 Encoder",
+  href: "/tools/base64-encoder",
+},
+{
+  name: "Text Case Converter",
+  href: "/tools/text-case-converter",
+},
+{
+  name: "Lorem Ipsum Generator",
+  href: "/tools/lorem-ipsum-generator",
+},
+{
+  name: "URL Encoder / Decoder",
+  href: "/tools/url-encoder-decoder",
+},
+{
+  name: "UUID Generator",
+  href: "/tools/uuid-generator",
+}
   ];
 
   return (
