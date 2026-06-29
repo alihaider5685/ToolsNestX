@@ -50,7 +50,35 @@ export default function ToolCard() {
 {
   name: "UUID Generator",
   href: "/tools/uuid-generator",
-}
+},
+{
+  name: "Hash Generator",
+  href: "/tools/hash-generator",
+},
+{
+  name: "Timestamp Converter",
+  href: "/tools/timestamp-converter",
+},
+{
+  name: "JWT Decoder",
+  href: "/tools/jwt-decoder",
+},
+{
+  name: "Regex Tester",
+  href: "/tools/regex-tester",
+},
+{
+  name: "HTML Encoder / Decoder",
+  href: "/tools/html-encoder-decoder",
+},
+{
+  name: "CSS Minifier",
+  href: "/tools/css-minifier",
+},
+{
+  name: "JS Minifier",
+  href: "/tools/js-minifier",
+},
   ];
 
   return (
