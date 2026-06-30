@@ -1,25 +1,40 @@
+
 export default function FAQ() {
   const faqs = [
     {
-      question: "Is FileNestX free to use?",
-      answer: "Yes, most of our tools are completely free and work directly in your browser.",
+      question: "What is FileNestX?",
+      answer:
+        "FileNestX is a free online platform that provides PDF, Image, Text and Developer tools directly in your browser.",
     },
     {
-      question: "Are my files secure?",
-      answer: "Yes. Your files stay private and are automatically removed after processing.",
+      question: "Is FileNestX free to use?",
+      answer:
+        "Yes. All tools on FileNestX are free to use without subscriptions or hidden charges.",
+    },
+    {
+      question: "Are my files and data secure?",
+      answer:
+        "Yes. We prioritize user privacy and process files securely. Most tools work directly in your browser.",
     },
     {
       question: "Do I need to create an account?",
-      answer: "No. You can use the majority of our tools without signing up.",
+      answer:
+        "No. You can access and use FileNestX tools without creating an account.",
     },
     {
-      question: "Which devices are supported?",
-      answer: "FileNestX works on desktop, tablet, and mobile devices.",
+      question: "Can I use FileNestX on mobile devices?",
+      answer:
+        "Yes. FileNestX is fully responsive and works on desktop, tablet and mobile devices.",
+    },
+    {
+      question: "What types of tools are available?",
+      answer:
+        "FileNestX offers Image Tools, PDF Tools, Text Tools and Developer Tools to help improve productivity.",
     },
   ];
 
   return (
-    <section className="bg-[#0b0b0b] py-20 px-6">
+    <section className="bg-[#0b0b0b] px-6 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-center text-4xl font-bold text-white">
           Frequently Asked Questions
@@ -49,3 +64,4 @@ export default function FAQ() {
     </section>
   );
 }
+
