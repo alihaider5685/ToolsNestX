@@ -79,6 +79,31 @@ export default function ToolCard() {
   name: "JS Minifier",
   href: "/tools/js-minifier",
 },
+{
+  name: "SQL Formatter",
+  href: "/tools/sql-formatter",
+},
+{
+  name: "Remove Duplicate Lines",
+  href: "/tools/remove-duplicate-lines",
+},
+{
+  name: "Sort Lines",
+  href: "/tools/sort-lines",
+},
+{
+  name: "Reverse Text",
+  href: "/tools/reverse-text",
+},
+{
+  name: "Slug Generator",
+  href: "/tools/slug-generator",
+},
+{
+  name: "JSON Validator",
+  href: "/tools/json-validator",
+},
+
   ];
 
   return (
