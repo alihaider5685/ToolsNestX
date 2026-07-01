@@ -6,18 +6,22 @@ import WhyChoose from "./components/ui/WhyChoose";
 import Stats from "./components/ui/Stats";
 import CTA from "./components/ui/CTA";
 import Footer from "./components/layout/Footer";
+import FAQ from "./components/ui/Faq";
+import Testimonials from "./components/ui/Testimonials";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <CategoryCard />
-      <ToolCard />
-      <WhyChoose />
-      <Stats />
-      <CTA />
-      <Footer />
+ <Navbar />
+<Hero />
+<CategoryCard />
+<ToolCard />
+<WhyChoose />
+<Stats />
+<Testimonials />
+<FAQ />
+<CTA />
+<Footer />
     </>
   );
 }

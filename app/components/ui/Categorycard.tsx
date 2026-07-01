@@ -55,7 +55,7 @@ export default function CategoryCard() {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="group rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0c0c0c] p-8 transition duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
+              className="group flex h-full flex-col rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0c0c0c] p-8 transition duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
             >
               <div className="inline-flex rounded-2xl bg-blue-500/10 p-4 text-blue-500">
                 {category.icon}
@@ -71,7 +71,7 @@ export default function CategoryCard() {
 
               <Link
                 href="#tools"
-                className="mt-6 inline-flex items-center gap-2 font-medium text-blue-500 transition group-hover:gap-3"
+               className="mt-auto inline-flex items-center gap-2 font-medium text-blue-500 transition group-hover:gap-3"
               >
                 Explore Tools
                 <ArrowRight size={18} />
