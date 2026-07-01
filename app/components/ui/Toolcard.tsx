@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import Link from "next/link";
@@ -74,9 +72,8 @@ export default function ToolCard() {
         </div>
         
 {/* Search Section */}
-<div className="mx-auto mt-16 mb-20 max-w-3xl">
-  <div className="rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0d0d0d] p-8 shadow-[0_0_40px_rgba(37,99,235,0.08)]">
-
+<div className="mx-auto mt-20 mb-24 max-w-4xl">
+ <div className="rounded-[32px] border border-white/10 bg-[#111111] p-10 shadow-[0_0_60px_rgba(37,99,235,0.12)]">
     <h3 className="mb-6 text-center text-lg font-semibold text-white">
       Find Your Tool Instantly
     </h3>
@@ -127,7 +124,7 @@ export default function ToolCard() {
             {filteredTools.map((tool, index) => (
               <div
                 key={index}
-                className="group rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0c0c0c] p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
+                className="group flex min-h-[240px] flex-col rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0c0c0c] p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
               >
                 <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-400">
                   Online Tool
@@ -143,8 +140,7 @@ export default function ToolCard() {
 
                 <Link
                   href={tool.href}
-                  className="mt-6 inline-flex items-center gap-2 font-medium text-blue-500 transition-all duration-300 group-hover:gap-3"
-                >
+                  className="mt-auto inline-flex items-center gap-2 font-medium text-blue-500 transition-all duration-300 group-hover:gap-3"                >
                   Open Tool
                   <ArrowRight size={18} />
                 </Link>
