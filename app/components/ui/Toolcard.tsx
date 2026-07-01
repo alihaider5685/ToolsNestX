@@ -116,7 +116,6 @@ export default function ToolCard() {
 
   </div>
 </div>
-```
 
       {/* Cards */}
         {filteredTools.length === 0 ? (
