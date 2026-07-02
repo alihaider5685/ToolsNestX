@@ -1,153 +1,273 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Search } from "lucide-react";
-import { useState } from "react";
+import { ArrowRight } from "lucide-react";
+import {
+  Image as ImageIcon,
+  RefreshCw,
+  FileText,
+  Scissors,
+  Type,
+  QrCode,
+  Braces,
+  Lock,
+  Link2,
+  Hash,
+  Clock3,
+  ShieldCheck,
+  Code2,
+  Palette,
+  Database,
+} from "lucide-react";
 
 export default function ToolCard() {
-  const [search, setSearch] = useState("");
-
   const tools = [
-    { name: "Image Compressor", href: "/tools/image-compressor" },
-    { name: "Image Converter", href: "/tools/image-convertor" },
-    { name: "PDF Merger", href: "/tools/pdf-merger" },
-    { name: "PDF Splitter", href: "/tools/pdf-splitter" },
-    { name: "Word Counter", href: "/tools/word-counter" },
-    { name: "QR Generator", href: "/tools/qr-generator" },
-    { name: "JSON Formatter", href: "/tools/json-formatter" },
-    { name: "Base64 Encoder", href: "/tools/base64-encoder" },
-    { name: "Text Case Converter", href: "/tools/text-case-converter" },
-    { name: "Lorem Ipsum Generator", href: "/tools/lorem-ipsum-generator" },
-    { name: "URL Encoder / Decoder", href: "/tools/url-encoder-decoder" },
-    { name: "UUID Generator", href: "/tools/uuid-generator" },
-    { name: "Hash Generator", href: "/tools/hash-generator" },
-    { name: "Timestamp Converter", href: "/tools/timestamp-converter" },
-    { name: "JWT Decoder", href: "/tools/jwt-decoder" },
-    { name: "Regex Tester", href: "/tools/regex-tester" },
-    { name: "HTML Encoder / Decoder", href: "/tools/html-encoder-decoder" },
-    { name: "CSS Minifier", href: "/tools/css-minifier" },
-    { name: "JS Minifier", href: "/tools/js-minifier" },
-    { name: "SQL Formatter", href: "/tools/sql-formatter" },
-    { name: "Remove Duplicate Lines", href: "/tools/remove-duplicate-lines" },
-    { name: "Sort Lines", href: "/tools/sort-lines" },
-    { name: "Reverse Text", href: "/tools/reverse-text" },
-    { name: "Slug Generator", href: "/tools/slug-generator" },
-    { name: "JSON Validator", href: "/tools/json-validator" },
-    { name: "URL Parser", href: "/tools/url-parser" },
-    { name: "HTML Minifier", href: "/tools/html-minifier" },
-    { name: "XML Formatter", href: "/tools/xml-formatter" },
+    {
+      name: "Image Compressor",
+      href: "/tools/image-compressor",
+      icon: ImageIcon,
+      color: "from-blue-500 to-cyan-400",
+      desc: "Compress images without losing quality.",
+    },
+    {
+      name: "Image Converter",
+      href: "/tools/image-convertor",
+      icon: RefreshCw,
+      color: "from-sky-500 to-blue-400",
+      desc: "Convert images into different formats.",
+    },
+    {
+      name: "PDF Merger",
+      href: "/tools/pdf-merger",
+      icon: FileText,
+      color: "from-red-500 to-orange-400",
+      desc: "Merge multiple PDF files quickly.",
+    },
+    {
+      name: "PDF Splitter",
+      href: "/tools/pdf-splitter",
+      icon: Scissors,
+      color: "from-orange-500 to-yellow-400",
+      desc: "Split PDF pages instantly.",
+    },
+    {
+      name: "Word Counter",
+      href: "/tools/word-counter",
+      icon: Type,
+      color: "from-green-500 to-emerald-400",
+      desc: "Count words and characters.",
+    },
+    {
+      name: "QR Generator",
+      href: "/tools/qr-generator",
+      icon: QrCode,
+      color: "from-purple-500 to-pink-400",
+      desc: "Generate QR codes online.",
+    },
+    {
+      name: "JSON Formatter",
+      href: "/tools/json-formatter",
+      icon: Braces,
+      color: "from-cyan-500 to-blue-400",
+      desc: "Beautify and format JSON.",
+    },
+    {
+      name: "Base64 Encoder",
+      href: "/tools/base64-encoder",
+      icon: Lock,
+      color: "from-indigo-500 to-purple-400",
+      desc: "Encode and decode Base64.",
+    },
+    {
+      name: "Text Case Converter",
+      href: "/tools/text-case-converter",
+      icon: Type,
+      color: "from-emerald-500 to-green-400",
+      desc: "Convert text cases instantly.",
+    },
+    {
+      name: "Lorem Ipsum Generator",
+      href: "/tools/lorem-ipsum-generator",
+      icon: FileText,
+      color: "from-pink-500 to-rose-400",
+      desc: "Generate placeholder text.",
+    },
+    {
+      name: "URL Encoder / Decoder",
+      href: "/tools/url-encoder-decoder",
+      icon: Link2,
+      color: "from-violet-500 to-fuchsia-400",
+      desc: "Encode or decode URLs.",
+    },
+    {
+      name: "UUID Generator",
+      href: "/tools/uuid-generator",
+      icon: ShieldCheck,
+      color: "from-teal-500 to-cyan-400",
+      desc: "Generate secure UUIDs.",
+    },
+        {
+      name: "Hash Generator",
+      href: "/tools/hash-generator",
+      icon: Hash,
+      color: "from-yellow-500 to-orange-400",
+      desc: "Generate hash values.",
+    },
+    {
+      name: "Timestamp Converter",
+      href: "/tools/timestamp-converter",
+      icon: Clock3,
+      color: "from-lime-500 to-green-400",
+      desc: "Convert timestamps easily.",
+    },
+    {
+      name: "JWT Decoder",
+      href: "/tools/jwt-decoder",
+      icon: ShieldCheck,
+      color: "from-purple-500 to-indigo-400",
+      desc: "Decode JWT tokens.",
+    },
+    {
+      name: "Regex Tester",
+      href: "/tools/regex-tester",
+      icon: Code2,
+      color: "from-pink-500 to-purple-400",
+      desc: "Test regular expressions.",
+    },
+    {
+      name: "HTML Encoder / Decoder",
+      href: "/tools/html-encoder-decoder",
+      icon: Code2,
+      color: "from-blue-500 to-indigo-400",
+      desc: "Encode and decode HTML.",
+    },
+    {
+      name: "CSS Minifier",
+      href: "/tools/css-minifier",
+      icon: Palette,
+      color: "from-rose-500 to-pink-400",
+      desc: "Minify CSS code.",
+    },
+    {
+      name: "JS Minifier",
+      href: "/tools/js-minifier",
+      icon: Code2,
+      color: "from-yellow-500 to-amber-400",
+      desc: "Minify JavaScript.",
+    },
+    {
+      name: "SQL Formatter",
+      href: "/tools/sql-formatter",
+      icon: Database,
+      color: "from-green-500 to-teal-400",
+      desc: "Format SQL queries.",
+    },
+    {
+      name: "Remove Duplicate Lines",
+      href: "/tools/remove-duplicate-lines",
+      icon: FileText,
+      color: "from-red-500 to-pink-400",
+      desc: "Remove duplicate lines.",
+    },
+    {
+      name: "Sort Lines",
+      href: "/tools/sort-lines",
+      icon: FileText,
+      color: "from-cyan-500 to-sky-400",
+      desc: "Sort text lines instantly.",
+    },
+    {
+      name: "Reverse Text",
+      href: "/tools/reverse-text",
+      icon: RefreshCw,
+      color: "from-orange-500 to-red-400",
+      desc: "Reverse text quickly.",
+    },
+    {
+      name: "Slug Generator",
+      href: "/tools/slug-generator",
+      icon: Link2,
+      color: "from-violet-500 to-purple-400",
+      desc: "Create SEO-friendly slugs.",
+    },
+    {
+      name: "JSON Validator",
+      href: "/tools/json-validator",
+      icon: Braces,
+      color: "from-blue-500 to-cyan-400",
+      desc: "Validate JSON data.",
+    },
+    {
+      name: "URL Parser",
+      href: "/tools/url-parser",
+      icon: Link2,
+      color: "from-green-500 to-cyan-400",
+      desc: "Parse URL components.",
+    },
+    {
+      name: "HTML Minifier",
+      href: "/tools/html-minifier",
+      icon: Code2,
+      color: "from-pink-500 to-red-400",
+      desc: "Minify HTML code.",
+    },
+    {
+      name: "XML Formatter",
+      href: "/tools/xml-formatter",
+      icon: Database,
+      color: "from-indigo-500 to-blue-400",
+      desc: "Format XML documents.",
+    },
   ];
 
-  const filteredTools = tools.filter((tool) =>
-    tool.name.toLowerCase().includes(search.toLowerCase())
-  );
-
   return (
-    <section
-      id="tools"
-      className="bg-black px-6 py-24"
-    >
+    <section id="tools" className="bg-black px-6 py-24">
       <div className="mx-auto max-w-7xl">
 
-        {/* Heading */}
-        <div className="text-center">
-          <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
-            Free Online Tools
-          </span>
-
-          <h2 className="mt-6 text-4xl font-bold text-white md:text-5xl">
-            Explore Our Tools
+        <div className="mb-16 text-center">
+          <h2 className="text-4xl font-bold text-white md:text-5xl">
+            Explore All Tools
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-gray-400">
-            Fast, secure and easy-to-use online tools for images,
-            PDFs, text processing and developers.
+            Powerful online tools for PDFs, images,
+            text processing and developers.
           </p>
-
-          <div className="mt-6">
-            <span className="rounded-full border border-green-500/30 bg-green-500/10 px-4 py-2 text-sm text-green-400">
-              {tools.length}+ Tools Available
-            </span>
-          </div>
         </div>
-        
-{/* Search Section */}
-<div className="mx-auto mt-20 mb-24 max-w-4xl">
- <div className="rounded-[32px] border border-white/10 bg-[#111111] p-10 shadow-[0_0_60px_rgba(37,99,235,0.12)]">
-    <h3 className="mb-6 text-center text-lg font-semibold text-white">
-      Find Your Tool Instantly
-    </h3>
 
-    <div className="relative">
-      <Search
-        size={22}
-        className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-500"
-      />
+      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
+          {tools.map((tool) => {
+            const Icon = tool.icon;
 
-      <input
-        type="text"
-        placeholder="Search Image Compressor, PDF Merger, JSON Formatter..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="w-full rounded-2xl border border-gray-700 bg-black py-5 pl-14 pr-5 text-white outline-none transition-all duration-300 focus:border-blue-500 focus:shadow-[0_0_30px_rgba(37,99,235,0.35)]"
-      />
-    </div>
-
-    <div className="mt-6 flex flex-wrap justify-center gap-3">
-      <span className="rounded-full bg-[#181818] px-4 py-2 text-sm text-gray-400">
-        Image Compressor
-      </span>
-
-      <span className="rounded-full bg-[#181818] px-4 py-2 text-sm text-gray-400">
-        PDF Merger
-      </span>
-
-      <span className="rounded-full bg-[#181818] px-4 py-2 text-sm text-gray-400">
-        JSON Formatter
-      </span>
-
-      <span className="rounded-full bg-[#181818] px-4 py-2 text-sm text-gray-400">
-        QR Generator
-      </span>
-    </div>
-
-  </div>
-</div>
-
-      {/* Cards */}
-        {filteredTools.length === 0 ? (
-          <div className="text-center text-gray-400">
-            No tools found.
-          </div>
-        ) : (
-          <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
-            {filteredTools.map((tool, index) => (
-              <div
-                key={index}
-                className="group flex min-h-[240px] flex-col rounded-3xl border border-gray-800 bg-gradient-to-b from-[#141414] to-[#0c0c0c] p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
+            return (
+              <Link
+                key={tool.name}
+                href={tool.href}
+               className="group h-[190px]rounded-3xl border border-white/10 bg-gradient-to-b from-[#171717] to-[#0b0b0b] p-6 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
               >
-                <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-400">
-                  Online Tool
-                </span>
+                <div
+                  className={`mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${tool.color}`}
+                >
+                  <Icon size={28} className="text-white" />
+                </div>
 
-                <h3 className="mt-5 text-xl font-bold text-white">
+                <h3 className="text-lg font-bold text-white">
                   {tool.name}
                 </h3>
 
-                <p className="mt-3 text-gray-400">
-                  Fast, secure and browser-based utility tool.
+                <p className="mt-2 text-sm leading-relaxed text-gray-400">
+                  {tool.desc}
                 </p>
 
-                <Link
-                  href={tool.href}
-                  className="mt-auto inline-flex items-center gap-2 font-medium text-blue-500 transition-all duration-300 group-hover:gap-3"                >
+                <div className="mt-auto inline-flex items-center gap-2 text-blue-400">
                   Open Tool
-                  <ArrowRight size={18} />
-                </Link>
-              </div>
-            ))}
-          </div>
-        )}
+                  <ArrowRight size={16} />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+
       </div>
     </section>
   );
