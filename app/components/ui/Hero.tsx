@@ -28,69 +28,63 @@ const features = [
   },
 ];
 
-const stats = [
-  {
-    value: "28+",
-    label: "Online Tools",
-    color: "text-blue-400",
-    border: "hover:border-blue-500/40",
-    shadow: "hover:shadow-[0_0_35px_rgba(59,130,246,.18)]",
-  },
-  {
-    value: "100%",
-    label: "Free Access",
-    color: "text-green-400",
-    border: "hover:border-green-500/40",
-    shadow: "hover:shadow-[0_0_35px_rgba(34,197,94,.18)]",
-  },
-  {
-    value: "0",
-    label: "Signups Needed",
-    color: "text-cyan-400",
-    border: "hover:border-cyan-500/40",
-    shadow: "hover:shadow-[0_0_35px_rgba(6,182,212,.18)]",
-  },
-  {
-    value: "24/7",
-    label: "Availability",
-    color: "text-purple-400",
-    border: "hover:border-purple-500/40",
-    shadow: "hover:shadow-[0_0_35px_rgba(168,85,247,.18)]",
-  },
-];
+
+
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-black text-white">
 
-      {/* Background */}
+      {/* Premium Background */}
 
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[size:70px_70px] opacity-[0.015]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#030303] via-[#07111d] to-[#020202]" />
 
-      <div className="absolute left-1/2 top-20 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[170px]" />
+      <div
+        className="
+          absolute inset-0
+          bg-[linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)]
+          bg-[size:80px_80px]
+          opacity-30
+        "
+      />
 
-      <div className="absolute right-0 top-0 h-[320px] w-[320px] rounded-full bg-cyan-500/10 blur-[140px]" />
+      {/* Main Glow */}
 
-      <div className="absolute bottom-0 left-0 h-[260px] w-[260px] rounded-full bg-indigo-500/10 blur-[130px]" />
+      <div className="absolute left-1/2 top-44 h-[760px] w-[760px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[190px]" />
 
-      <div className="absolute inset-x-0 top-0 h-80 bg-gradient-to-b from-blue-500/10 to-transparent" />
+      <div className="absolute -left-28 top-56 h-[420px] w-[420px] rounded-full bg-blue-500/15 blur-[160px]" />
 
-      <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-6 pt-28 pb-20 text-center">
+      <div className="absolute -right-28 bottom-24 h-[420px] w-[420px] rounded-full bg-cyan-500/15 blur-[160px]" />
 
+      <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+
+      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent" />
+
+      {/* Floating Glass */}
+
+      <div className="absolute left-12 top-60 hidden h-28 w-28 rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
+
+      <div className="absolute right-16 top-72 hidden h-24 w-24 -rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
+
+     <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] max-w-7xl flex-col items-center justify-start px-6 pt-32 pb-40 text-center">
         {/* Badge */}
 
-        <div className="rounded-full border border-blue-500/20 bg-white/5 px-6 py-2 text-sm font-medium text-blue-300 backdrop-blur-xl shadow-lg shadow-blue-500/10">
+        <div className="rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl">
+
           🚀 28+ Professional Online Tools
+
         </div>
 
         {/* Heading */}
 
-        <h1 className="mt-10 max-w-6xl text-5xl font-black leading-[1.05] tracking-tight md:text-7xl lg:text-[78px]">
+        <h1 className="mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]">
 
           All Your
 
           <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
+
             Online Tools
+
           </span>
 
           In One Place
@@ -99,125 +93,77 @@ export default function Hero() {
 
         {/* Description */}
 
-        <p className="mt-10 max-w-2xl text-lg leading-8 text-gray-400 md:text-xl">
+        <p className="mt-8 max-w-3xl text-lg leading-9 text-gray-400 md:text-xl">
 
-          Compress images, merge PDFs, format JSON,
-          generate QR codes and access powerful online
-          tools — all in one fast, secure and completely
-          free platform.
+          Compress images, merge PDFs, format JSON, generate QR codes,
+          convert files and use powerful online tools directly in your
+          browser with no installation, no signup and completely free.
 
         </p>
+               {/* Buttons */}
 
-        {/* Buttons */}
+<div className="mt-16 mb-4 flex flex-wrap justify-center gap-5">
 
-        <div className="mt-16 flex flex-wrap justify-center gap-5">
+  <a
+    href="#tools"
+    className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-[0_0_35px_rgba(59,130,246,.45)] transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_0_60px_rgba(59,130,246,.65)]"
+  >
+    Explore Tools
 
-          <a
-            href="#tools"
-            className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-500 px-8 py-4 font-semibold text-white shadow-xl shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-blue-500/40"
-          >
-            Explore Tools
+    <ArrowRight
+      size={18}
+      className="transition-transform duration-300 group-hover:translate-x-1"
+    />
+  </a>
 
-            <ArrowRight
-              size={18}
-              className="transition-transform duration-300 group-hover:translate-x-1"
-            />
+  <Link
+    href="/about"
+    className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
+  >
+    Learn More
+  </Link>
 
-          </a>
+</div>
 
-          <Link
-            href="/about"
-            className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
-          >
-            Learn More
-          </Link>
+{/* Feature Pills */}
 
-        </div>
-                {/* Feature Pills */}
+<div className="pt-12 flex flex-wrap items-center justify-center gap-4">
 
-        <div className="mt-20 flex flex-wrap items-center justify-center gap-4">
+  {features.map((feature) => {
+    const Icon = feature.icon;
 
-          {features.map((feature) => {
-            const Icon = feature.icon;
+    return (
+      <div
+        key={feature.title}
+        className="group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10"
+      >
+        <Icon
+          size={18}
+          className="text-blue-400 transition-transform duration-300 group-hover:scale-110"
+        />
 
-            return (
-              <div
-                key={feature.title}
-                className="group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10 hover:shadow-[0_0_30px_rgba(59,130,246,.12)]"
-              >
-                <Icon
-                  size={18}
-                  className="text-blue-400 transition-transform duration-300 group-hover:scale-110"
-                />
-
-                <span className="text-sm font-medium text-gray-300">
-                  {feature.title}
-                </span>
-
-              </div>
-            );
-          })}
-
-        </div>
-
-        {/* Stats */}
-
-        <div className="mt-32 w-full max-w-6xl">
-
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-
-            {stats.map((item) => (
-
-              <div
-                key={item.label}
-                className={`group rounded-3xl border border-white/10 bg-gradient-to-b from-[#161616] to-[#0d0d0d] p-8 text-center transition-all duration-300 hover:-translate-y-2 ${item.border} ${item.shadow}`}
-              >
-
-                <h3 className={`text-4xl font-black ${item.color}`}>
-                  {item.value}
-                </h3>
-
-                <p className="mt-3 text-sm text-gray-400">
-                  {item.label}
-                </p>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </div>
-
-        {/* Decorative Blur */}
-
-        <div className="pointer-events-none absolute left-12 top-44 hidden xl:block">
-
-          <div className="h-24 w-24 rotate-12 rounded-3xl border border-blue-500/10 bg-white/5 backdrop-blur-xl" />
-
-        </div>
-
-        <div className="pointer-events-none absolute right-14 top-56 hidden xl:block">
-
-          <div className="h-20 w-20 -rotate-12 rounded-2xl border border-cyan-500/10 bg-white/5 backdrop-blur-xl" />
-
-        </div>
-
-        <div className="pointer-events-none absolute bottom-24 left-24 hidden xl:block">
-
-          <div className="h-16 w-16 rounded-full bg-blue-500/20 blur-xl" />
-
-        </div>
-
-        <div className="pointer-events-none absolute bottom-20 right-20 hidden xl:block">
-
-          <div className="h-20 w-20 rounded-full bg-cyan-500/20 blur-xl" />
-
-        </div>
-                {/* Bottom Fade */}
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent" />
+        <span className="text-sm font-medium text-gray-300">
+          {feature.title}
+        </span>
 
       </div>
-    </section>
-  );
+    );
+  })}
+
+</div>
+
+</div>
+
+{/* Bottom Decorative Glow */}
+
+<div className="pointer-events-none absolute bottom-24 left-20 hidden xl:block">
+  <div className="h-20 w-20 rounded-full bg-blue-500/20 blur-2xl" />
+</div>
+
+<div className="pointer-events-none absolute bottom-20 right-20 hidden xl:block">
+  <div className="h-20 w-20 rounded-full bg-cyan-500/20 blur-2xl" />
+</div>
+
+</section>
+);
 }
