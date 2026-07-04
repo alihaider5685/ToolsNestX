@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/75 backdrop-blur-2xl">
-      <div className="mx-auto flex h-20 max-w-screen-2xl items-center justify-between px-6">
+       <div className="mx-auto flex h-20 max-w-screen-2xl items-center justify-between px-6">
         {/* Logo */}
         <Link
           href="/"
