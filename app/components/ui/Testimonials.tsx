@@ -6,7 +6,7 @@ export default function Testimonials() {
       review: "The best free online tools website I have used.",
     },
     {
-      name: "Afia",
+      name: "Adeel",
       review: "Fast, simple and works perfectly on mobile.",
     },
     {
@@ -17,7 +17,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-black px-6 py-24">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto w-full px-8 6xl:px-16">
         <h2 className="text-center text-4xl font-bold text-white">
           What Users Say
         </h2>

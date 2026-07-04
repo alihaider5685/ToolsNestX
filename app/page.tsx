@@ -16,12 +16,21 @@ export default function Home() {
       <Hero />
 
       <ToolCard />
+      
+
+    <div className="h-20 bg-black" />
 
       <WhyChoose />
 
+      <div className="h-12 bg-black" />
+
       <Stats />
 
+      <div className="h-10 bg-black" />
+
       <Testimonials />
+
+      <div className="h-5 bg-black" />
 
       <FAQ />
 

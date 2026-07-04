@@ -236,7 +236,7 @@ export default function ToolCard() {
 </div>
 
       {/* Tools Grid */}
-      <div className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
+      <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
 
         {tools.map((tool) => {
           const Icon = tool.icon;
@@ -245,24 +245,25 @@ export default function ToolCard() {
             <Link
               key={tool.name}
               href={tool.href}
-              className="group flex h-[190px] flex-col rounded-3xl border border-white/10 bg-gradient-to-b from-[#171717] to-[#0b0b0b] p-5 transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(37,99,235,0.25)]"
+             className="group flex h-[190px] flex-col rounded-3xl border border-white/10 bg-gradient-to-b from-[#171717] to-[#0b0b0b] px-8 py-7 transition-all duration-300 ..."
             >
               {/* Icon */}
               <div
-                className={`mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${tool.color} shadow-lg`}
-              >
+                className={`mb-6 ml-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${tool.color} shadow-lg`}
+                 >
+                
                 <Icon size={28} className="text-white" />
               </div>
 
               {/* Tool Name */}
-              <h3 className="text-base font-bold text-white">
-                {tool.name}
-              </h3>
+              <h3 className="text-xl font-bold text-white">
+               {tool.name}
+                 </h3>
 
               {/* Description */}
-              <p className="mt-2 text-sm leading-relaxed text-gray-400">
-                {tool.desc}
-              </p>
+             <p className="mt-3 text-sm leading-7 text-gray-400">
+                 {tool.desc}
+                </p>
 
               {/* CTA */}
               <div className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-blue-400">
