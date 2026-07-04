@@ -222,22 +222,21 @@ export default function ToolCard() {
 
   return (
   <section id="tools" className="bg-black px-6 py-24">
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto w-full max-w-7xl">
 
       {/* Header */}
-      <div className="mb-16 text-center">
-        <h2 className="text-4xl font-bold text-white md:text-5xl">
-          Explore All Tools
-        </h2>
+<div className="mb-16 flex flex-col items-center text-center">
+  <h2 className="text-4xl font-bold text-white md:text-5xl">
+    Explore All Tools
+  </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-gray-400">
-          Powerful online tools for PDFs, images,
-          text processing and developers.
-        </p>
-      </div>
+  <p className="mt-4 max-w-2xl text-center text-gray-400">
+    Powerful online tools for PDFs, images, text processing and developers.
+  </p>
+</div>
 
       {/* Tools Grid */}
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
+      <div className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6">
 
         {tools.map((tool) => {
           const Icon = tool.icon;

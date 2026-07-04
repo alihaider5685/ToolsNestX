@@ -19,6 +19,7 @@ body {
 }
 
 body {
+  min-height: 100vh;
   background-image:
     radial-gradient(circle at top left, rgba(37,99,235,.18), transparent 30%),
     radial-gradient(circle at bottom right, rgba(59,130,246,.12), transparent 30%);
