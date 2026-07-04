@@ -222,7 +222,7 @@ export default function ToolCard() {
 
   return (
   <section id="tools" className="bg-black px-6 py-24">
-    <div className="mx-auto w-full max-w-7xl">
+    <div className="mx-auto w-full max-w-screen-2xl">
 
       {/* Header */}
 <div className="mb-16 flex flex-col items-center text-center">
