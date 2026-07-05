@@ -235,6 +235,9 @@ export default function ToolCard() {
   </p>
 </div>
 
+ <div className="h-5 bg-black" />
+
+
       {/* Tools Grid */}
       <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
 
