@@ -125,6 +125,8 @@ export default function Hero() {
 
 </div>
 
+<div className="h-6 bg-black" />
+
 {/* Feature Pills */}
 
 <div className="pt-12 flex flex-wrap items-center justify-center gap-4">
