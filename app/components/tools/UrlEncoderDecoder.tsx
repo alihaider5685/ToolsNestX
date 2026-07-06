@@ -47,7 +47,7 @@ export default function UrlEncoderDecoder() {
     setError("");
   };
     return (
-    <div className="mx-auto w-full max-w-7xl py-10">
+    <div className="mx-auto w-full max-w-screen-2xl max-w-7xl py-10">
       <div className="mb-8 text-center">
         
       </div>
