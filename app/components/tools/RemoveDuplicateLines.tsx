@@ -45,16 +45,9 @@ export default function RemoveDuplicateLines() {
     .split("\n")
     .filter((line) => line.trim() !== "").length;
       return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto w-full max-w-7xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          Remove Duplicate Lines
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Remove duplicate lines from your text instantly while preserving the
-          original order of unique entries.
-        </p>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
@@ -68,6 +61,9 @@ export default function RemoveDuplicateLines() {
           placeholder="Paste text with duplicate lines..."
           className="min-h-[250px] w-full rounded-xl border border-gray-700 bg-gray-950 p-4 text-gray-200 outline-none"
         />
+
+         <div className="h-5 bg-gray-1000" />
+
 
         <div className="mt-6 flex flex-wrap gap-3">
           <button
@@ -90,8 +86,11 @@ export default function RemoveDuplicateLines() {
           >
             Clear
           </button>
+
         </div>
       </div>
+
+      <div className="h-5 bg-black" />
 
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-5">
@@ -108,6 +107,8 @@ export default function RemoveDuplicateLines() {
           </p>
         </div>
       </div>
+
+      <div className="h-5 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">

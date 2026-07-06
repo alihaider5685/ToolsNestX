@@ -46,21 +46,13 @@ export default function ReverseText() {
   const inputCharacters = input.length;
   const outputCharacters = result.length;
     return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto w-full max-w-7xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          Reverse Text
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Reverse text, words, or lines instantly with a single click.
-        </p>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
-        <label className="mb-3 block text-sm font-medium text-gray-300">
-          Input Text
-        </label>
+  
 
         <textarea
           value={input}
@@ -68,6 +60,8 @@ export default function ReverseText() {
           placeholder="Enter your text here..."
           className="min-h-[250px] w-full rounded-xl border border-gray-700 bg-gray-950 p-4 text-gray-200 outline-none"
         />
+
+        <div className="h-5 bg-gray-1000" />
 
         <div className="mt-6 flex flex-wrap gap-3">
           <button
@@ -107,6 +101,8 @@ export default function ReverseText() {
         </div>
       </div>
 
+     <div className="h-10 bg-gray-9000" />
+
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-5">
           <p className="text-sm text-gray-400">Input Characters</p>
@@ -122,6 +118,8 @@ export default function ReverseText() {
           </p>
         </div>
       </div>
+
+     <div className="h-10 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">

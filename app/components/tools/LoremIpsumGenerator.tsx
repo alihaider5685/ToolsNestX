@@ -64,24 +64,16 @@ export default function LoremIpsumGenerator() {
     setType("paragraphs");
   };
     return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto w-full max-w-7xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          Lorem Ipsum Generator
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Generate professional Lorem Ipsum text for website mockups, designs,
-          content layouts and development projects.
-        </p>
+        <div className="flex justify-center"></div>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="grid gap-4 md:grid-cols-2">
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-300">
-              Generate By
-            </label>
+            
 
             <select
               value={type}
