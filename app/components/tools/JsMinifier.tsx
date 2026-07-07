@@ -47,7 +47,7 @@ export default function JsMinifier() {
   const minifiedSize = result.length;
   const savedBytes = originalSize - minifiedSize;
     return (
-    <div className="mx-auto w-full max-w-7xl py-10">
+    <div className="mx-auto max-w-screen-2xl w-full max-w-7xl py-10">
       <div className="mb-8 text-center">
         
       </div>

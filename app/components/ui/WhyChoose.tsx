@@ -31,7 +31,7 @@ const features = [
 export default function WhyChoose() {
   return (
     <section className="bg-black py-32">
-      <div className="mx-auto w-full px-8 2xl:px-16">
+      <div className="mx-auto max-w-screen-2xl w-full px-8 2xl:px-16">
        
 
         {/* Heading */}
@@ -42,11 +42,15 @@ export default function WhyChoose() {
             Why Choose FileNestX?
           </h2>
 
+          <div className="h-2 bg-black" />
+
           <p className="mt-8 max-w-3xl text-center text-lg leading-9 text-gray-400">
             FileNestX provides fast, secure and completely free online tools for
             PDFs, Images, Text Utilities and Developers — all accessible from
             any browser without installation or registration.
           </p>
+
+          <div className="h-3 bg-black" />
 
         </div>
 

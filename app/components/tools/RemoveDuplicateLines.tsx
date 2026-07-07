@@ -45,7 +45,7 @@ export default function RemoveDuplicateLines() {
     .split("\n")
     .filter((line) => line.trim() !== "").length;
       return (
-    <div className="mx-auto w-full max-w-7xl py-10">
+    <div className="mx-auto max-w-screen-2xl w-full max-w-7xl py-10">
       <div className="mb-8 text-center">
         
       </div>

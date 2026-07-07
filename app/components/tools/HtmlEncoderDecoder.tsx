@@ -38,22 +38,12 @@ export default function HtmlEncoderDecoder() {
     setResult("");
   };
     return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto max-w-screen-2xl max-w-5xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          HTML Encoder / Decoder
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Encode and decode HTML entities instantly for web development,
-          security testing, and content processing.
-        </p>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
-        <label className="mb-3 block text-sm font-medium text-gray-300">
-          Input
-        </label>
 
         <textarea
           value={input}
@@ -92,6 +82,8 @@ export default function HtmlEncoderDecoder() {
           </button>
         </div>
       </div>
+
+      <div className="h-3 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">

@@ -35,16 +35,9 @@ export default function SlugGenerator() {
   const inputLength = input.length;
   const outputLength = result.length;
     return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto max-w-screen-2xl max-w-5xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          Slug Generator
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Generate clean, SEO-friendly URL slugs from titles, headings, and
-          text instantly.
-        </p>
+       
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
@@ -83,6 +76,8 @@ export default function SlugGenerator() {
         </div>
       </div>
 
+      <div className="h-4 bg-black" />
+
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-5">
           <p className="text-sm text-gray-400">Input Characters</p>
@@ -98,6 +93,8 @@ export default function SlugGenerator() {
           </p>
         </div>
       </div>
+
+      <div className="h-4 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">

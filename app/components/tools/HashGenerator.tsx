@@ -52,16 +52,9 @@ export default function HashGenerator() {
     setHashType("SHA-256");
   };
     return (
-    <div className="mx-auto max-w-5xl py-10">
+    <div className="mx-auto max-w-screen-2xl max-w-5xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          Hash Generator
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Generate secure hashes using SHA-1, SHA-256, and SHA-512 algorithms
-          for development, security, and verification purposes.
-        </p>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
@@ -117,6 +110,8 @@ export default function HashGenerator() {
           </button>
         </div>
       </div>
+
+      <div className="h-4 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">

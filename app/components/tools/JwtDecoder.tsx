@@ -79,16 +79,9 @@ export default function JwtDecoder() {
     setError("");
   };
     return (
-    <div className="mx-auto max-w-6xl py-10">
+    <div className="mx-auto max-w-screen-2xl max-w-6xl py-10">
       <div className="mb-8 text-center">
-        <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-          JWT Decoder
-        </h1>
-
-        <p className="mx-auto max-w-2xl text-gray-400">
-          Decode JWT tokens instantly and inspect header and payload data in a
-          readable JSON format.
-        </p>
+        
       </div>
 
       <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
@@ -125,6 +118,8 @@ export default function JwtDecoder() {
           </div>
         )}
       </div>
+
+      <div className="h-3 bg-black" />
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">

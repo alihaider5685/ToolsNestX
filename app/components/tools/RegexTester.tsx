@@ -55,7 +55,7 @@ export default function RegexTester() {
     setMultilineFlag(false);
   };
     return (
-    <div className="mx-auto max-w-6xl py-10">
+    <div className="mx-auto max-w-screen-2xl max-w-6xl py-10">
       <div className="mb-8 text-center">
         <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl">
           Regex Tester
@@ -112,9 +112,8 @@ export default function RegexTester() {
         </div>
 
         <div>
-          <label className="mb-2 block text-sm font-medium text-gray-300">
-            Test Text
-          </label>
+
+          <div className="h-2 bg-black" />
 
           <textarea
             value={testText}
@@ -153,6 +152,8 @@ export default function RegexTester() {
           </div>
         )}
       </div>
+
+      <div className="h-4 bg-black" />
 
       <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
         <div className="mb-4 flex items-center justify-between">
