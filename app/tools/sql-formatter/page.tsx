@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free SQL Formatter Online | Beautify SQL Queries | FileNestX",
+  title: "Free SQL Formatter Online | Beautify SQL Queries | ToolsNestX",
   description:
-    "Format SQL queries online for free with FileNestX. Beautify SQL code with proper indentation, improved readability and consistent formatting. Fast, secure and browser-based.",
+    "Format SQL queries online for free with ToolsNestX. Beautify SQL code with proper indentation, improved readability and consistent formatting. Fast, secure and browser-based.",
 };
 
 export default function SqlFormatterPage() {
@@ -288,7 +288,7 @@ export default function SqlFormatterPage() {
 
                 Format unlimited SQL queries online without creating an
                 account, installing software or paying subscription fees.
-                FileNestX keeps the tool completely free.
+                ToolsNestX keeps the tool completely free.
 
               </p>
 
@@ -458,7 +458,7 @@ export default function SqlFormatterPage() {
 
         <p>
 
-          FileNestX SQL Formatter performs all formatting directly inside your
+          ToolsNestX SQL Formatter performs all formatting directly inside your
           browser, helping keep your SQL queries private and secure. No data is
           uploaded, no software installation is required and no registration is
           needed. Simply paste your SQL, format it instantly and continue
@@ -509,7 +509,7 @@ export default function SqlFormatterPage() {
             {[
               {
                 q: "Is SQL Formatter free to use?",
-                a: "Yes. FileNestX SQL Formatter is completely free and lets you format unlimited SQL queries without creating an account.",
+                a: "Yes. ToolsNestX SQL Formatter is completely free and lets you format unlimited SQL queries without creating an account.",
               },
               {
                 q: "Will formatting change my SQL query?",
@@ -696,7 +696,7 @@ export default function SqlFormatterPage() {
 
               Beautify SQL queries with clean indentation and consistent formatting.
               Improve readability, simplify debugging and generate professional,
-              well-structured SQL directly in your browser with FileNestX.
+              well-structured SQL directly in your browser with ToolsNestX.
 
             </p>
 

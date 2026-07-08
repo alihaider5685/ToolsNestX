@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free CSS Minifier Online | Minify CSS Instantly | FileNestX",
+  title: "Free CSS Minifier Online | Minify CSS Instantly | ToolsNestX",
   description:
-    "Minify CSS online for free with FileNestX. Remove whitespace, comments and unnecessary characters to reduce CSS file size and improve website performance. Fast, secure and browser-based.",
+    "Minify CSS online for free with ToolsNestX. Remove whitespace, comments and unnecessary characters to reduce CSS file size and improve website performance. Fast, secure and browser-based.",
 };
 
 export default function CssMinifierPage() {
@@ -292,7 +292,7 @@ export default function CssMinifierPage() {
 
                 Compress CSS as many times as you need without creating an
                 account, installing software or paying subscription fees.
-                FileNestX keeps the tool completely free.
+                ToolsNestX keeps the tool completely free.
 
               </p>
 
@@ -460,7 +460,7 @@ export default function CssMinifierPage() {
 
         <p>
 
-          FileNestX CSS Minifier performs every operation directly inside your
+          ToolsNestX CSS Minifier performs every operation directly inside your
           browser, ensuring your stylesheet remains private throughout the
           process. There's no software to install, no account required and no
           waiting for uploads. Simply paste your CSS, generate the optimized
@@ -511,7 +511,7 @@ export default function CssMinifierPage() {
             {[
               {
                 q: "Is CSS Minifier free to use?",
-                a: "Yes. FileNestX CSS Minifier is completely free and allows unlimited CSS minification without registration.",
+                a: "Yes. ToolsNestX CSS Minifier is completely free and allows unlimited CSS minification without registration.",
               },
               {
                 q: "Does CSS minification change how my website looks?",
@@ -696,7 +696,7 @@ export default function CssMinifierPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Compress your CSS instantly with FileNestX. Reduce stylesheet size,
+              Compress your CSS instantly with ToolsNestX. Reduce stylesheet size,
               improve website performance and generate production-ready CSS
               directly in your browser—fast, secure and completely free.
 

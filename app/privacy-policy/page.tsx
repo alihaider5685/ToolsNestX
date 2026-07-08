@@ -2,9 +2,9 @@ import Link from "next/link";
 import { ShieldCheck, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | FileNestX",
+  title: "Privacy Policy | ToolsNestX",
   description:
-    "Read the Privacy Policy of FileNestX and learn how we collect, use and protect your information.",
+    "Read the Privacy Policy of ToolsNestX and learn how we collect, use and protect your information.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
 
           <p className="mx-auto mt-10 max-w-4xl text-xl leading-10 text-gray-400">
 
-            At FileNestX, protecting your privacy is one of our highest
+            At ToolsNestX, protecting your privacy is one of our highest
             priorities. This Privacy Policy explains what information we
             collect, how we use it, and the steps we take to keep your data
             secure whenever you use our online tools.
@@ -79,7 +79,7 @@ export default function PrivacyPolicyPage() {
 
           <p className="mx-auto mt-8 max-w-4xl text-lg leading-9 text-gray-500">
 
-            By using FileNestX, you agree to the practices described in this
+            By using ToolsNestX, you agree to the practices described in this
             Privacy Policy. We encourage you to read this page carefully to
             understand how your information is handled.
 
@@ -142,7 +142,7 @@ export default function PrivacyPolicyPage() {
       <p className="mx-auto mt-8 max-w-4xl text-xl leading-10 text-gray-400">
 
         We believe privacy should be simple, transparent and easy to
-        understand. Below you'll find how FileNestX handles your data.
+        understand. Below you'll find how ToolsNestX handles your data.
 
       </p>
 
@@ -163,7 +163,7 @@ export default function PrivacyPolicyPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          Most FileNestX tools work directly in your browser. We generally do
+          Most ToolsNestX tools work directly in your browser. We generally do
           not require account registration or collect unnecessary personal
           information. Basic technical information such as browser type,
           operating system and anonymous usage statistics may be collected to
@@ -202,7 +202,7 @@ export default function PrivacyPolicyPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          FileNestX may use cookies and similar technologies to remember user
+          ToolsNestX may use cookies and similar technologies to remember user
           preferences, improve website performance and analyze anonymous usage
           statistics. You can disable cookies through your browser settings if
           you prefer.
@@ -222,7 +222,7 @@ export default function PrivacyPolicyPage() {
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
           We may use trusted third-party services such as analytics,
-          advertising and hosting providers to operate and improve FileNestX.
+          advertising and hosting providers to operate and improve ToolsNestX.
           These providers process information according to their own privacy
           policies.
         </p>
@@ -290,7 +290,7 @@ export default function PrivacyPolicyPage() {
 
         <p className="mt-5 text-lg leading-9 text-gray-400">
           You have the right to request information about any personal data
-          that may be collected while using FileNestX.
+          that may be collected while using ToolsNestX.
         </p>
       </div>
 
@@ -342,7 +342,7 @@ export default function PrivacyPolicyPage() {
     </h2>
 
     <p className="mx-auto mt-8 max-w-4xl text-center text-lg leading-9 text-gray-400">
-      FileNestX is not intended for children under the age of 13. We do not
+      ToolsNestX is not intended for children under the age of 13. We do not
       knowingly collect personal information from children. If you believe a
       child has provided personal information, please contact us so we can
       remove it promptly.

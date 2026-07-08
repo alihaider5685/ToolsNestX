@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free JWT Decoder Online | FileNestX",
+  title: "Free JWT Decoder Online | ToolsNestX",
   description:
     "Decode JSON Web Tokens (JWT) instantly with our free online JWT Decoder. View header, payload and token information securely in your browser.",
 };
@@ -417,7 +417,7 @@ export default function JwtDecoderPage() {
 
             <p>
 
-              FileNestX JWT Decoder makes it easy to inspect JSON Web Tokens
+              ToolsNestX JWT Decoder makes it easy to inspect JSON Web Tokens
               used in authentication systems, REST APIs and modern web
               applications. Instead of manually decoding Base64 encoded token
               data, you can instantly view the JWT header and payload in a
@@ -439,7 +439,7 @@ export default function JwtDecoderPage() {
 
               Privacy is one of our highest priorities. Every JWT token is
               decoded entirely inside your browser without being transmitted to
-              external servers. This makes FileNestX JWT Decoder a secure,
+              external servers. This makes ToolsNestX JWT Decoder a secure,
               reliable and completely free solution for developers, DevOps
               engineers, students and cybersecurity professionals.
 
@@ -487,7 +487,7 @@ export default function JwtDecoderPage() {
             {[
               {
                 q: "Is JWT Decoder free to use?",
-                a: "Yes. FileNestX JWT Decoder is completely free with unlimited token decoding.",
+                a: "Yes. ToolsNestX JWT Decoder is completely free with unlimited token decoding.",
               },
               {
                 q: "Does this tool verify JWT signatures?",
@@ -672,7 +672,7 @@ export default function JwtDecoderPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Decode JWT headers and payloads instantly with FileNestX.
+              Decode JWT headers and payloads instantly with ToolsNestX.
               Fast, secure, privacy-friendly and completely free.
 
             </p>

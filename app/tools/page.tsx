@@ -5,7 +5,7 @@ export default function ToolsPage() {
         <h1 className="text-5xl font-bold">All Tools</h1>
 
         <p className="mt-4 text-gray-400">
-          Browse all available FileNestX tools.
+          Browse all available ToolsNestX tools.
         </p>
       </div>
     </main>

@@ -1,11 +1,14 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next"
+import Navbar from "@/app/components/layout/Navbar";
+import Footer from "@/app/components/layout/Footer";
+
 
 export const metadata: Metadata = {
   title: {
-    default: "FileNestX - Free Online Tools",
-    template: "%s | FileNestX",
+    default: "ToolsNestX - Free Online Tools",
+    template: "%s | ToolsNestX",
   },
 
   description:
@@ -22,13 +25,13 @@ export const metadata: Metadata = {
     "uuid generator",
     "base64 encoder",
     "regex tester",
-    "filenestx",
+    "ToolsNestX",
   ],
 
-  authors: [{ name: "FileNestX" }],
+  authors: [{ name: "ToolsNestX" }],
 
   openGraph: {
-    title: "FileNestX - Free Online Tools",
+    title: "ToolsNestX - Free Online Tools",
     description:
       "Free online tools for PDF, Images, Text and Developers.",
     type: "website",
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "FileNestX - Free Online Tools",
+    title: "ToolsNestX - Free Online Tools",
     description:
       "Free online tools for PDF, Images, Text and Developers.",
   },
@@ -50,8 +53,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}
+      <body>
+
+        <Navbar />
+
+        {children}
+
+        <Footer />
+
         <Analytics />
+
       </body>
     </html>
   );

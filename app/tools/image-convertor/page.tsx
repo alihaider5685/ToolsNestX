@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Image Converter Online | FileNestX",
+  title: "Free Image Converter Online | ToolsNestX",
   description:
     "Convert JPG, PNG, WebP, BMP and other image formats online for free. Fast, secure and browser-based image converter.",
 };
@@ -413,7 +413,7 @@ export default function ImageConverterPage() {
 
             <p className="mx-auto mt-5 max-w-8xl text-lg leading-8 text-gray-400">
 
-              FileNestX Image Converter helps you convert images between
+              ToolsNestX Image Converter helps you convert images between
               different formats quickly without sacrificing quality.
               Everything works directly inside your browser, making image
               conversion simple, secure and accessible from any device.
@@ -470,7 +470,7 @@ export default function ImageConverterPage() {
             <p className="leading-8 text-gray-400">
 
               Whether you're preparing images for websites, blogs, online
-              stores or social media platforms, FileNestX Image Converter
+              stores or social media platforms, ToolsNestX Image Converter
               provides a fast and reliable solution. It supports the most
               commonly used image formats while maintaining excellent output
               quality and keeping your files secure throughout the process.
@@ -580,7 +580,7 @@ export default function ImageConverterPage() {
             {[
               {
                 q: "Is Image Converter free?",
-                a: "Yes. FileNestX Image Converter is completely free and does not require registration.",
+                a: "Yes. ToolsNestX Image Converter is completely free and does not require registration.",
               },
               {
                 q: "Which image formats can I convert?",
@@ -766,7 +766,7 @@ export default function ImageConverterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Convert JPG, PNG, WebP, BMP and more in just a few clicks.
-              Fast, secure and completely free with FileNestX.
+              Fast, secure and completely free with ToolsNestX.
 
             </p>
 

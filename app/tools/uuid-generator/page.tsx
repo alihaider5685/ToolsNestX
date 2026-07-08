@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free UUID Generator Online | FileNestX",
+  title: "Free UUID Generator Online | ToolsNestX",
   description:
     "Generate secure UUIDs instantly with our free online UUID Generator. Create UUID v4 identifiers quickly, securely and directly in your browser.",
 };
@@ -416,7 +416,7 @@ export default function UuidGeneratorPage() {
 
             <p>
 
-              FileNestX UUID Generator creates RFC 4122 compliant Version 4
+              ToolsNestX UUID Generator creates RFC 4122 compliant Version 4
               UUIDs that are suitable for databases, APIs, distributed systems,
               authentication, testing and software development. Each generated
               identifier is randomly created to provide an extremely low chance
@@ -438,7 +438,7 @@ export default function UuidGeneratorPage() {
 
               Your privacy is always protected because UUID generation happens
               entirely inside your browser. No generated identifiers or personal
-              data are sent to any server, making FileNestX a secure, reliable
+              data are sent to any server, making ToolsNestX a secure, reliable
               and completely free UUID Generator for developers, students and IT
               professionals.
 
@@ -486,7 +486,7 @@ export default function UuidGeneratorPage() {
             {[
               {
                 q: "Is the UUID Generator free to use?",
-                a: "Yes. FileNestX UUID Generator is completely free with unlimited UUID generation.",
+                a: "Yes. ToolsNestX UUID Generator is completely free with unlimited UUID generation.",
               },
               {
                 q: "Which UUID version does this tool generate?",
@@ -672,7 +672,7 @@ export default function UuidGeneratorPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Generate secure UUID Version 4 identifiers instantly with
-              FileNestX. Fast, reliable, privacy-friendly and completely free.
+              ToolsNestX. Fast, reliable, privacy-friendly and completely free.
 
             </p>
 

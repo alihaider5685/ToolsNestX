@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free PDF Merger Online | FileNestX",
+  title: "Free PDF Merger Online | ToolsNestX",
   description:
     "Merge multiple PDF files into one document online for free. Fast, secure and browser-based PDF Merger.",
 };
@@ -421,7 +421,7 @@ export default function PDFMergerPage() {
 
             <p>
 
-              FileNestX PDF Merger allows you to combine multiple PDF files into
+              ToolsNestX PDF Merger allows you to combine multiple PDF files into
               a single organized document without installing any software. Whether
               you're merging invoices, contracts, reports, resumes, assignments
               or scanned documents, everything happens securely inside your web
@@ -491,7 +491,7 @@ export default function PDFMergerPage() {
             {[
               {
                 q: "Is PDF Merger free to use?",
-                a: "Yes. FileNestX PDF Merger is completely free with no registration required.",
+                a: "Yes. ToolsNestX PDF Merger is completely free with no registration required.",
               },
               {
                 q: "Will my PDF quality change?",
@@ -507,7 +507,7 @@ export default function PDFMergerPage() {
               },
               {
                 q: "Does it work on mobile devices?",
-                a: "Yes. FileNestX PDF Merger works on desktop, tablet and mobile browsers.",
+                a: "Yes. ToolsNestX PDF Merger works on desktop, tablet and mobile browsers.",
               },
               {
                 q: "Do I need to install any software?",
@@ -560,7 +560,7 @@ export default function PDFMergerPage() {
 
             <h2 className="mt-6 text-4xl font-bold">
 
-              Explore More FileNestX Tools
+              Explore More ToolsNestX Tools
 
             </h2>
 
@@ -677,7 +677,7 @@ export default function PDFMergerPage() {
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-400">
 
               Combine multiple PDF documents into one secure file in seconds.
-              Fast, private and completely free with FileNestX.
+              Fast, private and completely free with ToolsNestX.
 
             </p>
 

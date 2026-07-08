@@ -11,7 +11,7 @@ import Footer from "./components/layout/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      
 
       <Hero />
 
@@ -35,8 +35,7 @@ export default function Home() {
       <FAQ />
 
       <CTA />
-
-      <Footer />
+      
     </>
   );
 }

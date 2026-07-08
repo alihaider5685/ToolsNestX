@@ -9,14 +9,14 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What is FileNestX?",
+      question: "What is ToolsNestX?",
       answer:
-        "FileNestX is a free online platform offering PDF, Image, Text and Developer tools directly in your browser without requiring installation.",
+        "ToolsNestX is a free online platform offering PDF, Image, Text and Developer tools directly in your browser without requiring installation.",
     },
     {
-      question: "Is FileNestX free to use?",
+      question: "Is ToolsNestX free to use?",
       answer:
-        "Yes. Every tool on FileNestX is completely free. There are no subscriptions, hidden fees or account requirements.",
+        "Yes. Every tool on ToolsNestX is completely free. There are no subscriptions, hidden fees or account requirements.",
     },
     {
       question: "Are my files secure?",
@@ -26,12 +26,12 @@ export default function FAQ() {
     {
       question: "Do I need to create an account?",
       answer:
-        "No. FileNestX works instantly without registration. Simply open a tool and start using it.",
+        "No. ToolsNestX works instantly without registration. Simply open a tool and start using it.",
     },
     {
-      question: "Can I use FileNestX on mobile devices?",
+      question: "Can I use ToolsNestX on mobile devices?",
       answer:
-        "Yes. FileNestX is fully responsive and works smoothly on desktop, tablet and mobile devices.",
+        "Yes. ToolsNestX is fully responsive and works smoothly on desktop, tablet and mobile devices.",
     },
     {
       question: "Which tools are available?",
@@ -52,7 +52,7 @@ export default function FAQ() {
           </h2>
 
           <p className="px-8 pb-7 text-center text-[17px] leading-8 text-gray-400">
-            Find answers to the most common questions about FileNestX and how
+            Find answers to the most common questions about ToolsNestX and how
             our online tools work.
           </p>
         </div>

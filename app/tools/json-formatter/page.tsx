@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free JSON Formatter Online | FileNestX",
+  title: "Free JSON Formatter Online | ToolsNestX",
   description:
     "Format, beautify and validate JSON instantly. Free online JSON Formatter & Validator with fast, secure browser-based processing.",
 };
@@ -415,7 +415,7 @@ export default function JsonFormatterPage() {
 
             <p>
 
-              FileNestX JSON Formatter helps developers and students transform
+              ToolsNestX JSON Formatter helps developers and students transform
               unreadable JSON into clean, properly indented and organized code.
               Whether you're debugging APIs, editing configuration files or
               working with databases, formatted JSON is much easier to read and
@@ -436,7 +436,7 @@ export default function JsonFormatterPage() {
 
               Everything is processed directly inside your browser. Your JSON
               data is never uploaded to our servers, ensuring complete privacy
-              and security. FileNestX provides a fast, reliable and completely
+              and security. ToolsNestX provides a fast, reliable and completely
               free JSON Formatter for everyday development tasks.
 
             </p>
@@ -483,7 +483,7 @@ export default function JsonFormatterPage() {
             {[
               {
                 q: "Is the JSON Formatter free?",
-                a: "Yes. FileNestX JSON Formatter is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX JSON Formatter is completely free with unlimited usage.",
               },
               {
                 q: "Can it validate invalid JSON?",
@@ -668,7 +668,7 @@ export default function JsonFormatterPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Beautify, validate and organize JSON instantly with FileNestX.
+              Beautify, validate and organize JSON instantly with ToolsNestX.
               Fast, secure, accurate and completely free.
 
             </p>

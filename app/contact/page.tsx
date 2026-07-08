@@ -1,16 +1,17 @@
 import Link from "next/link";
+import Button from "@/app/components/common/Button";
+import { ArrowRight } from "lucide-react";
 import {
   Mail,
   Clock3,
   Globe,
-  ArrowRight,
   Sparkles,
 } from "lucide-react";
 
 export const metadata = {
-  title: "Contact Us | FileNestX",
+  title: "Contact Us | ToolsNestX",
   description:
-    "Get in touch with the FileNestX team. We're always happy to answer your questions, receive feedback, and provide support.",
+    "Get in touch with the ToolsNestX team. We're always happy to answer your questions, receive feedback, and provide support.",
 };
 
 export default function ContactPage() {
@@ -56,7 +57,7 @@ export default function ContactPage() {
 
             <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
 
-              FileNestX
+              ToolsNestX
 
             </span>
 
@@ -72,28 +73,20 @@ export default function ContactPage() {
           </p>
 
           <div className="mt-14 flex flex-wrap justify-center gap-5">
+  <Button
+    href="/"
+    icon={<ArrowRight size={16} />}
+  >
+    Explore Tools
+  </Button>
 
-            <Link
-              href="/"
-              className="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 text-lg font-semibold shadow-[0_0_40px_rgba(59,130,246,.45)] transition-all duration-300 hover:scale-105"
-            >
-              Explore Tools
-
-              <ArrowRight
-                size={20}
-                className="transition-transform duration-300 group-hover:translate-x-1"
-              />
-
-            </Link>
-
-            <a
-              href="#contact-form"
-              className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-lg font-semibold backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
-            >
-              Send Message
-            </a>
-
-          </div>
+  <Button
+    href="#contact-form"
+    variant="secondary"
+  >
+    Send Message
+  </Button>
+</div>
 
         </div>
 
@@ -122,7 +115,7 @@ export default function ContactPage() {
 
               <p className="mt-6 text-lg leading-9 text-gray-400">
 
-                support@filenestx.com
+                support@ToolsNestX.com
 
               </p>
 
@@ -165,7 +158,7 @@ export default function ContactPage() {
 
               <p className="mt-6 text-lg leading-9 text-gray-400">
 
-                FileNestX is available
+                ToolsNestX is available
                 anytime, anywhere.
 
               </p>
@@ -225,7 +218,7 @@ export default function ContactPage() {
 
                   <p className="mt-4 text-lg leading-9 text-gray-400">
 
-                    Need help using FileNestX tools?
+                    Need help using ToolsNestX tools?
                     We'll gladly guide you.
 
                   </p>
@@ -472,14 +465,14 @@ export default function ContactPage() {
             <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-blue-100">
 
               Whether you have questions, feedback, feature ideas or need
-              technical support, the FileNestX team is only one message away.
+              technical support, the ToolsNestX team is only one message away.
 
             </p>
 
             <div className="mt-12 flex flex-wrap justify-center gap-5">
 
               <a
-                href="mailto:support@filenestx.com"
+                href="mailto:support@ToolsNestX.com"
                 className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-blue-700 transition-all duration-300 hover:scale-105"
               >
                 Email Support

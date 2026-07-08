@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Text Case Converter Online | FileNestX",
+  title: "Free Text Case Converter Online | ToolsNestX",
   description:
     "Convert text to UPPERCASE, lowercase, Title Case and Sentence case instantly. Free online Text Case Converter for writers, students and professionals.",
 };
@@ -416,7 +416,7 @@ export default function TextCaseConverterPage() {
 
             <p>
 
-              FileNestX Text Case Converter helps you quickly transform text
+              ToolsNestX Text Case Converter helps you quickly transform text
               into different letter cases without editing each word manually.
               Whether you need UPPERCASE, lowercase, Title Case or Sentence
               Case, everything is converted instantly with a single click.
@@ -436,7 +436,7 @@ export default function TextCaseConverterPage() {
 
               Everything works directly inside your browser, meaning your text
               stays private and secure. No software installation, account or
-              subscription is required. FileNestX provides a fast, accurate and
+              subscription is required. ToolsNestX provides a fast, accurate and
               completely free Text Case Converter for everyone.
 
             </p>
@@ -483,7 +483,7 @@ export default function TextCaseConverterPage() {
             {[
               {
                 q: "Is the Text Case Converter free?",
-                a: "Yes. FileNestX Text Case Converter is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Text Case Converter is completely free with unlimited usage.",
               },
               {
                 q: "Which text cases are supported?",
@@ -669,7 +669,7 @@ export default function TextCaseConverterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Convert text into uppercase, lowercase, Title Case and Sentence
-              Case instantly with FileNestX. Fast, secure, accurate and
+              Case instantly with ToolsNestX. Fast, secure, accurate and
               completely free.
 
             </p>

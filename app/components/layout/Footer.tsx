@@ -115,7 +115,7 @@ export default function Footer() {
               </span>
               , creator of{" "}
               <span className="font-semibold text-white">
-                FileNestX
+                ToolsNestX
               </span>
               . I designed and developed this platform
             </p>
@@ -128,7 +128,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/10 pt-8 text-center text-gray-500">
           © 2026{" "}
           <span className="font-semibold text-white">
-            FileNestX
+            ToolsNestX
           </span>
           . All Rights Reserved.
         </div>

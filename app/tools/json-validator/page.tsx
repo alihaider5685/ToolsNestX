@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free JSON Validator Online | Validate JSON Instantly | FileNestX",
+  title: "Free JSON Validator Online | Validate JSON Instantly | ToolsNestX",
   description:
-    "Validate JSON online for free with FileNestX. Detect syntax errors, verify JSON structure and ensure valid JSON instantly using our fast, secure and browser-based JSON Validator.",
+    "Validate JSON online for free with ToolsNestX. Detect syntax errors, verify JSON structure and ensure valid JSON instantly using our fast, secure and browser-based JSON Validator.",
 };
 
 export default function JsonValidatorPage() {
@@ -289,7 +289,7 @@ export default function JsonValidatorPage() {
               <p className="mt-5 max-w-8xl leading-8 text-gray-400">
 
                 Validate unlimited JSON data without creating an account,
-                installing software or paying subscription fees. FileNestX
+                installing software or paying subscription fees. ToolsNestX
                 keeps the tool completely free for everyone.
 
               </p>
@@ -460,7 +460,7 @@ export default function JsonValidatorPage() {
 
         <p>
 
-          FileNestX JSON Validator performs all validation directly inside your
+          ToolsNestX JSON Validator performs all validation directly inside your
           browser, helping keep your data private throughout the entire
           process. No files are uploaded, no software installation is required
           and no registration is needed. Simply paste your JSON, validate it
@@ -512,7 +512,7 @@ export default function JsonValidatorPage() {
             {[
               {
                 q: "Is the JSON Validator free to use?",
-                a: "Yes. FileNestX JSON Validator is completely free and allows you to validate unlimited JSON data without creating an account.",
+                a: "Yes. ToolsNestX JSON Validator is completely free and allows you to validate unlimited JSON data without creating an account.",
               },
               {
                 q: "What does a JSON Validator do?",
@@ -699,7 +699,7 @@ export default function JsonValidatorPage() {
 
               Verify JSON syntax, detect errors instantly and ensure your data is
               valid before using it in APIs, applications or configuration files.
-              Fast, secure, browser-based and completely free with FileNestX.
+              Fast, secure, browser-based and completely free with ToolsNestX.
 
             </p>
 

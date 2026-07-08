@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Sort Lines Online | Sort Text Lines Alphabetically | FileNestX",
+  title: "Free Sort Lines Online | Sort Text Lines Alphabetically | ToolsNestX",
   description:
-    "Sort lines of text instantly with FileNestX. Arrange text in ascending or descending order, organize lists and clean up content quickly using our fast, secure and browser-based Sort Lines tool.",
+    "Sort lines of text instantly with ToolsNestX. Arrange text in ascending or descending order, organize lists and clean up content quickly using our fast, secure and browser-based Sort Lines tool.",
 };
 
 export default function SortLinesPage() {
@@ -290,7 +290,7 @@ export default function SortLinesPage() {
 
                 Sort text lines as often as you need without creating an
                 account, installing software or paying subscription fees.
-                FileNestX keeps the tool completely free.
+                ToolsNestX keeps the tool completely free.
 
               </p>
 
@@ -461,7 +461,7 @@ export default function SortLinesPage() {
 
         <p>
 
-          FileNestX Sort Lines processes everything directly inside your
+          ToolsNestX Sort Lines processes everything directly inside your
           browser, ensuring your text remains private throughout the entire
           process. No uploads, software installations or account registration
           are required. Simply paste your text, choose the preferred sort order
@@ -513,7 +513,7 @@ export default function SortLinesPage() {
             {[
               {
                 q: "Is the Sort Lines tool free to use?",
-                a: "Yes. FileNestX Sort Lines is completely free and allows you to sort unlimited text without creating an account.",
+                a: "Yes. ToolsNestX Sort Lines is completely free and allows you to sort unlimited text without creating an account.",
               },
               {
                 q: "Can I sort lines in ascending and descending order?",
@@ -699,7 +699,7 @@ export default function SortLinesPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Organize names, keywords, code, lists and other line-based text
-              instantly with FileNestX. Fast, secure, browser-based and
+              instantly with ToolsNestX. Fast, secure, browser-based and
               completely free—no installation or registration required.
 
             </p>

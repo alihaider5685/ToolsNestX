@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Unix Timestamp Converter Online | FileNestX",
+  title: "Free Unix Timestamp Converter Online | ToolsNestX",
   description:
     "Convert Unix timestamps to human-readable dates and convert dates back to Unix timestamps instantly. Fast, accurate and completely browser-based.",
 };
@@ -416,7 +416,7 @@ export default function TimestampConverterPage() {
 
             <p>
 
-              FileNestX Timestamp Converter helps developers, system
+              ToolsNestX Timestamp Converter helps developers, system
               administrators and technical users quickly convert Unix
               timestamps into human-readable dates and convert dates back into
               Unix timestamps. This makes it easy to interpret time values
@@ -438,7 +438,7 @@ export default function TimestampConverterPage() {
 
               Your privacy is fully protected because every conversion happens
               directly inside your browser. No timestamps or date information
-              are transmitted to external servers, making FileNestX a secure,
+              are transmitted to external servers, making ToolsNestX a secure,
               reliable and completely free Timestamp Converter for developers,
               students and IT professionals.
 
@@ -486,7 +486,7 @@ export default function TimestampConverterPage() {
             {[
               {
                 q: "Is Timestamp Converter free to use?",
-                a: "Yes. FileNestX Timestamp Converter is completely free with unlimited conversions.",
+                a: "Yes. ToolsNestX Timestamp Converter is completely free with unlimited conversions.",
               },
               {
                 q: "Can I convert Unix timestamps into readable dates?",
@@ -672,7 +672,7 @@ export default function TimestampConverterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Convert Unix timestamps and human-readable dates instantly with
-              FileNestX. Fast, accurate, secure and completely free.
+              ToolsNestX. Fast, accurate, secure and completely free.
 
             </p>
 

@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free HTML Minifier Online | Minify HTML Code Instantly | FileNestX",
+  title: "Free HTML Minifier Online | Minify HTML Code Instantly | ToolsNestX",
   description:
-    "Minify HTML online for free with FileNestX. Remove unnecessary whitespace, comments and formatting from HTML code to reduce file size and improve website performance using our fast, secure and browser-based HTML Minifier.",
+    "Minify HTML online for free with ToolsNestX. Remove unnecessary whitespace, comments and formatting from HTML code to reduce file size and improve website performance using our fast, secure and browser-based HTML Minifier.",
 };
 
 export default function HtmlMinifierPage() {
@@ -289,7 +289,7 @@ export default function HtmlMinifierPage() {
               <p className="mt-5 max-w-8xl leading-8 text-gray-400">
 
                 Minify unlimited HTML code without creating an account,
-                installing software or paying subscription fees. FileNestX
+                installing software or paying subscription fees. ToolsNestX
                 keeps the tool completely free for everyone.
 
               </p>
@@ -462,7 +462,7 @@ export default function HtmlMinifierPage() {
 
         <p>
 
-          FileNestX HTML Minifier performs every operation directly inside your
+          ToolsNestX HTML Minifier performs every operation directly inside your
           browser, helping keep your source code private throughout the entire
           process. No software installation, account registration or file
           uploads are required. Simply paste your HTML, generate an optimized
@@ -515,7 +515,7 @@ export default function HtmlMinifierPage() {
             {[
               {
                 q: "Is the HTML Minifier free to use?",
-                a: "Yes. FileNestX HTML Minifier is completely free and allows you to minify unlimited HTML code without registration or subscription fees.",
+                a: "Yes. ToolsNestX HTML Minifier is completely free and allows you to minify unlimited HTML code without registration or subscription fees.",
               },
               {
                 q: "What does an HTML Minifier do?",
@@ -701,7 +701,7 @@ export default function HtmlMinifierPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Compress HTML, reduce file size and improve website performance
-              with FileNestX HTML Minifier. Fast, secure, browser-based and
+              with ToolsNestX HTML Minifier. Fast, secure, browser-based and
               completely free for developers, designers and website owners.
 
             </p>

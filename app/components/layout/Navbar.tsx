@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Button from "@/app/components/common/Button";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -22,7 +23,7 @@ export default function Navbar() {
           href="/"
           className="select-none text-3xl font-extrabold tracking-tight transition duration-300 hover:scale-105"
         >
-          <span className="text-white">File</span>
+          <span className="text-white">Tools</span>
           <span className="text-blue-500">NestX</span>
         </Link>
 
@@ -56,12 +57,12 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <Link
-          href="/#tools"
-          className="rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-blue-500/40"
-        >
-          Explore Tools
-        </Link>
+  <Button
+  href="/#tools"
+  className="h-6 px-5 text-sm"
+   >
+    Explore Tools
+     </Button>
       </div>
     </nav>
   );

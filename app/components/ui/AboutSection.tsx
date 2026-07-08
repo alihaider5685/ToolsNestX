@@ -4,11 +4,11 @@ export default function AboutSection() {
     <section className="bg-[#080808] px-6 py-24">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-center text-4xl font-bold text-white">
-          About FileNestX
+          About ToolsNestX
         </h2>
 
         <p className="mt-8 text-lg leading-8 text-gray-400">
-          FileNestX is a free online platform that provides powerful tools for
+          ToolsNestX is a free online platform that provides powerful tools for
           PDF files, images, text processing and developers. Our mission is to
           make productivity tools accessible to everyone without requiring
           downloads, installations or registrations.
@@ -17,7 +17,7 @@ export default function AboutSection() {
         <p className="mt-6 text-lg leading-8 text-gray-400">
           Whether you need to compress images, merge PDF files, format JSON,
           generate QR codes, encode Base64 data or perform other everyday tasks,
-          FileNestX offers fast and reliable tools directly in your browser.
+          ToolsNestX offers fast and reliable tools directly in your browser.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-400">

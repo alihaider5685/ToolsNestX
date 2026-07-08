@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free PDF Splitter Online | FileNestX",
+  title: "Free PDF Splitter Online | ToolsNestX",
   description:
     "Split PDF files into separate pages or extract specific pages online for free. Fast, secure and browser-based PDF Splitter.",
 };
@@ -415,7 +415,7 @@ export default function PDFSplitterPage() {
 
             <p>
 
-              FileNestX PDF Splitter makes it easy to extract individual pages
+              ToolsNestX PDF Splitter makes it easy to extract individual pages
               or divide large PDF documents into smaller files without losing
               formatting or quality. Everything works directly in your browser,
               so there's no need to install software.
@@ -481,7 +481,7 @@ export default function PDFSplitterPage() {
             {[
               {
                 q: "Is PDF Splitter free?",
-                a: "Yes. FileNestX PDF Splitter is completely free and does not require registration.",
+                a: "Yes. ToolsNestX PDF Splitter is completely free and does not require registration.",
               },
               {
                 q: "Can I extract only specific pages?",
@@ -497,7 +497,7 @@ export default function PDFSplitterPage() {
               },
               {
                 q: "Does it work on mobile devices?",
-                a: "Absolutely. FileNestX PDF Splitter works on desktop, tablet and mobile browsers.",
+                a: "Absolutely. ToolsNestX PDF Splitter works on desktop, tablet and mobile browsers.",
               },
               {
                 q: "Do I need to install software?",
@@ -668,7 +668,7 @@ export default function PDFSplitterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Extract pages or split large PDF documents into smaller files in
-              seconds. Fast, secure and completely free with FileNestX.
+              seconds. Fast, secure and completely free with ToolsNestX.
 
             </p>
 

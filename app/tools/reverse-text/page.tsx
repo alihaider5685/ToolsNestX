@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Reverse Text Generator Online | FileNestX",
+  title: "Free Reverse Text Generator Online | ToolsNestX",
   description:
     "Reverse text instantly online for free. Reverse words, sentences or entire paragraphs with our fast, secure and browser-based Reverse Text tool.",
 };
@@ -422,7 +422,7 @@ export default function ReverseTextPage() {
 
             <p>
 
-              FileNestX Reverse Text Tool lets you instantly reverse words,
+              ToolsNestX Reverse Text Tool lets you instantly reverse words,
               sentences and entire paragraphs with a single click. Whether you
               need reversed text for fun, programming, creative writing,
               education or testing purposes, our tool delivers accurate results
@@ -443,7 +443,7 @@ export default function ReverseTextPage() {
 
               Your privacy is important to us. All text processing happens
               locally in your browser, meaning your content is never uploaded
-              or stored on our servers. FileNestX provides a fast, secure and
+              or stored on our servers. ToolsNestX provides a fast, secure and
               completely free Reverse Text Tool for everyone.
 
             </p>
@@ -490,7 +490,7 @@ export default function ReverseTextPage() {
             {[
               {
                 q: "Is the Reverse Text tool free?",
-                a: "Yes. FileNestX Reverse Text tool is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Reverse Text tool is completely free with unlimited usage.",
               },
               {
                 q: "Can I reverse long paragraphs?",
@@ -676,7 +676,7 @@ export default function ReverseTextPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Reverse words, sentences and paragraphs instantly with
-              FileNestX. Fast, secure, accurate and completely free.
+              ToolsNestX. Fast, secure, accurate and completely free.
 
             </p>
 

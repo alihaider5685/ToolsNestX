@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Hash Generator Online | FileNestX",
+  title: "Free Hash Generator Online | ToolsNestX",
   description:
     "Generate MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes instantly with our free online Hash Generator. Fast, secure and browser-based.",
 };
@@ -416,7 +416,7 @@ export default function HashGeneratorPage() {
 
             <p>
 
-              FileNestX Hash Generator allows you to create secure cryptographic
+              ToolsNestX Hash Generator allows you to create secure cryptographic
               hashes using widely accepted algorithms including MD5, SHA-1,
               SHA-256, SHA-384 and SHA-512. These hashing algorithms are
               commonly used for data verification, integrity checks, password
@@ -439,7 +439,7 @@ export default function HashGeneratorPage() {
 
               Your privacy is always protected because every hash is generated
               locally on your device. No text or sensitive information is sent
-              to external servers, making FileNestX a secure, reliable and
+              to external servers, making ToolsNestX a secure, reliable and
               completely free Hash Generator for developers, students and IT
               professionals.
 
@@ -487,7 +487,7 @@ export default function HashGeneratorPage() {
             {[
               {
                 q: "Is Hash Generator free to use?",
-                a: "Yes. FileNestX Hash Generator is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Hash Generator is completely free with unlimited usage.",
               },
               {
                 q: "Which hash algorithms are supported?",
@@ -673,7 +673,7 @@ export default function HashGeneratorPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Generate MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes instantly
-              with FileNestX. Fast, secure, privacy-friendly and completely free.
+              with ToolsNestX. Fast, secure, privacy-friendly and completely free.
 
             </p>
 

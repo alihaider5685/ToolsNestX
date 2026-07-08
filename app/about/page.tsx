@@ -1,15 +1,17 @@
 import Link from "next/link";
+import Button from "@/app/components/common/Button";
+import { ArrowRight } from "lucide-react";
 import {
-  ArrowRight,
+  
   Sparkles,
   Rocket,
   Globe,
 } from "lucide-react";
 
 export const metadata = {
-  title: "About FileNestX",
+  title: "About ToolsNestX",
   description:
-    "Learn more about FileNestX, our mission, vision and the free online productivity tools we provide.",
+    "Learn more about ToolsNestX, our mission, vision and the free online productivity tools we provide.",
 };
 
 export default function AboutPage() {
@@ -57,7 +59,7 @@ export default function AboutPage() {
 
             <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
 
-              FileNestX
+              ToolsNestX
 
             </span>
 
@@ -67,7 +69,7 @@ export default function AboutPage() {
 
           <p className="mt-10 max-w-4xl text-xl leading-10 text-gray-400">
 
-            FileNestX is a modern all-in-one online toolkit created for
+            ToolsNestX is a modern all-in-one online toolkit created for
             students, developers, professionals, businesses and creators.
 
             Our goal is simple — provide beautiful, fast and completely free
@@ -78,7 +80,7 @@ export default function AboutPage() {
           <p className="mt-8 max-w-4xl text-lg leading-9 text-gray-500">
 
             Whether you need PDF tools, image utilities, text generators or
-            developer resources, FileNestX delivers everything through a clean,
+            developer resources, ToolsNestX delivers everything through a clean,
             secure and lightning-fast experience with no installation and no
             registration required.
 
@@ -86,27 +88,20 @@ export default function AboutPage() {
 
           {/* Buttons */}
 
-          <div className="mt-14 flex flex-wrap justify-center gap-5">
+   <div className="mt-12 flex flex-wrap justify-center gap-5">
+  <Button
+    href="/"
+    icon={<ArrowRight size={16} />}
+  >
+    Explore Tools
+  </Button>
 
-            <Link
-              href="/"
-              className="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 text-lg font-semibold shadow-[0_0_40px_rgba(59,130,246,.45)] transition hover:scale-105"
-            >
-              Explore Tools
-
-              <ArrowRight
-                size={20}
-                className="transition group-hover:translate-x-1"
-              />
-            </Link>
-
-            <Link
-              href="/contact"
-              className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-lg font-semibold backdrop-blur-xl transition hover:border-blue-500 hover:bg-white/10"
-            >
-              Contact Us
-            </Link>
-
+  <Button
+    href="/contact"
+    variant="secondary"
+  >
+    Contact Us
+  </Button>
           </div>
 
         </div>
@@ -129,7 +124,7 @@ export default function AboutPage() {
       <h2 className="text-5xl font-black leading-tight md:text-6xl lg:text-7xl">
         Why We Created{" "}
         <span className="bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
-          FileNestX
+          ToolsNestX
         </span>
       </h2>
 
@@ -146,7 +141,7 @@ export default function AboutPage() {
       </p>
 
       <p className="mx-auto mt-8 max-w-6xl text-xl leading-10 text-gray-400">
-        Today, FileNestX continues to grow with one mission —
+        Today, ToolsNestX continues to grow with one mission —
         <span className="font-semibold text-white">
           {" "}
           making productivity faster, simpler and completely free for everyone.
@@ -217,7 +212,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mt-8 text-lg leading-9 text-gray-400">
-                We continuously improve FileNestX by adding new tools,
+                We continuously improve ToolsNestX by adding new tools,
                 optimizing performance and delivering a smooth experience that
                 saves time and increases productivity for everyone.
               </p>
@@ -289,7 +284,7 @@ export default function AboutPage() {
             <h2 className="mt-5 text-4xl font-black md:text-6xl">
               Why Choose{" "}
               <span className="text-blue-500">
-                FileNestX
+                ToolsNestX
               </span>
               ?
             </h2>
@@ -370,7 +365,7 @@ export default function AboutPage() {
               </h3>
 
               <p className="mt-5 text-lg leading-8 text-gray-400">
-                We continuously improve FileNestX and release new tools.
+                We continuously improve ToolsNestX and release new tools.
               </p>
 
             </div>
@@ -414,7 +409,7 @@ export default function AboutPage() {
 
             <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-blue-100">
 
-              Join thousands of users who rely on FileNestX for fast, secure,
+              Join thousands of users who rely on ToolsNestX for fast, secure,
               and completely free online tools. Start using powerful browser
               utilities today.
 
@@ -469,7 +464,7 @@ export default function AboutPage() {
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-gray-400">
 
-              Everything you need to know about FileNestX.
+              Everything you need to know about ToolsNestX.
 
             </p>
 
@@ -482,7 +477,7 @@ export default function AboutPage() {
             <div className="rounded-[28px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
 
               <h3 className="text-2xl font-bold">
-                Is FileNestX completely free?
+                Is ToolsNestX completely free?
               </h3>
 
               <p className="mt-5 text-lg leading-8 text-gray-400">

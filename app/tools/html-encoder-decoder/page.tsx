@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free HTML Encoder & Decoder Online | FileNestX",
+  title: "Free HTML Encoder & Decoder Online | ToolsNestX",
   description:
     "Encode HTML entities and decode HTML text instantly with our free online HTML Encoder & Decoder. Fast, secure and browser-based.",
 };
@@ -416,7 +416,7 @@ export default function HtmlEncoderDecoderPage() {
 
             <p>
 
-              FileNestX HTML Encoder & Decoder helps developers safely convert
+              ToolsNestX HTML Encoder & Decoder helps developers safely convert
               HTML special characters into HTML entities and decode HTML
               entities back into readable text. This is especially useful when
               displaying user-generated content, preventing HTML rendering or
@@ -438,7 +438,7 @@ export default function HtmlEncoderDecoderPage() {
 
               Privacy always comes first. Every conversion is performed locally
               inside your browser, meaning your HTML content is never uploaded
-              to external servers. FileNestX HTML Encoder & Decoder provides a
+              to external servers. ToolsNestX HTML Encoder & Decoder provides a
               secure, reliable and completely free solution for developers,
               designers, students and content creators.
 
@@ -486,7 +486,7 @@ export default function HtmlEncoderDecoderPage() {
             {[
               {
                 q: "Is HTML Encoder & Decoder free to use?",
-                a: "Yes. FileNestX HTML Encoder & Decoder is completely free with unlimited conversions.",
+                a: "Yes. ToolsNestX HTML Encoder & Decoder is completely free with unlimited conversions.",
               },
               {
                 q: "What is HTML encoding?",
@@ -672,7 +672,7 @@ export default function HtmlEncoderDecoderPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Encode HTML entities and decode HTML text instantly with
-              FileNestX. Fast, secure, browser-based and completely free.
+              ToolsNestX. Fast, secure, browser-based and completely free.
 
             </p>
 

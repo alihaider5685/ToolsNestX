@@ -2,8 +2,9 @@
 "use client";
 
 import Link from "next/link";
+import Button from "@/app/components/common/Button";
+import { ArrowRight } from "lucide-react";
 import {
-  ArrowRight,
   ShieldCheck,
   Smartphone,
   Zap,
@@ -104,24 +105,26 @@ export default function Hero() {
 
 <div className="mt-16 mb-4 flex flex-wrap justify-center gap-5">
 
-  <a
-    href="#tools"
-    className="group inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white shadow-[0_0_35px_rgba(59,130,246,.45)] transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_0_60px_rgba(59,130,246,.65)]"
-  >
-    Explore Tools
+ <Button href="#tools">
+  Explore Tools
 
-    <ArrowRight
-      size={18}
-      className="transition-transform duration-300 group-hover:translate-x-1"
-    />
-  </a>
+  <ArrowRight
+    size={20}
+    className="transition-transform duration-300 group-hover:translate-x-1"
+  />
+</Button>
 
-  <Link
-    href="/about"
-    className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
-  >
-    Learn More
-  </Link>
+<Button
+  href="/about"
+  variant="secondary"
+>
+  Learn More
+
+  <ArrowRight
+    size={20}
+    className="transition-transform duration-300 group-hover:translate-x-1"
+  />
+</Button>
 
 </div>
 

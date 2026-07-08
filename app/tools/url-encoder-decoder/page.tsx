@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free URL Encoder & Decoder Online | FileNestX",
+  title: "Free URL Encoder & Decoder Online | ToolsNestX",
   description:
     "Encode and decode URLs instantly with our free online URL Encoder & Decoder. Secure, fast and browser-based with no installation required.",
 };
@@ -416,7 +416,7 @@ export default function UrlEncoderDecoderPage() {
 
             <p>
 
-              FileNestX URL Encoder & Decoder makes it easy to safely convert
+              ToolsNestX URL Encoder & Decoder makes it easy to safely convert
               URLs for web applications, APIs and online services. URL encoding
               replaces reserved and special characters with percent-encoded
               values, ensuring URLs remain valid and compatible across browsers
@@ -438,7 +438,7 @@ export default function UrlEncoderDecoderPage() {
 
               Your privacy is fully protected because every conversion is
               performed directly inside your browser. No URLs or text are
-              uploaded to external servers, making FileNestX a secure, reliable
+              uploaded to external servers, making ToolsNestX a secure, reliable
               and completely free URL Encoder & Decoder for developers,
               marketers and everyday users.
 
@@ -486,7 +486,7 @@ export default function UrlEncoderDecoderPage() {
             {[
               {
                 q: "Is URL Encoder & Decoder free?",
-                a: "Yes. FileNestX URL Encoder & Decoder is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX URL Encoder & Decoder is completely free with unlimited usage.",
               },
               {
                 q: "What is URL encoding used for?",
@@ -671,7 +671,7 @@ export default function UrlEncoderDecoderPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Encode and decode URLs instantly with FileNestX. Fast, secure,
+              Encode and decode URLs instantly with ToolsNestX. Fast, secure,
               accurate and completely free for developers, marketers and
               everyday users.
 

@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Slug Generator Online | Create SEO-Friendly URL Slugs | FileNestX",
+  title: "Free Slug Generator Online | Create SEO-Friendly URL Slugs | ToolsNestX",
   description:
-    "Generate clean, SEO-friendly URL slugs instantly with FileNestX. Convert text into readable, optimized slugs for websites, blogs and eCommerce pages using our fast, secure and browser-based Slug Generator.",
+    "Generate clean, SEO-friendly URL slugs instantly with ToolsNestX. Convert text into readable, optimized slugs for websites, blogs and eCommerce pages using our fast, secure and browser-based Slug Generator.",
 };
 
 export default function SlugGeneratorPage() {
@@ -291,7 +291,7 @@ export default function SlugGeneratorPage() {
 
                 Generate unlimited SEO-friendly URL slugs without creating an
                 account, installing software or paying subscription fees.
-                FileNestX keeps the tool completely free.
+                ToolsNestX keeps the tool completely free.
 
               </p>
 
@@ -464,7 +464,7 @@ export default function SlugGeneratorPage() {
 
         <p>
 
-          FileNestX Slug Generator processes everything directly inside your
+          ToolsNestX Slug Generator processes everything directly inside your
           browser, helping keep your content private while generating optimized
           slugs instantly. No uploads, software installations or account
           registration are required. Simply enter your text, generate the slug
@@ -516,7 +516,7 @@ export default function SlugGeneratorPage() {
             {[
               {
                 q: "Is the Slug Generator free to use?",
-                a: "Yes. FileNestX Slug Generator is completely free and allows you to generate unlimited SEO-friendly URL slugs without creating an account.",
+                a: "Yes. ToolsNestX Slug Generator is completely free and allows you to generate unlimited SEO-friendly URL slugs without creating an account.",
               },
               {
                 q: "What is a URL slug?",
@@ -703,7 +703,7 @@ export default function SlugGeneratorPage() {
 
               Create clean, readable and search engine-friendly URL slugs for
               blog posts, product pages, landing pages and websites. Fast,
-              secure, browser-based and completely free with FileNestX.
+              secure, browser-based and completely free with ToolsNestX.
 
             </p>
 

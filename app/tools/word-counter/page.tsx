@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Word Counter Online | FileNestX",
+  title: "Free Word Counter Online | ToolsNestX",
   description:
     "Count words, characters, sentences and paragraphs instantly. Free online Word Counter for writers, students, bloggers and professionals.",
 };
@@ -416,7 +416,7 @@ export default function WordCounterPage() {
 
             <p>
 
-              FileNestX Word Counter helps you analyze your writing in real time
+              ToolsNestX Word Counter helps you analyze your writing in real time
               by counting words, characters, sentences and paragraphs instantly.
               Whether you're writing an article, essay, blog post, email or
               social media content, you'll always know the exact length of your
@@ -484,7 +484,7 @@ export default function WordCounterPage() {
             {[
               {
                 q: "Is the Word Counter free?",
-                a: "Yes. FileNestX Word Counter is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Word Counter is completely free with unlimited usage.",
               },
               {
                 q: "Does it count characters too?",
@@ -670,7 +670,7 @@ export default function WordCounterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Count words, characters, sentences and paragraphs instantly with
-              FileNestX. Fast, accurate, secure and completely free.
+              ToolsNestX. Fast, accurate, secure and completely free.
 
             </p>
 

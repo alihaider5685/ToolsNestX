@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free JavaScript Minifier Online | FileNestX",
+  title: "Free JavaScript Minifier Online | ToolsNestX",
   description:
     "Minify JSON instantly by removing whitespace and unnecessary formatting. Fast, secure and free JSON Minifier online.",
 };
@@ -415,7 +415,7 @@ export default function JsonMinifierPage() {
 
             <p>
 
-              FileNestX JSON Minifier helps developers compress JSON data by
+              ToolsNestX JSON Minifier helps developers compress JSON data by
               removing unnecessary whitespace, indentation and line breaks while
               preserving the original data structure. Smaller JSON files reduce
               bandwidth usage and improve loading speed for websites, APIs and
@@ -436,7 +436,7 @@ export default function JsonMinifierPage() {
 
               Your privacy is always protected. All JSON processing happens
               locally inside your browser, meaning your data never leaves your
-              device. FileNestX provides a secure, reliable and completely free
+              device. ToolsNestX provides a secure, reliable and completely free
               JSON Minifier for developers and technical users.
 
             </p>
@@ -483,7 +483,7 @@ export default function JsonMinifierPage() {
             {[
               {
                 q: "Is JSON Minifier free to use?",
-                a: "Yes. FileNestX JSON Minifier is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX JSON Minifier is completely free with unlimited usage.",
               },
               {
                 q: "Does minifying JSON change the data?",
@@ -668,7 +668,7 @@ export default function JsonMinifierPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Compress JSON instantly with FileNestX. Fast, secure, lightweight
+              Compress JSON instantly with ToolsNestX. Fast, secure, lightweight
               and completely free for developers and professionals.
 
             </p>

@@ -2,9 +2,9 @@ import Link from "next/link";
 import { FileText, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Terms & Conditions | FileNestX",
+  title: "Terms & Conditions | ToolsNestX",
   description:
-    "Read the Terms & Conditions for using FileNestX and our online tools.",
+    "Read the Terms & Conditions for using ToolsNestX and our online tools.",
 };
 
 export default function TermsPage() {
@@ -70,8 +70,8 @@ export default function TermsPage() {
 
           <p className="mx-auto mt-10 max-w-4xl text-xl leading-10 text-gray-400">
 
-            Welcome to FileNestX. These Terms & Conditions govern your use of
-            our website and online tools. By accessing or using FileNestX,
+            Welcome to ToolsNestX. These Terms & Conditions govern your use of
+            our website and online tools. By accessing or using ToolsNestX,
             you agree to comply with these terms and all applicable laws.
 
           </p>
@@ -80,7 +80,7 @@ export default function TermsPage() {
 
             Please read these Terms carefully before using our services.
             If you do not agree with any part of these Terms, you should
-            discontinue using FileNestX immediately.
+            discontinue using ToolsNestX immediately.
 
           </p>
 
@@ -144,7 +144,7 @@ export default function TermsPage() {
 
       <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-gray-400">
 
-        These terms explain how FileNestX services may be used and the
+        These terms explain how ToolsNestX services may be used and the
         responsibilities of every visitor using our platform.
 
       </p>
@@ -166,7 +166,7 @@ export default function TermsPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          By accessing or using FileNestX, you agree to be legally bound by
+          By accessing or using ToolsNestX, you agree to be legally bound by
           these Terms & Conditions. If you do not agree with these terms,
           please discontinue using our website immediately.
         </p>
@@ -184,7 +184,7 @@ export default function TermsPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          FileNestX provides browser-based productivity tools for personal,
+          ToolsNestX provides browser-based productivity tools for personal,
           educational and business use. You agree to use these services only
           for lawful purposes.
         </p>
@@ -203,7 +203,7 @@ export default function TermsPage() {
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
           Users are responsible for ensuring that files uploaded or processed
-          through FileNestX do not violate any applicable laws or third-party
+          through ToolsNestX do not violate any applicable laws or third-party
           rights.
         </p>
 
@@ -221,8 +221,8 @@ export default function TermsPage() {
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
           All branding, website content, graphics, logos and software used on
-          FileNestX are protected by applicable intellectual property laws and
-          remain the property of FileNestX unless otherwise stated.
+          ToolsNestX are protected by applicable intellectual property laws and
+          remain the property of ToolsNestX unless otherwise stated.
         </p>
 
       </div>
@@ -238,7 +238,7 @@ export default function TermsPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          Users may not misuse FileNestX by attempting unauthorized access,
+          Users may not misuse ToolsNestX by attempting unauthorized access,
           distributing malware, interfering with website operations or using
           our services for illegal activities.
         </p>
@@ -256,7 +256,7 @@ export default function TermsPage() {
         </h3>
 
         <p className="mt-6 text-lg leading-9 text-gray-400">
-          FileNestX is provided on an "as available" and "as is" basis. While
+          ToolsNestX is provided on an "as available" and "as is" basis. While
           we strive to provide reliable services, we do not guarantee
           uninterrupted availability or error-free operation.
         </p>
@@ -284,10 +284,10 @@ export default function TermsPage() {
       </h2>
 
       <p className="mx-auto mt-8 max-w-4xl text-center text-lg leading-9 text-gray-400">
-        FileNestX and its owners shall not be held liable for any direct,
+        ToolsNestX and its owners shall not be held liable for any direct,
         indirect, incidental, special or consequential damages resulting from
         the use or inability to use our website, online tools or services.
-        Users access and use FileNestX entirely at their own discretion and
+        Users access and use ToolsNestX entirely at their own discretion and
         risk.
       </p>
 
@@ -313,7 +313,7 @@ export default function TermsPage() {
     <p className="mx-auto mt-8 max-w-4xl text-center text-lg leading-9 text-gray-400">
       We reserve the right to update or modify these Terms & Conditions at
       any time without prior notice. Changes become effective immediately
-      after being published on this page. Continued use of FileNestX
+      after being published on this page. Continued use of ToolsNestX
       indicates your acceptance of the updated Terms.
     </p>
 
@@ -340,7 +340,7 @@ export default function TermsPage() {
     <p className="mx-auto mt-8 max-w-4xl text-center text-lg leading-9 text-gray-400">
       These Terms & Conditions shall be governed and interpreted in
       accordance with the applicable laws of the relevant jurisdiction.
-      Any disputes relating to the use of FileNestX shall be handled under
+      Any disputes relating to the use of ToolsNestX shall be handled under
       those applicable laws.
     </p>
 

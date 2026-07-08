@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free QR Code Generator | FileNestX",
+  title: "Free QR Code Generator | ToolsNestX",
   description:
     "Generate QR Codes online for URLs, text, email, phone numbers and WiFi. Free, fast and secure QR Code Generator.",
 };
@@ -415,7 +415,7 @@ export default function QRGeneratorPage() {
 
             <p>
 
-              FileNestX QR Code Generator helps you create professional,
+              ToolsNestX QR Code Generator helps you create professional,
               high-quality QR Codes in just a few seconds. Whether you want to
               share a website, contact information, phone number, email address,
               WiFi network or plain text, everything can be converted into a QR
@@ -435,7 +435,7 @@ export default function QRGeneratorPage() {
             <p>
 
               Your privacy is important to us. Your data is processed securely,
-              and no personal information is permanently stored. FileNestX makes
+              and no personal information is permanently stored. ToolsNestX makes
               QR Code generation fast, reliable and completely free for everyone.
 
             </p>
@@ -482,7 +482,7 @@ export default function QRGeneratorPage() {
             {[
               {
                 q: "Is the QR Code Generator free?",
-                a: "Yes. FileNestX QR Code Generator is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX QR Code Generator is completely free with unlimited usage.",
               },
               {
                 q: "Can I generate QR Codes for URLs?",
@@ -498,7 +498,7 @@ export default function QRGeneratorPage() {
               },
               {
                 q: "Does it work on mobile devices?",
-                a: "Yes. FileNestX QR Generator works perfectly on desktop, tablet and mobile devices.",
+                a: "Yes. ToolsNestX QR Generator works perfectly on desktop, tablet and mobile devices.",
               },
               {
                 q: "Do I need to install software?",
@@ -551,7 +551,7 @@ export default function QRGeneratorPage() {
 
             <h2 className="mt-6 text-4xl font-bold">
 
-              Explore More FileNestX Tools
+              Explore More ToolsNestX Tools
 
             </h2>
 

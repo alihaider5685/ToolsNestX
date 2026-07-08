@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free XML Formatter Online | Beautify XML Instantly | FileNestX",
+  title: "Free XML Formatter Online | Beautify XML Instantly | ToolsNestX",
   description:
-    "Format and beautify XML online for free with FileNestX. Improve XML readability with proper indentation and clean formatting using our fast, secure and browser-based XML Formatter.",
+    "Format and beautify XML online for free with ToolsNestX. Improve XML readability with proper indentation and clean formatting using our fast, secure and browser-based XML Formatter.",
 };
 
 export default function XmlFormatterPage() {
@@ -288,7 +288,7 @@ export default function XmlFormatterPage() {
               <p className="mt-5 max-w-8xl leading-8 text-gray-400">
 
                 Format unlimited XML code without creating an account,
-                installing software or paying subscription fees. FileNestX
+                installing software or paying subscription fees. ToolsNestX
                 keeps the tool completely free for everyone.
 
               </p>
@@ -462,7 +462,7 @@ export default function XmlFormatterPage() {
 
         <p>
 
-          FileNestX XML Formatter performs every formatting operation directly
+          ToolsNestX XML Formatter performs every formatting operation directly
           inside your browser, helping keep your XML data private without
           uploading it to external servers. No software installation,
           registration or configuration is required. Simply paste your XML,
@@ -514,7 +514,7 @@ export default function XmlFormatterPage() {
             {[
               {
                 q: "Is the XML Formatter free to use?",
-                a: "Yes. FileNestX XML Formatter is completely free and lets you format unlimited XML documents without creating an account or paying subscription fees.",
+                a: "Yes. ToolsNestX XML Formatter is completely free and lets you format unlimited XML documents without creating an account or paying subscription fees.",
               },
               {
                 q: "What does an XML Formatter do?",
@@ -693,14 +693,14 @@ export default function XmlFormatterPage() {
 
             <h2 className="text-4xl font-bold">
 
-              Format XML Instantly With FileNestX
+              Format XML Instantly With ToolsNestX
 
             </h2>
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Beautify XML documents with proper indentation, improve readability
-              and simplify debugging using FileNestX XML Formatter. Fast,
+              and simplify debugging using ToolsNestX XML Formatter. Fast,
               secure, browser-based and completely free for developers, system
               administrators and IT professionals.
 

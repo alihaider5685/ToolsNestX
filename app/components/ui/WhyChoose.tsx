@@ -19,7 +19,7 @@ const features = [
   {
     icon: <Globe size={38} />,
     title: "Works Everywhere",
-    desc: "Access FileNestX from desktop, tablet and mobile without installing anything.",
+    desc: "Access ToolsNestX from desktop, tablet and mobile without installing anything.",
   },
   {
     icon: <BadgeCheck size={38} />,
@@ -39,13 +39,13 @@ export default function WhyChoose() {
          <div className="mb-20 flex w-full flex-col items-center justify-center text-center">
 
           <h2 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
-            Why Choose FileNestX?
+            Why Choose ToolsNestX?
           </h2>
 
           <div className="h-2 bg-black" />
 
           <p className="mt-8 max-w-3xl text-center text-lg leading-9 text-gray-400">
-            FileNestX provides fast, secure and completely free online tools for
+            ToolsNestX provides fast, secure and completely free online tools for
             PDFs, Images, Text Utilities and Developers — all accessible from
             any browser without installation or registration.
           </p>

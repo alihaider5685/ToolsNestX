@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Lorem Ipsum Generator Online | FileNestX",
+  title: "Free Lorem Ipsum Generator Online | ToolsNestX",
   description:
     "Generate Lorem Ipsum placeholder text instantly. Create paragraphs, sentences or words for web design, UI mockups and printing projects. Free online Lorem Ipsum Generator.",
 };
@@ -415,7 +415,7 @@ export default function LoremIpsumGeneratorPage() {
 
             <p>
 
-              FileNestX Lorem Ipsum Generator helps designers, developers and
+              ToolsNestX Lorem Ipsum Generator helps designers, developers and
               content creators quickly generate professional placeholder text.
               Whether you're building a website, designing a mobile app or
               creating a print layout, Lorem Ipsum makes it easy to visualize
@@ -436,7 +436,7 @@ export default function LoremIpsumGeneratorPage() {
 
               Everything works directly inside your browser, so no software
               installation or registration is required. Your generated text is
-              available instantly and can be copied with ease, making FileNestX
+              available instantly and can be copied with ease, making ToolsNestX
               a fast, reliable and completely free Lorem Ipsum Generator.
 
             </p>
@@ -483,7 +483,7 @@ export default function LoremIpsumGeneratorPage() {
             {[
               {
                 q: "Is the Lorem Ipsum Generator free?",
-                a: "Yes. FileNestX Lorem Ipsum Generator is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Lorem Ipsum Generator is completely free with unlimited usage.",
               },
               {
                 q: "Can I generate paragraphs and sentences?",
@@ -669,7 +669,7 @@ export default function LoremIpsumGeneratorPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Create professional Lorem Ipsum paragraphs, sentences and words
-              instantly with FileNestX. Fast, secure and completely free.
+              instantly with ToolsNestXs. Fast, secure and completely free.
 
             </p>
 

@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Base64 Encoder Online | FileNestX",
+  title: "Free Base64 Encoder Online | ToolsNestX",
   description:
     "Encode text into Base64 instantly with our free online Base64 Encoder. Fast, secure and browser-based with no installation required.",
 };
@@ -415,7 +415,7 @@ export default function Base64EncoderPage() {
 
             <p>
 
-              FileNestX Base64 Encoder allows you to quickly convert plain text
+              ToolsNestX Base64 Encoder allows you to quickly convert plain text
               into Base64 format using a secure browser-based tool. Base64
               encoding is widely used for transmitting text safely through APIs,
               email systems, HTTP authentication and web applications.
@@ -435,7 +435,7 @@ export default function Base64EncoderPage() {
             <p>
 
               Your privacy is our priority. All encoding happens directly inside
-              your browser, so your text never leaves your device. FileNestX
+              your browser, so your text never leaves your device. ToolsNestX
               provides a fast, reliable and completely free Base64 Encoder for
               developers, students and professionals.
 
@@ -483,7 +483,7 @@ export default function Base64EncoderPage() {
             {[
               {
                 q: "Is the Base64 Encoder free?",
-                a: "Yes. FileNestX Base64 Encoder is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Base64 Encoder is completely free with unlimited usage.",
               },
               {
                 q: "Is my text uploaded to your servers?",
@@ -668,7 +668,7 @@ export default function Base64EncoderPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Encode text into Base64 instantly with FileNestX. Fast, secure,
+              Encode text into Base64 instantly with ToolsNestX. Fast, secure,
               reliable and completely free for unlimited use.
 
             </p>

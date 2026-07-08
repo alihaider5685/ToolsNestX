@@ -8,7 +8,7 @@ import {
 
 export const metadata = {
   title:
-    "Free Image Compressor Online | Compress JPG, PNG & WebP | FileNestX",
+    "Free Image Compressor Online | Compress JPG, PNG & WebP | ToolsNestX",
   description:
     "Compress JPG, PNG and WebP images online without losing quality. Fast, secure and completely free browser-based image compressor.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata = {
     "free image compressor",
     "online image optimizer",
     "compress photos",
-    "filenestx",
+    "ToolsNestX",
   ],
 };
 
@@ -210,7 +210,7 @@ export default function ImageCompressorPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              FileNestX Image Compressor combines speed, security and quality
+              ToolsNestX Image Compressor combines speed, security and quality
               into one simple online tool. Compress your images in seconds
               without downloading any software.
 
@@ -403,7 +403,7 @@ export default function ImageCompressorPage() {
 
               <p className="mt-5 leading-8 text-gray-400">
 
-                Click the Compress button and allow FileNestX to optimize your
+                Click the Compress button and allow ToolsNestX to optimize your
                 image automatically.
 
               </p>
@@ -465,7 +465,7 @@ export default function ImageCompressorPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Whether you're optimizing images for websites, social media,
-              presentations or email attachments, FileNestX helps you reduce
+              presentations or email attachments, ToolsNestX helps you reduce
               file size while maintaining excellent image quality.
 
             </p>
@@ -573,7 +573,7 @@ export default function ImageCompressorPage() {
 
             <p className="mt-6 leading-8 text-gray-400">
 
-              FileNestX Image Compressor allows you to optimize JPG, PNG and
+              ToolsNestX Image Compressor allows you to optimize JPG, PNG and
               WebP images quickly and securely. Everything happens directly
               inside your browser, meaning you don't need to install software or
               create an account. Whether you're a student, blogger, designer,
@@ -718,7 +718,7 @@ export default function ImageCompressorPage() {
             {[
               {
                 q: "Is Image Compressor completely free?",
-                a: "Yes. FileNestX Image Compressor is 100% free with no hidden charges or subscriptions.",
+                a: "Yes. ToolsNestX Image Compressor is 100% free with no hidden charges or subscriptions.",
               },
               {
                 q: "Which image formats are supported?",
@@ -738,7 +738,7 @@ export default function ImageCompressorPage() {
               },
               {
                 q: "Can I use this tool on mobile?",
-                a: "Absolutely. FileNestX works perfectly on desktop, tablet and mobile devices.",
+                a: "Absolutely. ToolsNestX works perfectly on desktop, tablet and mobile devices.",
               },
             ].map((item) => (
               <details
@@ -863,7 +863,7 @@ export default function ImageCompressorPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              FileNestX offers powerful browser-based tools for PDF editing,
+              ToolsNestX offers powerful browser-based tools for PDF editing,
               image optimization, text utilities, developers and everyday
               productivity — all completely free.
 

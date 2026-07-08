@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free URL Parser Online | Parse URL Components Instantly | FileNestX",
+  title: "Free URL Parser Online | Parse URL Components Instantly | ToolsNestX",
   description:
-    "Parse URLs online for free with FileNestX. Extract the protocol, hostname, port, pathname, query parameters and hash instantly using our fast, secure and browser-based URL Parser.",
+    "Parse URLs online for free with ToolsNestX. Extract the protocol, hostname, port, pathname, query parameters and hash instantly using our fast, secure and browser-based URL Parser.",
 };
 
 export default function UrlParserPage() {
@@ -290,7 +290,7 @@ export default function UrlParserPage() {
               <p className="mt-5 max-w-8xl leading-8 text-gray-400">
 
                 Parse unlimited URLs without creating an account, installing
-                software or paying subscription fees. FileNestX keeps the tool
+                software or paying subscription fees. ToolsNestX keeps the tool
                 completely free for everyone.
 
               </p>
@@ -462,7 +462,7 @@ export default function UrlParserPage() {
 
         <p>
 
-          FileNestX URL Parser performs all processing directly inside your
+          ToolsNestX URL Parser performs all processing directly inside your
           browser, helping keep your URLs private without sending data to
           external servers. No software installation, registration or technical
           setup is required. Simply paste a URL, parse it instantly and review
@@ -513,7 +513,7 @@ export default function UrlParserPage() {
             {[
               {
                 q: "Is the URL Parser free to use?",
-                a: "Yes. FileNestX URL Parser is completely free and lets you analyze unlimited URLs without creating an account or paying subscription fees.",
+                a: "Yes. ToolsNestX URL Parser is completely free and lets you analyze unlimited URLs without creating an account or paying subscription fees.",
               },
               {
                 q: "What information can a URL Parser extract?",
@@ -699,7 +699,7 @@ export default function UrlParserPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Break down any URL into its individual components, inspect query
-              parameters and better understand web addresses with FileNestX.
+              parameters and better understand web addresses with ToolsNestX.
               Fast, secure, browser-based and completely free.
 
             </p>

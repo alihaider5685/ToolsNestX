@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Remove Duplicate Lines Online | FileNestX",
+  title: "Free Remove Duplicate Lines Online | ToolsNestX",
   description:
     "Remove duplicate lines from text instantly. Clean repeated text, lists and data online for free with our fast and secure Remove Duplicate Lines tool.",
 };
@@ -415,7 +415,7 @@ export default function RemoveDuplicateLinesPage() {
 
             <p>
 
-              FileNestX Remove Duplicate Lines helps you eliminate repeated
+              ToolsNestX Remove Duplicate Lines helps you eliminate repeated
               lines from text instantly while preserving unique entries. It is
               an excellent tool for cleaning datasets, organizing lists,
               preparing reports and managing structured information with ease.
@@ -435,7 +435,7 @@ export default function RemoveDuplicateLinesPage() {
 
               Everything runs securely inside your browser, ensuring your data
               remains private. No files are uploaded or stored, making
-              FileNestX a fast, reliable and completely free solution for
+              ToolsNestX a fast, reliable and completely free solution for
               removing duplicate lines from text.
 
             </p>
@@ -482,7 +482,7 @@ export default function RemoveDuplicateLinesPage() {
             {[
               {
                 q: "Is Remove Duplicate Lines free?",
-                a: "Yes. FileNestX Remove Duplicate Lines tool is completely free with unlimited usage.",
+                a: "Yes. ToolsNestX Remove Duplicate Lines tool is completely free with unlimited usage.",
               },
               {
                 q: "Does it remove only duplicate lines?",
@@ -667,7 +667,7 @@ export default function RemoveDuplicateLinesPage() {
 
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Remove duplicate lines instantly with FileNestX. Fast, accurate,
+              Remove duplicate lines instantly with ToolsNestX. Fast, accurate,
               secure and completely free for unlimited use.
 
             </p>

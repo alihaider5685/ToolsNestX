@@ -1,10 +1,10 @@
 import Link from "next/link";
+import Button from "@/app/components/common/Button";
 import { Search, HelpCircle, ArrowRight } from "lucide-react";
-
 export const metadata = {
-  title: "FAQ | FileNestX",
+  title: "FAQ | ToolsNestX",
   description:
-    "Frequently Asked Questions about FileNestX online tools.",
+    "Frequently Asked Questions about ToolsNestX online tools.",
 };
 
 export default function FAQPage() {
@@ -44,7 +44,7 @@ export default function FAQPage() {
 
       <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl">
 
-        <HelpCircle size={16} />
+        <HelpCircle size={18} />
 
         Frequently Asked Questions
 
@@ -66,7 +66,7 @@ export default function FAQPage() {
 
       <p className="mx-auto mt-10 max-w-3xl text-xl leading-10 text-gray-400">
 
-        Everything you need to know about FileNestX,
+        Everything you need to know about ToolsNestX,
         our tools, privacy, security and how our platform works.
 
       </p>
@@ -78,25 +78,24 @@ export default function FAQPage() {
 
       </p>
 
-      {/* Buttons */}
+     {/* Buttons */}
 
-      <div className="mt-14 flex flex-wrap justify-center gap-5">
+  <div className="mt-14 flex flex-wrap justify-center gap-5">
+  <Button
+    href="/contact"
+    icon={<ArrowRight size={18} />}
+  >
+    Contact Support
+  </Button>
 
-        <Link
-          href="/contact"
-          className="rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 px-8 py-4 text-lg font-semibold shadow-[0_0_40px_rgba(59,130,246,.35)] transition hover:scale-105"
-        >
-          Contact Support
-        </Link>
-
-        <Link
-          href="/"
-          className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-lg font-semibold backdrop-blur-xl transition hover:border-blue-500 hover:bg-white/10"
-        >
-          Explore Tools
-        </Link>
-
-      </div>
+  <Button
+    href="/"
+    variant="secondary"
+    icon={<ArrowRight size={18} />}
+  >
+    Explore Tools
+  </Button>
+    </div>
 
     </div>
 
@@ -130,7 +129,7 @@ export default function FAQPage() {
       <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-gray-400">
 
         Here are the most common questions users ask before using
-        FileNestX.
+        ToolsNestX.
 
       </p>
 
@@ -146,13 +145,13 @@ export default function FAQPage() {
 
         <h3 className="text-2xl font-bold">
 
-          Is FileNestX completely free?
+          Is ToolsNestX completely free?
 
         </h3>
 
         <p className="mt-5 text-lg leading-9 text-gray-400">
 
-          Yes. Every tool available on FileNestX can be used completely
+          Yes. Every tool available on ToolsNestX can be used completely
           free without subscriptions or hidden charges.
 
         </p>
@@ -171,7 +170,7 @@ export default function FAQPage() {
 
         <p className="mt-5 text-lg leading-9 text-gray-400">
 
-          No. Most FileNestX tools work instantly inside your browser.
+          No. Most ToolsNestX tools work instantly inside your browser.
           No registration is required.
 
         </p>
@@ -209,7 +208,7 @@ export default function FAQPage() {
 
         <p className="mt-5 text-lg leading-9 text-gray-400">
 
-          FileNestX works perfectly on desktop, laptop, tablet and
+          ToolsNestX works perfectly on desktop, laptop, tablet and
           mobile browsers.
 
         </p>
@@ -264,27 +263,27 @@ export default function FAQPage() {
       <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-blue-100">
 
         Can't find the answer you're looking for? Our team is ready to
-        help you with anything related to FileNestX.
+        help you with anything related to ToolsNestX.
 
       </p>
 
       <div className="mt-12 flex flex-wrap justify-center gap-5">
+  <Button
+    href="/contact"
+    className="bg-white text-blue-700 hover:bg-gray-100"
+    icon={<ArrowRight size={18} />}
+  >
+    Contact Support
+  </Button>
 
-        <Link
-          href="/contact"
-          className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-blue-700 transition hover:scale-105"
-        >
-          Contact Support
-        </Link>
-
-        <Link
-          href="/"
-          className="rounded-2xl border border-white/30 bg-white/10 px-8 py-4 text-lg font-semibold text-white backdrop-blur-xl transition hover:bg-white/20"
-        >
-          Explore Tools
-        </Link>
-
-      </div>
+  <Button
+    href="/"
+    variant="secondary"
+    icon={<ArrowRight size={18} />}
+  >
+    Explore Tools
+  </Button>
+</div>
 
     </div>
 

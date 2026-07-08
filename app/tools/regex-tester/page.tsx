@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Free Regex Tester Online | FileNestX",
+  title: "Free Regex Tester Online | ToolsNestX",
   description:
     "Test, validate and debug regular expressions online. Match patterns instantly with real-time results using our free Regex Tester.",
 };
@@ -416,7 +416,7 @@ export default function RegexTesterPage() {
 
             <p>
 
-              FileNestX Regex Tester helps developers quickly create, test and
+              ToolsNestX Regex Tester helps developers quickly create, test and
               debug regular expressions without switching between different
               tools. Whether you are validating email addresses, matching URLs,
               extracting phone numbers or filtering custom text patterns, our
@@ -440,7 +440,7 @@ export default function RegexTesterPage() {
 
               Your privacy is always protected because every regular expression
               test runs locally in your browser. No patterns or sample text are
-              transmitted to external servers, making FileNestX Regex Tester a
+              transmitted to external servers, making ToolsNestX Regex Tester a
               secure, reliable and completely free solution for developers,
               QA engineers, students and IT professionals.
 
@@ -488,7 +488,7 @@ export default function RegexTesterPage() {
             {[
               {
                 q: "Is Regex Tester free to use?",
-                a: "Yes. FileNestX Regex Tester is completely free with unlimited regex testing.",
+                a: "Yes. ToolsNestX Regex Tester is completely free with unlimited regex testing.",
               },
               {
                 q: "Which regular expression syntax is supported?",
@@ -674,7 +674,7 @@ export default function RegexTesterPage() {
             <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Validate, debug and optimize regular expressions instantly with
-              FileNestX Regex Tester. Fast, secure, browser-based and completely free.
+              ToolsNestX Regex Tester. Fast, secure, browser-based and completely free.
 
             </p>
 
