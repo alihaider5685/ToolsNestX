@@ -21,7 +21,7 @@ export default function Stats() {
 
   return (
     <section className="bg-black py-20">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-screen-2xl max-w-7xl px-6">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {stats.map((item, index) => (
             <div
