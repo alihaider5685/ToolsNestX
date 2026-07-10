@@ -1,5 +1,5 @@
 "use client";
-
+import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import {
@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 
 export default function ToolCard() {
+  const [selectedCategory, setSelectedCategory] = useState("All Tools");
   const tools = [
     {
       name: "Image Compressor",
@@ -28,6 +29,7 @@ export default function ToolCard() {
       icon: ImageIcon,
       color: "from-blue-500 to-cyan-400",
       desc: "Compress images without losing quality.",
+      category: "Image Tools"
     },
     {
       name: "Image Converter",
@@ -35,6 +37,7 @@ export default function ToolCard() {
       icon: RefreshCw,
       color: "from-sky-500 to-blue-400",
       desc: "Convert images into different formats.",
+      category: "Image Tools"
     },
     {
       name: "PDF Merger",
@@ -42,6 +45,7 @@ export default function ToolCard() {
       icon: FileText,
       color: "from-red-500 to-orange-400",
       desc: "Merge multiple PDF files quickly.",
+      category: "PDF Tools"
     },
     {
       name: "PDF Splitter",
@@ -49,6 +53,7 @@ export default function ToolCard() {
       icon: Scissors,
       color: "from-orange-500 to-yellow-400",
       desc: "Split PDF pages instantly.",
+      category: "PDF Tools"
     },
     {
       name: "Word Counter",
@@ -56,6 +61,7 @@ export default function ToolCard() {
       icon: Type,
       color: "from-green-500 to-emerald-400",
       desc: "Count words and characters.",
+      category: "Text Tools"
     },
     {
       name: "QR Generator",
@@ -70,6 +76,7 @@ export default function ToolCard() {
       icon: Braces,
       color: "from-cyan-500 to-blue-400",
       desc: "Beautify and format JSON.",
+      category: "Developer Tools"
     },
     {
       name: "Base64 Encoder",
@@ -77,6 +84,7 @@ export default function ToolCard() {
       icon: Lock,
       color: "from-indigo-500 to-purple-400",
       desc: "Encode and decode Base64.",
+      category: "Developer Tools"
     },
     {
       name: "Text Case Converter",
@@ -84,6 +92,7 @@ export default function ToolCard() {
       icon: Type,
       color: "from-emerald-500 to-green-400",
       desc: "Convert text cases instantly.",
+      category: "Text Tools"
     },
     {
       name: "Lorem Ipsum Generator",
@@ -91,6 +100,7 @@ export default function ToolCard() {
       icon: FileText,
       color: "from-pink-500 to-rose-400",
       desc: "Generate placeholder text.",
+      category: "Text Tools"
     },
     {
       name: "URL Encoder / Decoder",
@@ -98,6 +108,7 @@ export default function ToolCard() {
       icon: Link2,
       color: "from-violet-500 to-fuchsia-400",
       desc: "Encode or decode URLs.",
+      category: "Developer Tools"
     },
     {
       name: "UUID Generator",
@@ -105,6 +116,7 @@ export default function ToolCard() {
       icon: ShieldCheck,
       color: "from-teal-500 to-cyan-400",
       desc: "Generate secure UUIDs.",
+      category: "Developer Tools"
     },
         {
       name: "Hash Generator",
@@ -112,6 +124,7 @@ export default function ToolCard() {
       icon: Hash,
       color: "from-yellow-500 to-orange-400",
       desc: "Generate hash values.",
+      category: "Developer Tools"
     },
     {
       name: "Timestamp Converter",
@@ -119,6 +132,7 @@ export default function ToolCard() {
       icon: Clock3,
       color: "from-lime-500 to-green-400",
       desc: "Convert timestamps easily.",
+      category: "Developer Tools"
     },
     {
       name: "JWT Decoder",
@@ -126,6 +140,7 @@ export default function ToolCard() {
       icon: ShieldCheck,
       color: "from-purple-500 to-indigo-400",
       desc: "Decode JWT tokens.",
+      category: "Developer Tools"
     },
     {
       name: "Regex Tester",
@@ -133,6 +148,7 @@ export default function ToolCard() {
       icon: Code2,
       color: "from-pink-500 to-purple-400",
       desc: "Test regular expressions.",
+      category: "Developer Tools"
     },
     {
       name: "HTML Encoder / Decoder",
@@ -140,6 +156,7 @@ export default function ToolCard() {
       icon: Code2,
       color: "from-blue-500 to-indigo-400",
       desc: "Encode and decode HTML.",
+      category: "Developer Tools"
     },
     {
       name: "CSS Minifier",
@@ -147,6 +164,7 @@ export default function ToolCard() {
       icon: Palette,
       color: "from-rose-500 to-pink-400",
       desc: "Minify CSS code.",
+      category: "Developer Tools"
     },
     {
       name: "JS Minifier",
@@ -154,6 +172,7 @@ export default function ToolCard() {
       icon: Code2,
       color: "from-yellow-500 to-amber-400",
       desc: "Minify JavaScript.",
+      category: "Developer Tools"
     },
     {
       name: "SQL Formatter",
@@ -161,6 +180,7 @@ export default function ToolCard() {
       icon: Database,
       color: "from-green-500 to-teal-400",
       desc: "Format SQL queries.",
+      category: "Developer Tools"
     },
     {
       name: "Remove Duplicate Lines",
@@ -168,6 +188,7 @@ export default function ToolCard() {
       icon: FileText,
       color: "from-red-500 to-pink-400",
       desc: "Remove duplicate lines.",
+      category: "Text Tools"
     },
     {
       name: "Sort Lines",
@@ -175,6 +196,7 @@ export default function ToolCard() {
       icon: FileText,
       color: "from-cyan-500 to-sky-400",
       desc: "Sort text lines instantly.",
+      category: "Text Tools"
     },
     {
       name: "Reverse Text",
@@ -182,6 +204,7 @@ export default function ToolCard() {
       icon: RefreshCw,
       color: "from-orange-500 to-red-400",
       desc: "Reverse text quickly.",
+      category: "Text Tools"
     },
     {
       name: "Slug Generator",
@@ -189,6 +212,7 @@ export default function ToolCard() {
       icon: Link2,
       color: "from-violet-500 to-purple-400",
       desc: "Create SEO-friendly slugs.",
+      category: "Text Tools"
     },
     {
       name: "JSON Validator",
@@ -196,6 +220,7 @@ export default function ToolCard() {
       icon: Braces,
       color: "from-blue-500 to-cyan-400",
       desc: "Validate JSON data.",
+      category: "Developer Tools"
     },
     {
       name: "URL Parser",
@@ -203,6 +228,7 @@ export default function ToolCard() {
       icon: Link2,
       color: "from-green-500 to-cyan-400",
       desc: "Parse URL components.",
+      category: "Developer Tools"
     },
     {
       name: "HTML Minifier",
@@ -210,6 +236,7 @@ export default function ToolCard() {
       icon: Code2,
       color: "from-pink-500 to-red-400",
       desc: "Minify HTML code.",
+      category: "Developer Tools"
     },
     {
       name: "XML Formatter",
@@ -217,8 +244,20 @@ export default function ToolCard() {
       icon: Database,
       color: "from-indigo-500 to-blue-400",
       desc: "Format XML documents.",
+      category: "Developer Tools"
     },
   ];
+  const categories = [
+  "All Tools",
+  "Image Tools",
+  "PDF Tools",
+  "Text Tools",
+  "Developer Tools",
+ ];
+ const filteredTools =
+  selectedCategory === "All Tools"
+    ? tools
+    : tools.filter((tool) => tool.category === selectedCategory);
 
   return (
   <section id="tools" className="bg-black px-6 py-24">
@@ -229,6 +268,33 @@ export default function ToolCard() {
   <h2 className="text-4xl font-bold text-white md:text-5xl">
     Explore All Tools
   </h2>
+
+  <div className="h-5 bg-black" />
+
+ <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+  {categories.map((category) => (
+    <button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`group relative overflow-hidden rounded-full border px-7 py-3 text-[16px] font-semibold tracking-tight transition-all duration-300 ease-out
+        ${
+          selectedCategory === category
+            ? "border-blue-500 bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-lg shadow-blue-500/30"
+            : "border-white/10 bg-white/[0.04] text-gray-300 hover:border-blue-500/50 hover:bg-white/[0.08] hover:text-white"
+        }`}
+    >
+      <span className="relative z-10 whitespace-nowrap">
+        {category}
+      </span>
+
+      {selectedCategory !== category && (
+        <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+      )}
+    </button>
+  ))}
+</div>
+
+<div className="h-5 bg-black" />
 
   <p className="mt-4 max-w-2xl text-center text-gray-400">
     Powerful online tools for PDFs, images, text processing and developers.
@@ -241,7 +307,7 @@ export default function ToolCard() {
       {/* Tools Grid */}
       <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
 
-        {tools.map((tool) => {
+        {filteredTools.map((tool) => {
           const Icon = tool.icon;
 
           return (

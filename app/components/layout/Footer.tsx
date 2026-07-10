@@ -42,6 +42,10 @@ export default function Footer() {
               <Link href="/contact" className="text-gray-400 hover:text-blue-500 transition">
                 Contact
               </Link>
+              <Link
+                   href="/blog" className="text-gray-400 hover:text-blue-500 transition">
+                    Blog
+                 </Link>
             </div>
           </div>
 
@@ -65,8 +69,14 @@ export default function Footer() {
               >
                 Terms & Conditions
               </Link>
-            </div>
-          </div>
+          <Link
+            href="/disclaimer"
+          className="text-gray-400 hover:text-blue-500 transition"
+          >
+          Disclaimer
+         </Link>
+         </div>
+       </div>
 
           {/* Categories */}
           <div>

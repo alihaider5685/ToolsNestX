@@ -674,7 +674,7 @@ export default function PDFMergerPage() {
 
             </h2>
 
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-400">
+            <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
               Combine multiple PDF documents into one secure file in seconds.
               Fast, private and completely free with ToolsNestX.

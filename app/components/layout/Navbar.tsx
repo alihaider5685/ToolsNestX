@@ -10,6 +10,7 @@ const navLinks = [
   { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
   { name: "Tools", href: "/#tools" },
+  { name: "Blog", href: "/blog" },
 ];
 
 export default function Navbar() {
