@@ -1,5 +1,6 @@
 import PDFMerger from "@/app/components/tools/PDFUploader";
 import { generateToolMetadata } from "@/lib/seo";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import type { Metadata } from "next";
 
 import {
@@ -55,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function PDFMergerPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="PDF Merger"
+  description="Merge multiple PDF files into one document online for free. Fast, secure and browser-based PDF merger."
+  path="/tools/pdf-merger"
+/>
 
       {/* ================= HERO ================= */}
 

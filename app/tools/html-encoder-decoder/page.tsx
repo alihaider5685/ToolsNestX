@@ -1,7 +1,7 @@
 import HtmlEncoderDecoder from "@/app/components/tools/HtmlEncoderDecoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -56,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function HtmlEncoderDecoderPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="HTML Encoder / Decoder"
+  description="Encode and decode HTML entities online quickly, securely and for free."
+  path="/tools/html-encoder-decoder"
+/>
 
       {/* ================= HERO ================= */}
 

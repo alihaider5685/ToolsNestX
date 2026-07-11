@@ -1,6 +1,7 @@
 import ImageCompressor from "@/app/components/tools/ImageCompressor";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +56,12 @@ export const metadata: Metadata = generateToolMetadata({
 export default function ImageCompressorPage() {
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden">
+
+      <ToolSchema
+  name="Image Compressor"
+  description="Compress JPG, JPEG, PNG and WebP images online without losing quality."
+  path="/tools/image-compressor"
+/>
 
       {/* ================= HERO ================= */}
 

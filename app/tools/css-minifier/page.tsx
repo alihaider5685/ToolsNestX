@@ -1,7 +1,7 @@
 import CssMinifier from "@/app/components/tools/CssMinifier";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +55,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function CssMinifierPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="CSS Minifier"
+  description="Minify CSS code online by removing unnecessary spaces, comments and formatting."
+  path="/tools/css-minifier"
+/>
 
       {/* ================= HERO ================= */}
 

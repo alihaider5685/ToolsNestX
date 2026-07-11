@@ -1,7 +1,7 @@
 import UuidGenerator from "@/app/components/tools/UuidGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -56,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function UuidGeneratorPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="UUID Generator"
+  description="Generate secure UUIDs online instantly for development, databases and applications."
+  path="/tools/uuid-generator"
+/>
 
       {/* ================= HERO ================= */}
 

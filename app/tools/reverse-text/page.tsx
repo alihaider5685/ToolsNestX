@@ -1,7 +1,7 @@
 import ReverseText from "@/app/components/tools/ReverseText";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -35,6 +35,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function ReverseTextPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Reverse Text"
+  description="Reverse text, words or sentences online instantly with our free browser-based reverse text tool."
+  path="/tools/reverse-text"
+/>
 
       {/* ================= HERO ================= */}
 

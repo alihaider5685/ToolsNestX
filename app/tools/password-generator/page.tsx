@@ -1,7 +1,7 @@
 import PasswordGenerator from "@/app/components/tools/PasswordGenerator";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +55,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function PasswordGeneratorPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Password Generator"
+  description="Generate strong, secure and random passwords online for free. Create customizable passwords instantly."
+  path="/tools/password-generator"
+/>
 
       {/* ================= HERO ================= */}
 

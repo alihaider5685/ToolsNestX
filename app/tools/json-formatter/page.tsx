@@ -1,6 +1,7 @@
 import JsonFormatter from "@/app/components/tools/JsonFormatter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 
 import {
   ShieldCheck,
@@ -55,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function JsonFormatterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="JSON Formatter"
+  description="Format, beautify and validate JSON data online for free."
+  path="/tools/json-formatter"
+/>
 
       {/* ================= HERO ================= */}
 

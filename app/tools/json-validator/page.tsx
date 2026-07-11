@@ -1,7 +1,7 @@
 import JsonValidator from "@/app/components/tools/JsonValidator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -56,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function JsonValidatorPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="JSON Validator"
+  description="Validate JSON data online instantly, detect syntax errors and verify JSON structure."
+  path="/tools/json-validator"
+/>
 
       {/* ================= HERO ================= */}
 

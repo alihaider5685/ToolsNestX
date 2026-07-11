@@ -1,7 +1,7 @@
 import UrlParser from "@/app/components/tools/UrlParser";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +55,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function UrlParserPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="URL Parser"
+  description="Parse URLs online and extract protocol, hostname, path, query parameters and fragments instantly."
+  path="/tools/url-parser"
+/>
 
       {/* ================= HERO ================= */}
 

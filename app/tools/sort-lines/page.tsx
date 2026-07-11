@@ -1,7 +1,7 @@
 import SortLines from "@/app/components/tools/SortLines";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -35,6 +35,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function SortLinesPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Sort Lines"
+  description="Sort text lines alphabetically or numerically online quickly and for free."
+  path="/tools/sort-lines"
+/>
 
       {/* ================= HERO ================= */}
 

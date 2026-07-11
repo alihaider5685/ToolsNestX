@@ -1,7 +1,7 @@
 import TextCaseConverter from "@/app/components/tools/TextCaseConverter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -45,6 +45,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function TextCaseConverterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Text Case Converter"
+  description="Convert text to uppercase, lowercase, title case and sentence case online."
+  path="/tools/text-case-converter"
+/>
 
       {/* ================= HERO ================= */}
 

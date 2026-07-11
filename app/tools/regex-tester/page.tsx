@@ -1,7 +1,7 @@
 import RegexTester from "@/app/components/tools/RegexTester";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -56,6 +56,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function RegexTesterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Regex Tester"
+  description="Test, validate and debug regular expressions online with instant matching results."
+  path="/tools/regex-tester"
+/>
 
       {/* ================= HERO ================= */}
 

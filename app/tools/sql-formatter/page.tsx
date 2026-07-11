@@ -1,7 +1,7 @@
 import SqlFormatter from "@/app/components/tools/SqlFormatter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +55,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function SqlFormatterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="SQL Formatter"
+  description="Format and beautify SQL queries online for better readability and easier debugging."
+  path="/tools/sql-formatter"
+/>
 
       {/* ================= HERO ================= */}
 

@@ -1,6 +1,7 @@
 import UrlEncoderDecoder from "@/app/components/tools/UrlEncoderDecoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 
 import {
   ShieldCheck,
@@ -56,6 +57,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function UrlEncoderDecoderPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="URL Encoder / Decoder"
+  description="Encode and decode URLs online instantly. Convert special characters safely for web use."
+  path="/tools/url-encoder-decoder"
+/>
 
       {/* ================= HERO ================= */}
 

@@ -1,6 +1,7 @@
 import ImageConverter from "@/app/components/tools/ImageUploader";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +56,12 @@ export const metadata: Metadata = generateToolMetadata({
 export default function ImageConverterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      
+      <ToolSchema
+  name="Image Converter"
+  description="Convert JPG, PNG, WebP and other image formats online for free."
+  path="/tools/image-convertor"
+/>
 
       {/* ================= HERO ================= */}
 

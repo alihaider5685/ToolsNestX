@@ -1,6 +1,7 @@
 import PDFSplitter from "@/app/components/tools/PDFSplitter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
+import ToolSchema from "@/app/components/seo/ToolSchema";
 
 import {
   ShieldCheck,
@@ -56,6 +57,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function PDFSplitterPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="PDF Splitter"
+  description="Split PDF pages online for free. Extract specific pages or divide PDF documents quickly and securely."
+  path="/tools/pdf-splitter"
+/>
 
       {/* ================= HERO ================= */}
 

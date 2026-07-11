@@ -1,7 +1,7 @@
 import JsonMinifier from "@/app/components/tools/JsMinifier";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -55,6 +55,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function JsonMinifierPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="JS Minifier"
+  description="Minify JavaScript code online to reduce file size and improve website performance."
+  path="/tools/js-minifier"
+/>
 
       {/* ================= HERO ================= */}
 

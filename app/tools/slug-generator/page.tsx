@@ -1,7 +1,7 @@
 import SlugGenerator from "@/app/components/tools/SlugGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
-
+import ToolSchema from "@/app/components/seo/ToolSchema";
 import {
   ShieldCheck,
   Zap,
@@ -40,6 +40,11 @@ export const metadata: Metadata = generateToolMetadata({
 export default function SlugGeneratorPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <ToolSchema
+  name="Slug Generator"
+  description="Generate clean, SEO-friendly URL slugs from any text instantly and for free."
+  path="/tools/slug-generator"
+/>
 
       {/* ================= HERO ================= */}
 
