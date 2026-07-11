@@ -1,4 +1,6 @@
 import XmlFormatter from "@/app/components/tools/XmlFormatter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free XML Formatter Online | Beautify XML Instantly | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free XML Formatter Online | Beautify & Format XML | ToolsNestX",
+
   description:
-    "Format and beautify XML online for free with ToolsNestX. Improve XML readability with proper indentation and clean formatting using our fast, secure and browser-based XML Formatter.",
-};
+    "Format, beautify and validate XML documents online for free. Improve XML readability with proper indentation using our fast and secure browser-based XML Formatter.",
+
+  keywords: [
+    "xml formatter",
+    "format xml",
+    "beautify xml",
+    "xml beautifier",
+    "pretty xml",
+    "online xml formatter",
+    "free xml formatter",
+    "xml viewer",
+    "xml validator",
+    "xml parser",
+    "xml editor",
+    "xml formatting tool",
+    "xml pretty print",
+    "xml code formatter",
+    "xml beautify online",
+    "developer xml tools",
+    "browser xml formatter",
+    "xml online tool",
+    "xml syntax formatter",
+    "xml indentation",
+    "xml utilities",
+    "xml cleaner",
+    "api xml formatter",
+    "xml debugging tool",
+    "web developer tools",
+    "best xml formatter",
+    "format xml online",
+    "xml document formatter",
+    "xml code beautifier",
+    "toolsnestx xml formatter",
+  ],
+
+  path: "/tools/xml-formatter",
+});
 
 export default function XmlFormatterPage() {
   return (

@@ -1,4 +1,6 @@
 import ReverseText from "@/app/components/tools/ReverseText";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,28 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Reverse Text Generator Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Reverse Text Online | Reverse Words & Characters | ToolsNestX",
+
   description:
-    "Reverse text instantly online for free. Reverse words, sentences or entire paragraphs with our fast, secure and browser-based Reverse Text tool.",
-};
+    "Reverse text, words and characters instantly with our free online Reverse Text tool. Fast and secure browser-based utility.",
+
+  keywords: [
+    "reverse text",
+    "text reverser",
+    "reverse words",
+    "reverse string",
+    "reverse characters",
+    "text utility",
+    "online reverse text",
+    "free reverse text",
+    "developer text tools",
+    "toolsnestx reverse text",
+  ],
+
+  path: "/tools/reverse-text",
+});
 
 export default function ReverseTextPage() {
   return (

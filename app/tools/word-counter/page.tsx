@@ -1,4 +1,6 @@
 import WordCounter from "@/app/components/tools/WordCounter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Word Counter Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Word Counter Online | Count Words, Characters & Sentences | ToolsNestX",
+
   description:
-    "Count words, characters, sentences and paragraphs instantly. Free online Word Counter for writers, students, bloggers and professionals.",
-};
+    "Count words, characters, sentences, paragraphs and reading time instantly. Free online word counter for writers, students, bloggers and professionals.",
+
+  keywords: [
+    "word counter",
+    "online word counter",
+    "free word counter",
+    "character counter",
+    "character count",
+    "word count",
+    "count words",
+    "count characters",
+    "sentence counter",
+    "paragraph counter",
+    "text counter",
+    "letter counter",
+    "word counting tool",
+    "essay word counter",
+    "blog word counter",
+    "reading time calculator",
+    "writing statistics",
+    "typing statistics",
+    "text analyzer",
+    "online text counter",
+    "seo word counter",
+    "content word counter",
+    "article word counter",
+    "word checker",
+    "count text online",
+    "text analysis tool",
+    "writing tool",
+    "word count checker",
+    "word count online",
+    "toolsnestx word counter",
+  ],
+
+  path: "/tools/word-counter",
+});
+
 
 export default function WordCounterPage() {
   return (

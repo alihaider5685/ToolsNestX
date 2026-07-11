@@ -1,4 +1,6 @@
 import QRGenerator from "@/app/components/tools/QRCodeGenerator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free QR Code Generator | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free QR Code Generator Online | Create Custom QR Codes | ToolsNestX",
+
   description:
-    "Generate QR Codes online for URLs, text, email, phone numbers and WiFi. Free, fast and secure QR Code Generator.",
-};
+    "Generate QR codes online for URLs, text, email, phone numbers, Wi-Fi and more. Free, fast, secure and browser-based QR code generator.",
+
+  keywords: [
+    "qr code generator",
+    "qr generator",
+    "create qr code",
+    "free qr code generator",
+    "online qr generator",
+    "custom qr code",
+    "generate qr code",
+    "wifi qr code",
+    "url qr code",
+    "text qr code",
+    "email qr code",
+    "phone qr code",
+    "vcard qr code",
+    "business qr code",
+    "website qr code",
+    "qr code maker",
+    "qr creator",
+    "dynamic qr code",
+    "static qr code",
+    "download qr code",
+    "high quality qr code",
+    "qr code online",
+    "barcode generator",
+    "free qr maker",
+    "best qr code generator",
+    "secure qr generator",
+    "browser qr generator",
+    "qr code tool",
+    "qr code creator",
+    "toolsnestx qr generator",
+  ],
+
+  path: "/tools/qr-generator",
+});
+
 
 export default function QRGeneratorPage() {
   return (

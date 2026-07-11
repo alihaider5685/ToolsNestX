@@ -1,4 +1,6 @@
 import JsonMinifier from "@/app/components/tools/JsMinifier";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free JavaScript Minifier Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free JavaScript Minifier Online | Minify & Compress JS Code | ToolsNestX",
+
   description:
-    "Minify JSON instantly by removing whitespace and unnecessary formatting. Fast, secure and free JSON Minifier online.",
-};
+    "Minify and compress JavaScript code online for free. Remove unnecessary spaces, comments and line breaks to optimize your JS files for faster website performance.",
+
+  keywords: [
+    "javascript minifier",
+    "js minifier",
+    "minify javascript",
+    "compress javascript",
+    "compress js",
+    "javascript compressor",
+    "js compressor",
+    "online javascript minifier",
+    "online js minifier",
+    "free javascript minifier",
+    "free js minifier",
+    "javascript optimizer",
+    "js optimizer",
+    "javascript code minifier",
+    "js code minifier",
+    "javascript cleaner",
+    "remove javascript comments",
+    "optimize javascript",
+    "reduce javascript size",
+    "developer javascript tools",
+    "web developer tools",
+    "frontend developer tools",
+    "browser javascript minifier",
+    "javascript performance",
+    "website optimization",
+    "minify js online",
+    "javascript utility",
+    "best javascript minifier",
+    "js code compressor",
+    "toolsnestx javascript minifier",
+  ],
+
+  path: "/tools/js-minifier",
+});
 
 export default function JsonMinifierPage() {
   return (

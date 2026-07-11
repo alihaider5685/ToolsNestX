@@ -1,4 +1,6 @@
 import RemoveDuplicateLines from "@/app/components/tools/RemoveDuplicateLines";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,29 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Remove Duplicate Lines Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Remove Duplicate Lines Online | Remove Duplicate Text | ToolsNestX",
+
   description:
-    "Remove duplicate lines from text instantly. Clean repeated text, lists and data online for free with our fast and secure Remove Duplicate Lines tool.",
-};
+    "Remove duplicate lines from text instantly. Clean lists, logs and large text files online for free.",
+
+  keywords: [
+    "remove duplicate lines",
+    "duplicate remover",
+    "remove duplicate text",
+    "text cleaner",
+    "unique lines",
+    "remove duplicate strings",
+    "text utility",
+    "online duplicate remover",
+    "free duplicate remover",
+    "developer text tools",
+    "toolsnestx duplicate remover",
+  ],
+
+  path: "/tools/remove-duplicate-lines",
+});
 
 export default function RemoveDuplicateLinesPage() {
   return (

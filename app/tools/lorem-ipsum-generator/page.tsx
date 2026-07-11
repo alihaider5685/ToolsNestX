@@ -1,4 +1,6 @@
 import LoremIpsumGenerator from "@/app/components/tools/LoremIpsumGenerator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,34 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Lorem Ipsum Generator Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Lorem Ipsum Generator Online | Generate Placeholder Text | ToolsNestX",
+
   description:
-    "Generate Lorem Ipsum placeholder text instantly. Create paragraphs, sentences or words for web design, UI mockups and printing projects. Free online Lorem Ipsum Generator.",
-};
+    "Generate Lorem Ipsum placeholder text instantly. Create paragraphs, sentences or words for web design, apps and mockups.",
+
+  keywords: [
+    "lorem ipsum generator",
+    "placeholder text",
+    "dummy text generator",
+    "lorem ipsum",
+    "generate lorem ipsum",
+    "online lorem ipsum generator",
+    "free lorem ipsum",
+    "paragraph generator",
+    "dummy content",
+    "web design text",
+    "placeholder generator",
+    "latin text",
+    "website mockup text",
+    "ui placeholder text",
+    "toolsnestx lorem ipsum",
+  ],
+
+  path: "/tools/lorem-ipsum-generator",
+});
+
 
 export default function LoremIpsumGeneratorPage() {
   return (

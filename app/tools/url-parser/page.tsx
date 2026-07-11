@@ -1,4 +1,6 @@
 import UrlParser from "@/app/components/tools/UrlParser";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free URL Parser Online | Parse URL Components Instantly | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free URL Parser Online | Analyze URL Components | ToolsNestX",
+
   description:
-    "Parse URLs online for free with ToolsNestX. Extract the protocol, hostname, port, pathname, query parameters and hash instantly using our fast, secure and browser-based URL Parser.",
-};
+    "Parse and analyze URLs online for free. Extract protocol, hostname, port, path, query parameters and fragments instantly with our secure browser-based URL Parser.",
+
+  keywords: [
+    "url parser",
+    "parse url",
+    "url analyzer",
+    "url components",
+    "url breakdown",
+    "online url parser",
+    "free url parser",
+    "url inspector",
+    "url checker",
+    "url validator",
+    "url decoder",
+    "url encoder",
+    "query string parser",
+    "url query parser",
+    "url parameters",
+    "url path parser",
+    "hostname parser",
+    "developer url tools",
+    "web developer tools",
+    "api url parser",
+    "browser url parser",
+    "url utilities",
+    "http url parser",
+    "https url parser",
+    "url analysis tool",
+    "url debugging tool",
+    "url online tool",
+    "best url parser",
+    "url parser online",
+    "toolsnestx url parser",
+  ],
+
+  path: "/tools/url-parser",
+});
 
 export default function UrlParserPage() {
   return (

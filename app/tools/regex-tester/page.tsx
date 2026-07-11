@@ -1,4 +1,6 @@
 import RegexTester from "@/app/components/tools/RegexTester";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Regex Tester Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Regex Tester Online | Test & Debug Regular Expressions | ToolsNestX",
+
   description:
-    "Test, validate and debug regular expressions online. Match patterns instantly with real-time results using our free Regex Tester.",
-};
+    "Test, debug and validate regular expressions online with real-time matching. Free browser-based Regex Tester for developers, programmers and students.",
+
+  keywords: [
+    "regex tester",
+    "regular expression tester",
+    "regex validator",
+    "regex checker",
+    "regex debugger",
+    "regex online",
+    "online regex tester",
+    "free regex tester",
+    "regex tool",
+    "regex editor",
+    "regex parser",
+    "regex generator",
+    "regular expression checker",
+    "test regex",
+    "regex match",
+    "regex pattern tester",
+    "regex expression",
+    "regex utility",
+    "developer regex tools",
+    "javascript regex tester",
+    "python regex tester",
+    "php regex tester",
+    "java regex tester",
+    "regex syntax checker",
+    "regex playground",
+    "regex matching tool",
+    "regex learning tool",
+    "browser regex tester",
+    "best regex tester",
+    "toolsnestx regex tester",
+  ],
+
+  path: "/tools/regex-tester",
+});
+
 
 export default function RegexTesterPage() {
   return (

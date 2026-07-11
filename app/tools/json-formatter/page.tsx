@@ -1,4 +1,6 @@
 import JsonFormatter from "@/app/components/tools/JsonFormatter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free JSON Formatter Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free JSON Formatter Online | Beautify & Format JSON | ToolsNestX",
+
   description:
-    "Format, beautify and validate JSON instantly. Free online JSON Formatter & Validator with fast, secure browser-based processing.",
-};
+    "Format, beautify and validate JSON online for free. Instantly organize JSON data with proper indentation for better readability and debugging.",
+
+  keywords: [
+    "json formatter",
+    "format json",
+    "beautify json",
+    "json beautifier",
+    "pretty json",
+    "json formatter online",
+    "free json formatter",
+    "json pretty print",
+    "json viewer",
+    "json editor",
+    "json beautify online",
+    "json validator",
+    "json parser",
+    "format json online",
+    "json formatting tool",
+    "json lint",
+    "json beautifier online",
+    "online json formatter",
+    "api json formatter",
+    "developer json tool",
+    "json syntax formatter",
+    "json indentation",
+    "json code formatter",
+    "json cleaner",
+    "json debugging tool",
+    "json utilities",
+    "json formatting",
+    "best json formatter",
+    "browser json formatter",
+    "toolsnestx json formatter",
+  ],
+
+  path: "/tools/json-formatter",
+});
 
 export default function JsonFormatterPage() {
   return (

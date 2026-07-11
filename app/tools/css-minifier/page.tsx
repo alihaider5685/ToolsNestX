@@ -1,4 +1,6 @@
 import CssMinifier from "@/app/components/tools/CssMinifier";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free CSS Minifier Online | Minify CSS Instantly | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free CSS Minifier Online | Minify & Compress CSS Code | ToolsNestX",
+
   description:
-    "Minify CSS online for free with ToolsNestX. Remove whitespace, comments and unnecessary characters to reduce CSS file size and improve website performance. Fast, secure and browser-based.",
-};
+    "Minify and compress CSS code online for free. Remove unnecessary spaces, comments and line breaks to optimize your stylesheets for faster website performance.",
+
+  keywords: [
+    "css minifier",
+    "minify css",
+    "compress css",
+    "css compressor",
+    "css optimizer",
+    "online css minifier",
+    "free css minifier",
+    "css code minifier",
+    "css code compressor",
+    "minify stylesheet",
+    "css cleaner",
+    "css formatter",
+    "css beautifier",
+    "css optimization",
+    "reduce css size",
+    "optimize css",
+    "remove css whitespace",
+    "remove css comments",
+    "developer css tools",
+    "web developer tools",
+    "browser css minifier",
+    "css online tool",
+    "css code optimizer",
+    "frontend developer tools",
+    "website optimization",
+    "css performance",
+    "best css minifier",
+    "css utility",
+    "css minify online",
+    "toolsnestx css minifier",
+  ],
+
+  path: "/tools/css-minifier",
+});
 
 export default function CssMinifierPage() {
   return (

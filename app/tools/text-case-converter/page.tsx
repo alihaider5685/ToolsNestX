@@ -1,4 +1,6 @@
 import TextCaseConverter from "@/app/components/tools/TextCaseConverter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,38 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Text Case Converter Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Text Case Converter Online | Uppercase, Lowercase & Title Case | ToolsNestX",
+
   description:
-    "Convert text to UPPERCASE, lowercase, Title Case and Sentence case instantly. Free online Text Case Converter for writers, students and professionals.",
-};
+    "Convert text to uppercase, lowercase, title case, sentence case and more instantly with our free online Text Case Converter.",
+
+  keywords: [
+    "text case converter",
+    "uppercase converter",
+    "lowercase converter",
+    "title case converter",
+    "sentence case converter",
+    "camel case converter",
+    "pascal case converter",
+    "snake case converter",
+    "kebab case converter",
+    "convert text case",
+    "change text case",
+    "online text case converter",
+    "free text case converter",
+    "capitalize text",
+    "text formatter",
+    "text utility",
+    "developer tools",
+    "writing tools",
+    "case converter",
+    "toolsnestx text case converter",
+  ],
+
+  path: "/tools/text-case-converter",
+});
 
 export default function TextCaseConverterPage() {
   return (

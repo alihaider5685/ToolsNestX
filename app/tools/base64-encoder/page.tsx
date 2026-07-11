@@ -1,4 +1,6 @@
 import Base64Encoder from "@/app/components/tools/Base64Encoder";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Base64 Encoder Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Base64 Encoder & Decoder Online | Encode & Decode Text | ToolsNestX",
+
   description:
-    "Encode text into Base64 instantly with our free online Base64 Encoder. Fast, secure and browser-based with no installation required.",
-};
+    "Encode and decode Base64 strings online for free. Fast, secure, and browser-based Base64 encoder and decoder for developers, APIs, and web applications.",
+
+  keywords: [
+    "base64 encoder",
+    "base64 decoder",
+    "encode base64",
+    "decode base64",
+    "base64 encode online",
+    "base64 decode online",
+    "online base64 encoder",
+    "online base64 decoder",
+    "free base64 encoder",
+    "free base64 decoder",
+    "base64 converter",
+    "base64 string encoder",
+    "base64 string decoder",
+    "text to base64",
+    "base64 to text",
+    "encode text",
+    "decode text",
+    "developer tools",
+    "api tools",
+    "web developer tools",
+    "base64 utility",
+    "base64 online tool",
+    "browser base64 encoder",
+    "javascript base64",
+    "utf8 to base64",
+    "base64 to utf8",
+    "base64 generator",
+    "base64 parser",
+    "best base64 encoder",
+    "toolsnestx base64 encoder",
+  ],
+
+  path: "/tools/base64-encoder",
+});
 
 export default function Base64EncoderPage() {
   return (

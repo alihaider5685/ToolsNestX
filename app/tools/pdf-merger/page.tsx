@@ -1,4 +1,6 @@
 import PDFMerger from "@/app/components/tools/PDFUploader";
+import { generateToolMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free PDF Merger Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free PDF Merger Online | Merge PDF Files Instantly | ToolsNestX",
+
   description:
-    "Merge multiple PDF files into one document online for free. Fast, secure and browser-based PDF Merger.",
-};
+    "Merge multiple PDF files into a single document online for free. Fast, secure, browser-based PDF merger with no installation or registration required.",
+
+  keywords: [
+    "pdf merger",
+    "merge pdf",
+    "merge pdf online",
+    "combine pdf",
+    "join pdf",
+    "combine pdf files",
+    "merge multiple pdf files",
+    "pdf joiner",
+    "online pdf merger",
+    "free pdf merger",
+    "merge pdf documents",
+    "merge pdf pages",
+    "pdf combine tool",
+    "merge pdf without software",
+    "browser pdf merger",
+    "pdf file merger",
+    "merge documents",
+    "merge scanned pdf",
+    "secure pdf merger",
+    "fast pdf merger",
+    "best pdf merger",
+    "merge pdf free",
+    "pdf editor online",
+    "pdf tools",
+    "combine documents",
+    "merge files online",
+    "pdf organizer",
+    "online document merger",
+    "merge pdf instantly",
+    "toolsnestx pdf merger",
+  ],
+
+  path: "/tools/pdf-merger",
+});
 
 export default function PDFMergerPage() {
   return (

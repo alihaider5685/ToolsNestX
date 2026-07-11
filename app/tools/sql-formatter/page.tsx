@@ -1,4 +1,6 @@
 import SqlFormatter from "@/app/components/tools/SqlFormatter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free SQL Formatter Online | Beautify SQL Queries | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free SQL Formatter Online | Beautify & Format SQL Queries | ToolsNestX",
+
   description:
-    "Format SQL queries online for free with ToolsNestX. Beautify SQL code with proper indentation, improved readability and consistent formatting. Fast, secure and browser-based.",
-};
+    "Format, beautify and organize SQL queries online for free. Improve SQL readability with proper indentation and formatting for MySQL, PostgreSQL, SQL Server, Oracle and more.",
+
+  keywords: [
+    "sql formatter",
+    "format sql",
+    "beautify sql",
+    "sql beautifier",
+    "sql pretty print",
+    "online sql formatter",
+    "free sql formatter",
+    "sql query formatter",
+    "sql formatter online",
+    "sql code formatter",
+    "sql query beautifier",
+    "mysql formatter",
+    "postgresql formatter",
+    "sql server formatter",
+    "oracle sql formatter",
+    "sqlite formatter",
+    "database query formatter",
+    "sql syntax formatter",
+    "developer sql tools",
+    "database tools",
+    "sql code beautifier",
+    "sql indentation",
+    "sql editor",
+    "sql parser",
+    "sql optimizer",
+    "web developer tools",
+    "browser sql formatter",
+    "best sql formatter",
+    "format sql queries",
+    "toolsnestx sql formatter",
+  ],
+
+  path: "/tools/sql-formatter",
+});
 
 export default function SqlFormatterPage() {
   return (

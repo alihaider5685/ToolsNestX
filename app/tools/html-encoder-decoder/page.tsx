@@ -1,4 +1,6 @@
 import HtmlEncoderDecoder from "@/app/components/tools/HtmlEncoderDecoder";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free HTML Encoder & Decoder Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free HTML Encoder & Decoder Online | Encode & Decode HTML Entities | ToolsNestX",
+
   description:
-    "Encode HTML entities and decode HTML text instantly with our free online HTML Encoder & Decoder. Fast, secure and browser-based.",
-};
+    "Encode and decode HTML entities instantly with our free online HTML Encoder & Decoder. Convert special characters to HTML entities and decode them back securely in your browser.",
+
+  keywords: [
+    "html encoder",
+    "html decoder",
+    "encode html",
+    "decode html",
+    "html entity encoder",
+    "html entity decoder",
+    "html entities",
+    "html escape",
+    "html unescape",
+    "online html encoder",
+    "online html decoder",
+    "free html encoder",
+    "free html decoder",
+    "html converter",
+    "html parser",
+    "html special characters",
+    "developer html tools",
+    "browser html encoder",
+    "browser html decoder",
+    "html utility",
+    "html encoding tool",
+    "html decoding tool",
+    "convert html entities",
+    "encode special characters",
+    "decode html entities",
+    "web developer tools",
+    "html online tool",
+    "best html encoder",
+    "html formatter",
+    "toolsnestx html encoder",
+  ],
+
+  path: "/tools/html-encoder-decoder",
+});
+
 
 export default function HtmlEncoderDecoderPage() {
   return (

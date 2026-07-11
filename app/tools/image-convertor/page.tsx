@@ -1,5 +1,6 @@
 import ImageConverter from "@/app/components/tools/ImageUploader";
-
+import { generateToolMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
 import {
   ShieldCheck,
   Zap,
@@ -7,11 +8,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Image Converter Online | ToolsNestX",
+
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Image Compressor Online | Compress JPG, PNG & WebP | ToolsNestX",
+
   description:
-    "Convert JPG, PNG, WebP, BMP and other image formats online for free. Fast, secure and browser-based image converter.",
-};
+    "Compress JPG, JPEG, PNG and WebP images online without losing quality. Reduce image file size instantly with our free, secure and browser-based image compressor.",
+
+  keywords: [
+    "image compressor",
+    "compress image",
+    "compress images online",
+    "image compression",
+    "online image compressor",
+    "free image compressor",
+    "reduce image size",
+    "reduce photo size",
+    "photo compressor",
+    "picture compressor",
+    "compress jpg",
+    "jpg compressor",
+    "compress jpeg",
+    "jpeg compressor",
+    "compress png",
+    "png compressor",
+    "compress webp",
+    "webp compressor",
+    "image optimizer",
+    "optimize images",
+    "compress photos",
+    "shrink image size",
+    "resize and compress image",
+    "lossless image compression",
+    "compress images without losing quality",
+    "best image compressor",
+    "fast image compressor",
+    "browser image compressor",
+    "compress images free",
+    "image size reducer",
+  ],
+
+  path: "/tools/image-compressor",
+});
 
 export default function ImageConverterPage() {
   return (

@@ -1,4 +1,6 @@
 import HashGenerator from "@/app/components/tools/HashGenerator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Hash Generator Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Hash Generator Online | Generate MD5, SHA1 & SHA256 Hash | ToolsNestX",
+
   description:
-    "Generate MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hashes instantly with our free online Hash Generator. Fast, secure and browser-based.",
-};
+    "Generate MD5, SHA1, SHA256, SHA384 and SHA512 hash values online for free. Fast, secure and browser-based hash generator for developers and security professionals.",
+
+  keywords: [
+    "hash generator",
+    "md5 generator",
+    "sha1 generator",
+    "sha256 generator",
+    "sha384 generator",
+    "sha512 generator",
+    "generate hash",
+    "online hash generator",
+    "free hash generator",
+    "hash calculator",
+    "md5 hash",
+    "sha hash",
+    "checksum generator",
+    "hash encoder",
+    "hash utility",
+    "text to hash",
+    "string hash generator",
+    "secure hash generator",
+    "developer hash tool",
+    "browser hash generator",
+    "cryptographic hash",
+    "hash function",
+    "generate md5",
+    "generate sha256",
+    "online checksum",
+    "data hashing tool",
+    "hash online",
+    "encryption tools",
+    "best hash generator",
+    "toolsnestx hash generator",
+  ],
+
+  path: "/tools/hash-generator",
+});
+
 
 export default function HashGeneratorPage() {
   return (

@@ -68,6 +68,8 @@ export default function PasswordGenerator() {
           />
         </div>
 
+         <div className="h-2 bg-black" />
+
         <div className="mt-8 grid grid-cols-2 gap-4">
           <label className="flex items-center gap-2 text-white">
             <input
@@ -106,6 +108,8 @@ export default function PasswordGenerator() {
           </label>
         </div>
 
+         <div className="h-2 bg-gray-1200" />
+
         <button
           onClick={generatePassword}
           className="mt-8 w-full rounded-xl bg-blue-600 py-4 font-semibold text-white hover:bg-blue-700"
@@ -116,6 +120,8 @@ export default function PasswordGenerator() {
           </span>
         </button>
 
+         <div className="h-3 bg-black" />
+
         {password && (
           <>
             <div className="mt-8 rounded-xl border border-gray-700 bg-[#1a1a1a] p-4">
@@ -123,6 +129,8 @@ export default function PasswordGenerator() {
                 {password}
               </p>
             </div>
+
+             <div className="h-2 bg-black" />
 
             <button
               onClick={copyPassword}

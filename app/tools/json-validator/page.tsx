@@ -1,4 +1,6 @@
 import JsonValidator from "@/app/components/tools/JsonValidator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free JSON Validator Online | Validate JSON Instantly | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free JSON Validator Online | Validate & Check JSON | ToolsNestX",
+
   description:
-    "Validate JSON online for free with ToolsNestX. Detect syntax errors, verify JSON structure and ensure valid JSON instantly using our fast, secure and browser-based JSON Validator.",
-};
+    "Validate JSON data online for free. Detect syntax errors, fix invalid JSON, and verify JSON structure instantly with our fast and secure JSON Validator.",
+
+  keywords: [
+    "json validator",
+    "validate json",
+    "json checker",
+    "json validation",
+    "json syntax checker",
+    "json syntax validator",
+    "online json validator",
+    "free json validator",
+    "json lint",
+    "json parser",
+    "json error checker",
+    "json error finder",
+    "json debugger",
+    "check json online",
+    "verify json",
+    "json validation tool",
+    "json file validator",
+    "json object validator",
+    "json formatter",
+    "json beautifier",
+    "developer json tools",
+    "api json validator",
+    "json structure validator",
+    "json code validator",
+    "json testing tool",
+    "best json validator",
+    "browser json validator",
+    "json utilities",
+    "fix json errors",
+    "toolsnestx json validator",
+  ],
+
+  path: "/tools/json-validator",
+});
+
 
 export default function JsonValidatorPage() {
   return (

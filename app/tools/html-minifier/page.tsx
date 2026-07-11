@@ -1,4 +1,6 @@
 import HtmlMinifier from "@/app/components/tools/HtmlMinifier";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free HTML Minifier Online | Minify HTML Code Instantly | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free HTML Minifier Online | Minify & Compress HTML Code | ToolsNestX",
+
   description:
-    "Minify HTML online for free with ToolsNestX. Remove unnecessary whitespace, comments and formatting from HTML code to reduce file size and improve website performance using our fast, secure and browser-based HTML Minifier.",
-};
+    "Minify and compress HTML code online for free. Remove unnecessary spaces, comments and line breaks to optimize your HTML for faster website performance.",
+
+  keywords: [
+    "html minifier",
+    "minify html",
+    "compress html",
+    "html compressor",
+    "html optimizer",
+    "online html minifier",
+    "free html minifier",
+    "html code minifier",
+    "html code compressor",
+    "minify html online",
+    "html cleaner",
+    "html formatter",
+    "html beautifier",
+    "html optimization",
+    "reduce html size",
+    "optimize html",
+    "remove html whitespace",
+    "remove html comments",
+    "developer html tools",
+    "web developer tools",
+    "browser html minifier",
+    "html online tool",
+    "html code optimizer",
+    "frontend developer tools",
+    "website optimization",
+    "html performance",
+    "best html minifier",
+    "html utility",
+    "html minify tool",
+    "toolsnestx html minifier",
+  ],
+
+  path: "/tools/html-minifier",
+});
+
 
 export default function HtmlMinifierPage() {
   return (

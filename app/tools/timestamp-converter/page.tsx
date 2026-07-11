@@ -1,4 +1,6 @@
 import TimestampConverter from "@/app/components/tools/TimestampConverter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Unix Timestamp Converter Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Unix Timestamp Converter Online | Timestamp to Date & Date to Timestamp | ToolsNestX",
+
   description:
-    "Convert Unix timestamps to human-readable dates and convert dates back to Unix timestamps instantly. Fast, accurate and completely browser-based.",
-};
+    "Convert Unix timestamps to human-readable dates and convert dates to Unix timestamps instantly. Free, fast, secure and browser-based timestamp converter.",
+
+  keywords: [
+    "timestamp converter",
+    "unix timestamp converter",
+    "epoch converter",
+    "timestamp to date",
+    "date to timestamp",
+    "unix time converter",
+    "epoch time converter",
+    "online timestamp converter",
+    "free timestamp converter",
+    "convert unix timestamp",
+    "convert timestamp",
+    "timestamp calculator",
+    "unix epoch",
+    "epoch timestamp",
+    "current unix timestamp",
+    "unix date converter",
+    "developer timestamp tool",
+    "api timestamp converter",
+    "browser timestamp converter",
+    "timestamp utility",
+    "time converter",
+    "date converter",
+    "unix time",
+    "epoch calculator",
+    "timestamp generator",
+    "timestamp online",
+    "best timestamp converter",
+    "unix tools",
+    "developer tools",
+    "toolsnestx timestamp converter",
+  ],
+
+  path: "/tools/timestamp-converter",
+});
 
 export default function TimestampConverterPage() {
   return (

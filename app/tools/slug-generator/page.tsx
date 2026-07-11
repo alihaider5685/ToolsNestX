@@ -1,4 +1,6 @@
 import SlugGenerator from "@/app/components/tools/SlugGenerator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,33 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Slug Generator Online | Create SEO-Friendly URL Slugs | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Slug Generator Online | Create SEO Friendly URLs | ToolsNestX",
+
   description:
-    "Generate clean, SEO-friendly URL slugs instantly with ToolsNestX. Convert text into readable, optimized slugs for websites, blogs and eCommerce pages using our fast, secure and browser-based Slug Generator.",
-};
+    "Generate clean SEO-friendly URL slugs from any text. Convert titles into optimized URLs instantly with our free Slug Generator.",
+
+  keywords: [
+    "slug generator",
+    "url slug generator",
+    "seo slug",
+    "slug creator",
+    "generate slug",
+    "seo url",
+    "friendly url",
+    "url generator",
+    "blog slug generator",
+    "wordpress slug",
+    "online slug generator",
+    "free slug generator",
+    "seo tools",
+    "developer tools",
+    "toolsnestx slug generator",
+  ],
+
+  path: "/tools/slug-generator",
+});
 
 export default function SlugGeneratorPage() {
   return (

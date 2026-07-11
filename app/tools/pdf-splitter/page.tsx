@@ -1,4 +1,6 @@
 import PDFSplitter from "@/app/components/tools/PDFSplitter";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free PDF Splitter Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free PDF Splitter Online | Split PDF Pages Instantly | ToolsNestX",
+
   description:
-    "Split PDF files into separate pages or extract specific pages online for free. Fast, secure and browser-based PDF Splitter.",
-};
+    "Split PDF files into separate pages or extract specific page ranges online for free. Fast, secure, and browser-based PDF splitter with no registration required.",
+
+  keywords: [
+    "pdf splitter",
+    "split pdf",
+    "split pdf online",
+    "extract pdf pages",
+    "separate pdf",
+    "pdf page splitter",
+    "online pdf splitter",
+    "free pdf splitter",
+    "split pdf pages",
+    "extract pages from pdf",
+    "split large pdf",
+    "pdf page extractor",
+    "split pdf document",
+    "browser pdf splitter",
+    "split pdf free",
+    "pdf organizer",
+    "pdf tools",
+    "pdf editor online",
+    "extract selected pages",
+    "pdf page remover",
+    "split scanned pdf",
+    "secure pdf splitter",
+    "fast pdf splitter",
+    "best pdf splitter",
+    "split document online",
+    "pdf page separator",
+    "online document splitter",
+    "pdf file splitter",
+    "split multiple pdf pages",
+    "toolsnestx pdf splitter",
+  ],
+
+  path: "/tools/pdf-splitter",
+});
+
 
 export default function PDFSplitterPage() {
   return (

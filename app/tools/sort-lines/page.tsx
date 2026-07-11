@@ -1,4 +1,6 @@
 import SortLines from "@/app/components/tools/SortLines";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,28 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free Sort Lines Online | Sort Text Lines Alphabetically | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free Sort Lines Online | Alphabetically Sort Text | ToolsNestX",
+
   description:
-    "Sort lines of text instantly with ToolsNestX. Arrange text in ascending or descending order, organize lists and clean up content quickly using our fast, secure and browser-based Sort Lines tool.",
-};
+    "Sort text lines alphabetically in ascending or descending order instantly with our free online Sort Lines tool.",
+
+  keywords: [
+    "sort lines",
+    "sort text",
+    "alphabetical sorter",
+    "sort words",
+    "sort list",
+    "sort strings",
+    "online text sorter",
+    "text sorting tool",
+    "developer text tools",
+    "toolsnestx sort lines",
+  ],
+
+  path: "/tools/sort-lines",
+});
 
 export default function SortLinesPage() {
   return (

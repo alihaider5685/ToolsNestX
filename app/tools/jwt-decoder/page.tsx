@@ -1,4 +1,6 @@
 import JwtDecoder from "@/app/components/tools/JwtDecoder";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,48 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free JWT Decoder Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free JWT Decoder Online | Decode JSON Web Tokens | ToolsNestX",
+
   description:
-    "Decode JSON Web Tokens (JWT) instantly with our free online JWT Decoder. View header, payload and token information securely in your browser.",
-};
+    "Decode JSON Web Tokens (JWT) instantly with our free online JWT Decoder. View JWT header, payload, claims and expiration securely in your browser without sending data to a server.",
+
+  keywords: [
+    "jwt decoder",
+    "decode jwt",
+    "jwt token decoder",
+    "json web token decoder",
+    "jwt parser",
+    "jwt viewer",
+    "jwt inspector",
+    "online jwt decoder",
+    "free jwt decoder",
+    "jwt validator",
+    "jwt payload decoder",
+    "jwt header decoder",
+    "decode bearer token",
+    "jwt authentication",
+    "jwt debug tool",
+    "developer jwt tools",
+    "jwt claims viewer",
+    "jwt expiration checker",
+    "browser jwt decoder",
+    "secure jwt decoder",
+    "api jwt decoder",
+    "jwt token parser",
+    "jwt online tool",
+    "jwt utilities",
+    "json token decoder",
+    "best jwt decoder",
+    "jwt security tool",
+    "jwt analysis",
+    "developer tools",
+    "toolsnestx jwt decoder",
+  ],
+
+  path: "/tools/jwt-decoder",
+});
 
 export default function JwtDecoderPage() {
   return (

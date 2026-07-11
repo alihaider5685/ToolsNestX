@@ -1,4 +1,6 @@
 import UuidGenerator from "@/app/components/tools/UuidGenerator";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free UUID Generator Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free UUID Generator Online | Generate UUID v4 & GUID | ToolsNestX",
+
   description:
-    "Generate secure UUIDs instantly with our free online UUID Generator. Create UUID v4 identifiers quickly, securely and directly in your browser.",
-};
+    "Generate secure UUID v4 and GUID values instantly with our free online UUID Generator. Fast, browser-based, and perfect for developers, databases, APIs, and applications.",
+
+  keywords: [
+    "uuid generator",
+    "guid generator",
+    "generate uuid",
+    "generate guid",
+    "uuid v4 generator",
+    "random uuid",
+    "random guid",
+    "online uuid generator",
+    "free uuid generator",
+    "uuid creator",
+    "guid creator",
+    "unique id generator",
+    "unique identifier",
+    "uuid online",
+    "guid online",
+    "developer uuid tool",
+    "database uuid",
+    "api uuid",
+    "secure uuid",
+    "browser uuid generator",
+    "javascript uuid",
+    "uuid utility",
+    "uuid string generator",
+    "generate unique id",
+    "uuid for database",
+    "uuid for applications",
+    "best uuid generator",
+    "uuid tools",
+    "guid tools",
+    "toolsnestx uuid generator",
+  ],
+
+  path: "/tools/uuid-generator",
+});
+
 
 export default function UuidGeneratorPage() {
   return (

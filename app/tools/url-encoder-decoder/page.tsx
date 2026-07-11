@@ -1,4 +1,6 @@
 import UrlEncoderDecoder from "@/app/components/tools/UrlEncoderDecoder";
+import type { Metadata } from "next";
+import { generateToolMetadata } from "@/lib/seo";
 
 import {
   ShieldCheck,
@@ -7,11 +9,49 @@ import {
   MonitorSmartphone,
 } from "lucide-react";
 
-export const metadata = {
-  title: "Free URL Encoder & Decoder Online | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title:
+    "Free URL Encoder & Decoder Online | Encode & Decode URLs | ToolsNestX",
+
   description:
-    "Encode and decode URLs instantly with our free online URL Encoder & Decoder. Secure, fast and browser-based with no installation required.",
-};
+    "Encode and decode URLs online for free. Convert special characters into URL-safe format and decode encoded URLs instantly with our secure browser-based tool.",
+
+  keywords: [
+    "url encoder",
+    "url decoder",
+    "url encode",
+    "url decode",
+    "encode url",
+    "decode url",
+    "online url encoder",
+    "online url decoder",
+    "free url encoder",
+    "free url decoder",
+    "url encoding tool",
+    "url decoding tool",
+    "url converter",
+    "percent encoding",
+    "url escape",
+    "url unescape",
+    "encode special characters",
+    "decode encoded url",
+    "url parser",
+    "developer tools",
+    "web developer tools",
+    "api tools",
+    "browser url encoder",
+    "browser url decoder",
+    "javascript url encode",
+    "javascript url decode",
+    "best url encoder",
+    "url utilities",
+    "url encoding online",
+    "toolsnestx url encoder",
+  ],
+
+  path: "/tools/url-encoder-decoder",
+});
+
 
 export default function UrlEncoderDecoderPage() {
   return (
