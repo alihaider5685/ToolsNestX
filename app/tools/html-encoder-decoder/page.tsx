@@ -2,6 +2,7 @@ import HtmlEncoderDecoder from "@/app/components/tools/HtmlEncoderDecoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function HtmlEncoderDecoderPage() {
       <ToolSchema
   name="HTML Encoder / Decoder"
   description="Encode and decode HTML entities online quickly, securely and for free."
+  path="/tools/html-encoder-decoder"
+/>
+<BreadcrumbSchema
+  name="HTML Encoder / Decoder"
   path="/tools/html-encoder-decoder"
 />
 

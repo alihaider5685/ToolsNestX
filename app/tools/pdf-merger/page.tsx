@@ -2,7 +2,7 @@ import PDFMerger from "@/app/components/tools/PDFUploader";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
 import type { Metadata } from "next";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +59,10 @@ export default function PDFMergerPage() {
       <ToolSchema
   name="PDF Merger"
   description="Merge multiple PDF files into one document online for free. Fast, secure and browser-based PDF merger."
+  path="/tools/pdf-merger"
+/>
+<BreadcrumbSchema
+  name="PDF Merger"
   path="/tools/pdf-merger"
 />
 

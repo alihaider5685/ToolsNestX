@@ -2,7 +2,7 @@ import LoremIpsumGenerator from "@/app/components/tools/LoremIpsumGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -45,6 +45,10 @@ export default function LoremIpsumGeneratorPage() {
       <ToolSchema
   name="Lorem Ipsum Generator"
   description="Generate Lorem Ipsum placeholder text instantly for websites, apps and design projects."
+  path="/tools/lorem-ipsum-generator"
+/>
+<BreadcrumbSchema
+  name="Lorem Ipsum Generator"
   path="/tools/lorem-ipsum-generator"
 />
 

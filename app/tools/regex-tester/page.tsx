@@ -2,6 +2,7 @@ import RegexTester from "@/app/components/tools/RegexTester";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function RegexTesterPage() {
       <ToolSchema
   name="Regex Tester"
   description="Test, validate and debug regular expressions online with instant matching results."
+  path="/tools/regex-tester"
+/>
+<BreadcrumbSchema
+  name="Regex Tester"
   path="/tools/regex-tester"
 />
 

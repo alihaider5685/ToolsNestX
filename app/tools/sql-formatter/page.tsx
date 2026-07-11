@@ -2,6 +2,7 @@ import SqlFormatter from "@/app/components/tools/SqlFormatter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function SqlFormatterPage() {
       <ToolSchema
   name="SQL Formatter"
   description="Format and beautify SQL queries online for better readability and easier debugging."
+  path="/tools/sql-formatter"
+/>
+<BreadcrumbSchema
+  name="SQL Formatter"
   path="/tools/sql-formatter"
 />
 

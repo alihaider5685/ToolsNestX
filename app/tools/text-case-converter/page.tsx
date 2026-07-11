@@ -2,6 +2,7 @@ import TextCaseConverter from "@/app/components/tools/TextCaseConverter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -48,6 +49,10 @@ export default function TextCaseConverterPage() {
       <ToolSchema
   name="Text Case Converter"
   description="Convert text to uppercase, lowercase, title case and sentence case online."
+  path="/tools/text-case-converter"
+/>
+<BreadcrumbSchema
+  name="Text Case Converter"
   path="/tools/text-case-converter"
 />
 

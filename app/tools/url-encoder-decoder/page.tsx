@@ -2,7 +2,7 @@ import UrlEncoderDecoder from "@/app/components/tools/UrlEncoderDecoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -60,6 +60,10 @@ export default function UrlEncoderDecoderPage() {
       <ToolSchema
   name="URL Encoder / Decoder"
   description="Encode and decode URLs online instantly. Convert special characters safely for web use."
+  path="/tools/url-encoder-decoder"
+/>
+<BreadcrumbSchema
+  name="URL Encoder / Decoder"
   path="/tools/url-encoder-decoder"
 />
 

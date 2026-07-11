@@ -2,6 +2,7 @@ import JsonMinifier from "@/app/components/tools/JsMinifier";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function JsonMinifierPage() {
       <ToolSchema
   name="JS Minifier"
   description="Minify JavaScript code online to reduce file size and improve website performance."
+  path="/tools/js-minifier"
+/>
+<BreadcrumbSchema
+  name="JS Minifier"
   path="/tools/js-minifier"
 />
 

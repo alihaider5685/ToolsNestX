@@ -2,6 +2,7 @@ import SortLines from "@/app/components/tools/SortLines";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -38,6 +39,10 @@ export default function SortLinesPage() {
       <ToolSchema
   name="Sort Lines"
   description="Sort text lines alphabetically or numerically online quickly and for free."
+  path="/tools/sort-lines"
+/>
+<BreadcrumbSchema
+  name="Sort Lines"
   path="/tools/sort-lines"
 />
 

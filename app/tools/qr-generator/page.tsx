@@ -2,6 +2,7 @@ import QRGenerator from "@/app/components/tools/QRCodeGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 
 import {
   ShieldCheck,
@@ -60,6 +61,10 @@ export default function QRGeneratorPage() {
       <ToolSchema
   name="QR Generator"
   description="Generate QR codes online for URLs, text, WiFi, email and more."
+  path="/tools/qr-generator"
+/>
+<BreadcrumbSchema
+  name="QR Generator"
   path="/tools/qr-generator"
 />
 

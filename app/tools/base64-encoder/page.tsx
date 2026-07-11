@@ -2,7 +2,7 @@ import Base64Encoder from "@/app/components/tools/Base64Encoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +59,10 @@ export default function Base64EncoderPage() {
       <ToolSchema
   name="Base64 Encoder"
   description="Encode and decode Base64 strings online quickly, securely and for free."
+  path="/tools/base64-encoder"
+/>
+<BreadcrumbSchema
+  name="Base64 Encoder"
   path="/tools/base64-encoder"
 />
 

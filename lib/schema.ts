@@ -47,3 +47,36 @@ export function toolSchema({
     url: `${siteUrl}${path}`,
   };
 }
+
+export function breadcrumbSchema({
+  name,
+  path,
+}: {
+  name: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Tools",
+        item: `${siteUrl}/tools`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name,
+        item: `${siteUrl}${path}`,
+      },
+    ],
+  };
+}

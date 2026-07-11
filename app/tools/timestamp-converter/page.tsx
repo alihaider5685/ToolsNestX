@@ -2,6 +2,7 @@ import TimestampConverter from "@/app/components/tools/TimestampConverter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function TimestampConverterPage() {
       <ToolSchema
   name="Timestamp Converter"
   description="Convert Unix timestamps to readable dates and convert dates back to Unix timestamps online."
+  path="/tools/timestamp-converter"
+/>
+<BreadcrumbSchema
+  name="Timestamp Converter"
   path="/tools/timestamp-converter"
 />
 

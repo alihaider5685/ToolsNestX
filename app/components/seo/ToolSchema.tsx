@@ -25,6 +25,6 @@ export default function ToolSchema({
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(schema),
       }}
-    />
+    /> 
   );
 }

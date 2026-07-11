@@ -2,6 +2,7 @@ import XmlFormatter from "@/app/components/tools/XmlFormatter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function XmlFormatterPage() {
       <ToolSchema
   name="XML Formatter"
   description="Format and beautify XML documents online with proper indentation and readable structure."
+  path="/tools/xml-formatter"
+/>
+<BreadcrumbSchema
+  name="XML Formatter"
   path="/tools/xml-formatter"
 />
 

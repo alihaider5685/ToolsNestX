@@ -2,6 +2,7 @@ import ReverseText from "@/app/components/tools/ReverseText";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -40,7 +41,10 @@ export default function ReverseTextPage() {
   description="Reverse text, words or sentences online instantly with our free browser-based reverse text tool."
   path="/tools/reverse-text"
 />
-
+<BreadcrumbSchema
+  name="Reverse Text"
+  path="/tools/reverse-text"
+/>
       {/* ================= HERO ================= */}
 
       <section className="px-6 pt-24 pb-16">

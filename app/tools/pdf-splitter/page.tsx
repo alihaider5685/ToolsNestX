@@ -2,7 +2,7 @@ import PDFSplitter from "@/app/components/tools/PDFSplitter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -60,6 +60,10 @@ export default function PDFSplitterPage() {
       <ToolSchema
   name="PDF Splitter"
   description="Split PDF pages online for free. Extract specific pages or divide PDF documents quickly and securely."
+  path="/tools/pdf-splitter"
+/>
+<BreadcrumbSchema
+  name="PDF Splitter"
   path="/tools/pdf-splitter"
 />
 

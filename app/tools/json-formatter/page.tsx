@@ -2,7 +2,7 @@ import JsonFormatter from "@/app/components/tools/JsonFormatter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
-
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +59,10 @@ export default function JsonFormatterPage() {
       <ToolSchema
   name="JSON Formatter"
   description="Format, beautify and validate JSON data online for free."
+  path="/tools/json-formatter"
+/>
+<BreadcrumbSchema
+  name="JSON Formatter"
   path="/tools/json-formatter"
 />
 

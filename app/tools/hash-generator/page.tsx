@@ -2,6 +2,7 @@ import HashGenerator from "@/app/components/tools/HashGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function HashGeneratorPage() {
       <ToolSchema
   name="Hash Generator"
   description="Generate MD5, SHA-1, SHA-256, SHA-512 and other hash values online."
+  path="/tools/hash-generator"
+/>
+<BreadcrumbSchema
+  name="Hash Generator"
   path="/tools/hash-generator"
 />
 

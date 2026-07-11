@@ -2,6 +2,7 @@ import JsonValidator from "@/app/components/tools/JsonValidator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function JsonValidatorPage() {
       <ToolSchema
   name="JSON Validator"
   description="Validate JSON data online instantly, detect syntax errors and verify JSON structure."
+  path="/tools/json-validator"
+/>
+<BreadcrumbSchema
+  name="JSON Validator"
   path="/tools/json-validator"
 />
 

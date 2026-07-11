@@ -2,6 +2,7 @@ import WordCounter from "@/app/components/tools/WordCounter";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function WordCounterPage() {
       <ToolSchema
   name="Word Counter"
   description="Count words, characters, sentences and paragraphs online for free."
+  path="/tools/word-counter"
+/>
+<BreadcrumbSchema
+  name="Word Counter"
   path="/tools/word-counter"
 />
 

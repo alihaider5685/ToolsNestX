@@ -2,6 +2,7 @@ import JwtDecoder from "@/app/components/tools/JwtDecoder";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function JwtDecoderPage() {
       <ToolSchema
   name="JWT Decoder"
   description="Decode and inspect JSON Web Tokens (JWT) online securely without sending data to a server."
+  path="/tools/jwt-decoder"
+/>
+<BreadcrumbSchema
+  name="JWT Decoder"
   path="/tools/jwt-decoder"
 />
 

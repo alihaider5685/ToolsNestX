@@ -2,6 +2,7 @@ import PasswordGenerator from "@/app/components/tools/PasswordGenerator";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function PasswordGeneratorPage() {
       <ToolSchema
   name="Password Generator"
   description="Generate strong, secure and random passwords online for free. Create customizable passwords instantly."
+  path="/tools/password-generator"
+/>
+<BreadcrumbSchema
+  name="Password Generator"
   path="/tools/password-generator"
 />
 

@@ -2,6 +2,7 @@ import UuidGenerator from "@/app/components/tools/UuidGenerator";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function UuidGeneratorPage() {
       <ToolSchema
   name="UUID Generator"
   description="Generate secure UUIDs online instantly for development, databases and applications."
+  path="/tools/uuid-generator"
+/>
+<BreadcrumbSchema
+  name="UUID Generator"
   path="/tools/uuid-generator"
 />
 

@@ -2,6 +2,7 @@ import HtmlMinifier from "@/app/components/tools/HtmlMinifier";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -59,6 +60,10 @@ export default function HtmlMinifierPage() {
       <ToolSchema
   name="HTML Minifier"
   description="Minify HTML code online by removing unnecessary spaces, comments and formatting for faster websites."
+  path="/tools/html-minifier"
+/>
+<BreadcrumbSchema
+  name="HTML Minifier"
   path="/tools/html-minifier"
 />
 

@@ -2,6 +2,7 @@ import CssMinifier from "@/app/components/tools/CssMinifier";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function CssMinifierPage() {
       <ToolSchema
   name="CSS Minifier"
   description="Minify CSS code online by removing unnecessary spaces, comments and formatting."
+  path="/tools/css-minifier"
+/>
+<BreadcrumbSchema
+  name="CSS Minifier"
   path="/tools/css-minifier"
 />
 

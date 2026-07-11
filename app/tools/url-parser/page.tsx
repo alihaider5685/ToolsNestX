@@ -2,6 +2,7 @@ import UrlParser from "@/app/components/tools/UrlParser";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -58,6 +59,10 @@ export default function UrlParserPage() {
       <ToolSchema
   name="URL Parser"
   description="Parse URLs online and extract protocol, hostname, path, query parameters and fragments instantly."
+  path="/tools/url-parser"
+/>
+<BreadcrumbSchema
+  name="URL Parser"
   path="/tools/url-parser"
 />
 

@@ -2,6 +2,7 @@ import ImageConverter from "@/app/components/tools/ImageUploader";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -60,6 +61,10 @@ export default function ImageConverterPage() {
       <ToolSchema
   name="Image Converter"
   description="Convert JPG, PNG, WebP and other image formats online for free."
+  path="/tools/image-convertor"
+/>
+<BreadcrumbSchema
+  name="Image Converter"
   path="/tools/image-convertor"
 />
 

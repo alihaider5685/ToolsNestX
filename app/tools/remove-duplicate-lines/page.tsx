@@ -2,6 +2,7 @@ import RemoveDuplicateLines from "@/app/components/tools/RemoveDuplicateLines";
 import type { Metadata } from "next";
 import { generateToolMetadata } from "@/lib/seo";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -39,6 +40,10 @@ export default function RemoveDuplicateLinesPage() {
       <ToolSchema
   name="Remove Duplicate Lines"
   description="Remove duplicate lines from text instantly online while preserving unique content."
+  path="/tools/remove-duplicate-lines"
+/>
+<BreadcrumbSchema
+  name="Remove Duplicate Lines"
   path="/tools/remove-duplicate-lines"
 />
 

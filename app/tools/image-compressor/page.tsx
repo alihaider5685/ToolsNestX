@@ -2,6 +2,7 @@ import ImageCompressor from "@/app/components/tools/ImageCompressor";
 import { generateToolMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   ShieldCheck,
   Zap,
@@ -60,6 +61,10 @@ export default function ImageCompressorPage() {
       <ToolSchema
   name="Image Compressor"
   description="Compress JPG, JPEG, PNG and WebP images online without losing quality."
+  path="/tools/image-compressor"
+/>
+<BreadcrumbSchema
+  name="Image Compressor"
   path="/tools/image-compressor"
 />
 
