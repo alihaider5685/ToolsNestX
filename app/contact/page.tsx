@@ -398,7 +398,7 @@ export default function ContactPage() {
 
       <div className="h-3 bg-black" />
 
-      {/* ================= FAQ ================= */}
+       {/* ================= FAQ ================= */}
 
       <section className="px-6 py-24">
 
@@ -464,53 +464,6 @@ export default function ContactPage() {
       </section>
 
        <div className="h-4 bg-black" />
-
-            {/* ================= PRIVACY PROMISE ================= */}
-
-      <section className="px-6 py-24">
-
-        <div className="mx-auto max-w-screen-2xl">
-
-          <div className="rounded-3xl border border-blue-500/20 bg-gradient-to-br from-blue-600/10 via-[#0b0b0b] to-cyan-500/10 p-10">
-
-            <div className="flex items-start gap-5">
-
-              <ShieldCheck className="mt-1 h-10 w-10 text-blue-400" />
-
-              <div>
-
-                <h2 className="text-3xl font-black">
-
-                  Your Privacy Matters
-
-                </h2>
-
-                <p className="mt-6 leading-8 text-gray-400">
-
-                  Any email you send to ToolsNestX is used only to respond to
-                  your inquiry. We never sell, rent or share your personal
-                  information with third parties.
-
-                </p>
-
-                <p className="mt-4 leading-8 text-gray-400">
-
-                  Whether you're reporting a bug, requesting a feature or asking
-                  a question, your communication remains private and secure.
-
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <div className="h-4 bg-black" />
 
       {/* ================= CTA ================= */}
 

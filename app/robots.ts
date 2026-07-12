@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://fileneestx.vercel.app/";
+  const baseUrl = "https://fileneestx.online/";
 
   return {
     rules: {
@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: `$https://fileneestx.vercel.app//sitemap.xml`,
+    sitemap: `$https://fileneestx.online//sitemap.xml`,
 
     host: baseUrl,
   };

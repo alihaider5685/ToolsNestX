@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const SITE_NAME = "ToolsNestX";
-const SITE_URL = "https://toolsnestx.com";
+const SITE_URL = "https://toolsnestx.online";
 
 type SEOProps = {
   title: string;

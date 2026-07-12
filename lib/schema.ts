@@ -1,4 +1,4 @@
-export const siteUrl = "https://www.toolsnestx.com";
+export const siteUrl = "https://www.toolsnestx.online";
 
 export const organization = {
   "@context": "https://schema.org",

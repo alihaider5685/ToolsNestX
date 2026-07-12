@@ -9,7 +9,7 @@ import Footer from "@/app/components/layout/Footer";
 import { organization, website } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.toolsnestx.com"),
+  metadataBase: new URL("https://www.toolsnestx.online"),
 
   title: {
     default: "ToolsNestX - Free Online Tools",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "ToolsNestX - Free Online Tools",
     description:
       "Free online tools for PDF, Images, Text and Developers.",
-    url: "https://www.toolsnestx.com",
+    url: "https://www.toolsnestx.online",
     siteName: "ToolsNestX",
     type: "website",
     locale: "en_US",
