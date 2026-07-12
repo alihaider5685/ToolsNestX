@@ -75,7 +75,7 @@ export default function ToolCard() {
             <Link
               key={tool.name}
               href={tool.href}
-             className="group flex h-[190px] flex-col rounded-3xl border border-white/10 bg-gradient-to-b from-[#171717] to-[#0b0b0b] px-8 py-7 transition-all duration-300 ..."
+             className="group flex h-[190px] flex-col rounded-3xl border border-white/10 bg-[#171717] px-8 py-7"
             >
               {/* Icon */}
               <div
