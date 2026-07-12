@@ -3,23 +3,23 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://ToolsNestX.online",
+      url: "https://toolsnestx.online",
       lastModified: new Date(),
     },
     {
-      url: "https://ToolsNestX.online/about",
+      url: "https://toolsnestx.online/about",
       lastModified: new Date(),
     },
     {
-      url: "https://ToolsNestX.online/contact",
+      url: "https://toolsnestx.online/contact",
       lastModified: new Date(),
     },
     {
-      url: "https://ToolsNestX.online/privacy-policy",
+      url: "https://toolsnestx.online/privacy-policy",
       lastModified: new Date(),
     },
     {
-      url: "https://ToolsNestX.online/terms-and-conditions",
+      url: "https://toolsnestx.online/terms-and-conditions",
       lastModified: new Date(),
     },
   ];
