@@ -1,260 +1,115 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import Button from "@/app/components/common/Button";
-import { ArrowRight } from "lucide-react";
+import ToolSchema from "@/app/components/seo/ToolSchema";
+import BreadcrumbSchema from "@/app/components/seo/BreadcrumbSchema";
 import {
   Mail,
   Clock3,
-  Globe,
-  Sparkles,
+  ShieldCheck,
+  MessageCircle,
+  Bug,
+  Lightbulb,
+  Briefcase,
 } from "lucide-react";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Contact Us | ToolsNestX",
   description:
-    "Get in touch with the ToolsNestX team. We're always happy to answer your questions, receive feedback, and provide support.",
+    "Contact ToolsNestX for support, bug reports, feature requests or business inquiries. We'd love to hear from you.",
 };
 
 export default function ContactPage() {
   return (
-    <main className="overflow-hidden bg-black text-white">
+    <main className="min-h-screen bg-black text-white overflow-hidden">
 
-      {/* ================= BACKGROUND ================= */}
+      <ToolSchema
+  name="Contact ToolsNestX"
+  description="Contact ToolsNestX for support, feature requests, bug reports and business inquiries."
+  path="/contact"
+/>
 
-      <div className="fixed inset-0 -z-10 bg-black">
-
-        <div className="absolute inset-0 bg-gradient-to-br from-[#020617] via-black to-[#06152d]" />
-
-        <div
-          className="
-          absolute inset-0
-          bg-[linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)]
-          bg-[size:80px_80px]
-          opacity-20
-        "
-        />
-
-        <div className="absolute left-1/2 top-0 h-[700px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[180px]" />
-
-      </div>
+<BreadcrumbSchema
+  name="Contact"
+  path="/contact"
+/>
 
       {/* ================= HERO ================= */}
 
-      <section className="relative">
+      <section className="relative px-6 pt-24 pb-20">
 
-        <div className="mx-auto flex min-h-[90vh] max-w-screen-2xl flex-col items-center justify-center px-6 pt-28 pb-20 text-center">
+        <div className="absolute inset-0 -z-10">
 
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl">
+          <div className="absolute left-1/2 top-0 h-[450px] w-[450px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[130px]" />
 
-            <Sparkles size={16} />
+        </div>
 
-            We'd Love To Hear From You
+        <div className="mx-auto max-w-screen-2xl">
 
-          </div>
+          <div className="text-center">
 
-          <h1 className="mt-10 max-w-6xl text-5xl font-black leading-tight md:text-7xl lg:text-8xl">
+            <div className="h-2 bg-black" />
 
-            Contact{" "}
+            <span className="inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-5 py-2 text-sm font-semibold text-blue-300">
 
-            <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
-
-              ToolsNestX
+              CONTACT US
 
             </span>
 
-          </h1>
+            <h1 className="mt-8 text-4xl font-black tracking-tight md:text-5xl lg:text-6xl">
 
-          <p className="mx-auto mt-10 max-w-4xl text-xl leading-10 text-gray-400">
+              We'd Love To Hear From You
 
-            Whether you have questions, suggestions, business inquiries or
-            need support with one of our online tools, we're always ready
-            to help. Our goal is to provide fast responses and the best
-            possible experience for every visitor.
+            </h1>
 
-          </p>
+            <div className="h-1 bg-black" />
 
-          <div className="mt-14 flex flex-wrap justify-center gap-5">
-  <Button
-    href="/"
-    icon={<ArrowRight size={16} />}
-  >
-    Explore Tools
-  </Button>
+            <p className="mx-auto mt-8 max-w-8xl text-lg leading-8 text-gray-400">
 
-  <Button
-    href="#contact-form"
-    variant="secondary"
-  >
-    Send Message
-  </Button>
-</div>
+              Whether you have a question, found a bug, want to suggest a new
+              tool, or have a business inquiry, we're always happy to hear your
+              feedback.
 
-        </div>
-
-      </section>
-
-      {/* ================= CONTACT INFO ================= */}
-
-      <section className="px-6 pb-28">
-
-        <div className="mx-auto max-w-7xl">
-
-          <div className="grid gap-8 md:grid-cols-3">
-
-            <div className="rounded-[32px] border border-white/10 bg-white/5 p-10 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-blue-500">
-
-              <Mail
-                size={46}
-                className="mx-auto mb-6 text-blue-400"
-              />
-
-              <h3 className="text-3xl font-bold">
-
-                Email Support
-
-              </h3>
-
-              <p className="mt-6 text-lg leading-9 text-gray-400">
-
-                support@ToolsNestX.com
-
-              </p>
-
-            </div>
-
-            <div className="rounded-[32px] border border-white/10 bg-white/5 p-10 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-500">
-
-              <Clock3
-                size={46}
-                className="mx-auto mb-6 text-cyan-400"
-              />
-
-              <h3 className="text-3xl font-bold">
-
-                Fast Response
-
-              </h3>
-
-              <p className="mt-6 text-lg leading-9 text-gray-400">
-
-                Most emails are answered within
-                24 hours.
-
-              </p>
-
-            </div>
-
-            <div className="rounded-[32px] border border-white/10 bg-white/5 p-10 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-blue-500">
-
-              <Globe
-                size={46}
-                className="mx-auto mb-6 text-blue-400"
-              />
-
-              <h3 className="text-3xl font-bold">
-
-                Worldwide Access
-
-              </h3>
-
-              <p className="mt-6 text-lg leading-9 text-gray-400">
-
-                ToolsNestX is available
-                anytime, anywhere.
-
-              </p>
-
-            </div>
+            </p>
 
           </div>
 
         </div>
 
       </section>
-            {/* ================= CONTACT FORM ================= */}
 
-      <section id="contact-form" className="px-6 py-28">
+      <div className="h-4 bg-black" />
 
-        <div className="mx-auto max-w-7xl">
+      {/* ================= CONTACT CARD ================= */}
 
-          <div className="grid gap-12 lg:grid-cols-2">
+      <section className="px-6 pb-24">
 
-            {/* ================= LEFT ================= */}
+        <div className="mx-auto max-w-screen-2xl">
 
-            <div>
+          <div className="grid gap-8 lg:grid-cols-2">
 
-              <p className="mb-5 text-sm font-bold uppercase tracking-[8px] text-blue-500">
-                SEND MESSAGE
-              </p>
+            {/* Email */}
 
-              <h2 className="text-5xl font-black leading-tight md:text-6xl">
+            <div className="rounded-3xl border border-white/10 bg-[#0b0b0b] p-10">
 
-                Let's Start A{" "}
+              <div className="flex items-center gap-4">
 
-                <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
+                <div className="rounded-2xl bg-blue-600/20 p-4">
 
-                  Conversation
-
-                </span>
-
-              </h2>
-
-              <p className="mt-8 text-xl leading-10 text-gray-400">
-
-                We'd love to hear your ideas, suggestions or feedback.
-                If you've found a bug, have a feature request or simply
-                want to say hello, feel free to contact us.
-
-              </p>
-
-              <div className="mt-12 space-y-8">
-
-                <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
-
-                  <h3 className="text-2xl font-bold">
-
-                    General Support
-
-                  </h3>
-
-                  <p className="mt-4 text-lg leading-9 text-gray-400">
-
-                    Need help using ToolsNestX tools?
-                    We'll gladly guide you.
-
-                  </p>
+                  <Mail className="h-8 w-8 text-blue-400" />
 
                 </div>
 
-                <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+                <div>
 
-                  <h3 className="text-2xl font-bold">
+                  <h2 className="text-3xl font-bold">
 
-                    Business Inquiries
+                    Email Us
 
-                  </h3>
+                  </h2>
 
-                  <p className="mt-4 text-lg leading-9 text-gray-400">
+                  <p className="mt-2 text-gray-400">
 
-                    Interested in partnerships,
-                    collaborations or advertising?
-                    We'd love to connect.
-
-                  </p>
-
-                </div>
-
-                <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
-
-                  <h3 className="text-2xl font-bold">
-
-                    Feature Requests
-
-                  </h3>
-
-                  <p className="mt-4 text-lg leading-9 text-gray-400">
-
-                    Have an idea for a new tool?
-                    Tell us and we'll consider adding it.
+                    For support, feedback or business inquiries.
 
                   </p>
 
@@ -262,99 +117,121 @@ export default function ContactPage() {
 
               </div>
 
-            </div>
+              <div className="h-2 bg-gray-1000" />
 
-            {/* ================= RIGHT ================= */}
+              <div className="mt-10 rounded-2xl border border-blue-500/20 bg-blue-500/5 p-6">
 
-            <div className="rounded-[36px] border border-white/10 bg-white/5 p-10 backdrop-blur-xl">
+                <p className="text-sm uppercase tracking-[3px] text-blue-300">
 
-              <h3 className="text-3xl font-black">
+                  Email Address
 
-                Send Us A Message
+                </p>
 
-              </h3>
+                <a
+                  href="mailto:toolsnestx@gmail.com"
+                  className="mt-4 block break-all text-2xl font-bold text-white hover:text-blue-400 transition"
+                >
+                  toolsnestx@gmail.com
+                </a>
 
-              <p className="mt-5 text-lg leading-8 text-gray-400">
+              </div>
 
-                Fill out the form below and we'll get back to you
-                as soon as possible.
+              <p className="mt-8 leading-8 text-gray-400">
+
+                Clicking the email address above will open your default email
+                application, allowing you to contact us directly.
 
               </p>
 
-              <form className="mt-10 space-y-6">
+            </div>
 
-                <div>
+            {/* Response Time */}
 
-                  <label className="mb-3 block font-medium text-gray-300">
+            <div className="rounded-3xl border border-white/10 bg-[#0b0b0b] p-10">
 
-                    Full Name
+              <div className="flex items-center gap-4">
 
-                  </label>
+                <div className="rounded-2xl bg-blue-600/20 p-4">
 
-                  <input
-                    type="text"
-                    placeholder="John Doe"
-                    className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 outline-none transition focus:border-blue-500"
-                  />
+                  <Clock3 className="h-8 w-8 text-blue-400" />
 
                 </div>
 
                 <div>
 
-                  <label className="mb-3 block font-medium text-gray-300">
+                  <h2 className="text-3xl font-bold">
 
-                    Email Address
+                    Response Time
 
-                  </label>
+                  </h2>
 
-                  <input
-                    type="email"
-                    placeholder="you@example.com"
-                    className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 outline-none transition focus:border-blue-500"
-                  />
+                  <p className="mt-2 text-gray-400">
 
-                </div>
+                    We reply as quickly as possible.
 
-                <div>
-
-                  <label className="mb-3 block font-medium text-gray-300">
-
-                    Subject
-
-                  </label>
-
-                  <input
-                    type="text"
-                    placeholder="How can we help?"
-                    className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 outline-none transition focus:border-blue-500"
-                  />
+                  </p>
 
                 </div>
 
-                <div>
+              </div>
 
-                  <label className="mb-3 block font-medium text-gray-300">
+              <div className="h-2 bg-gray-1000" />
 
-                    Message
+              <div className="mt-10 space-y-6">
 
-                  </label>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
 
-                  <textarea
-                    rows={6}
-                    placeholder="Write your message..."
-                    className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 outline-none transition focus:border-blue-500"
-                  />
+                  <h3 className="text-xl font-bold">
+
+                    General Support
+
+                  </h3>
+
+                  <p className="mt-3 text-gray-400">
+
+                    Usually within 24–48 hours.
+
+                  </p>
 
                 </div>
 
-                <button
-                  type="submit"
-                  className="w-full rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 text-lg font-bold transition-all duration-300 hover:scale-[1.02]"
-                >
-                  Send Message
-                </button>
+                <div className="h-2 bg-gray-1000" />
 
-              </form>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+
+                  <h3 className="text-xl font-bold">
+
+                    Business Inquiries
+
+                  </h3>
+
+                  <p className="mt-3 text-gray-400">
+
+                    We aim to respond within one business day.
+
+                  </p>
+
+                </div>
+
+                <div className="h-2 bg-gray-1000" />
+
+                <div className="rounded-2xl border border-blue-500/20 bg-blue-500/5 p-6">
+
+                  <div className="flex items-center gap-3">
+
+                    <ShieldCheck className="h-6 w-6 text-blue-400" />
+
+                    <p className="font-semibold">
+
+                      Your email is kept private and never shared.
+
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
 
             </div>
 
@@ -363,82 +240,267 @@ export default function ContactPage() {
         </div>
 
       </section>
-            {/* ================= FAQ ================= */}
 
-      <section className="px-6 py-28">
+      <div className="h-5 bg-black" />
 
-        <div className="mx-auto max-w-7xl">
+      {/* ================= CONTACT REASONS ================= */}
 
-          <div className="mx-auto max-w-4xl text-center">
+      <section className="px-6 py-24">
 
-            <p className="mb-5 text-sm font-bold uppercase tracking-[8px] text-blue-500">
-              QUICK ANSWERS
+        <div className="mx-auto max-w-screen-2xl">
+
+          <div className="text-center">
+
+            <span className="text-sm font-bold uppercase tracking-[8px] text-blue-400">
+
+              WHY CONTACT US
+
+            </span>
+
+            <h2 className="mt-6 text-4xl font-black">
+
+              How Can We Help?
+
+            </h2>
+
+            <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
+
+              Whether you're reporting an issue or sharing an idea, we'd love
+              to hear from you.
+
             </p>
 
-            <h2 className="text-5xl font-black leading-tight md:text-6xl">
+          </div>
 
-              Frequently Asked{" "}
+          <div className="h-3 bg-black" />
 
-              <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
+          <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+                        <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
 
-                Questions
+              <MessageCircle className="h-12 w-12 text-blue-400" />
 
-              </span>
+              <h3 className="mt-8 text-2xl font-bold">
+
+                General Questions
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-gray-400">
+
+                Need help using one of our tools? Have a question about
+                ToolsNestX? Feel free to reach out anytime.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+
+              <Bug className="h-12 w-12 text-blue-400" />
+
+              <h3 className="mt-8 text-2xl font-bold">
+
+                Bug Reports
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-gray-400">
+
+                Found something that isn't working correctly? Let us know and
+                we'll investigate it as quickly as possible.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+
+              <Lightbulb className="h-12 w-12 text-blue-400" />
+
+              <h3 className="mt-8 text-2xl font-bold">
+
+                Feature Requests
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-gray-400">
+
+                Have an idea for a new online tool or feature? We'd love to hear
+                your suggestions.
+
+              </p>
+
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+
+              <Briefcase className="h-12 w-12 text-blue-400" />
+
+              <h3 className="mt-8 text-2xl font-bold">
+
+                Business Inquiries
+
+              </h3>
+
+              <p className="mt-5 leading-8 text-gray-400">
+
+                For partnerships, collaborations or business opportunities,
+                contact us by email.
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <div className="h-5 bg-black" />
+
+      {/* ================= WHY CHOOSE TOOLSNESTX ================= */}
+
+      <section className="px-6 py-24">
+
+        <div className="mx-auto max-w-screen-2xl">
+
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-10">
+
+            <h2 className="text-4xl font-black">
+
+              Why Contact ToolsNestX?
+
+            </h2>
+
+            <p className="mt-8 leading-8 text-gray-400">
+
+              Our goal is to build simple, fast and secure online tools that
+              help everyone work more efficiently. Your feedback helps us fix
+              issues, improve existing tools and create new features that users
+              actually need.
+
+            </p>
+
+            <p className="mt-6 leading-8 text-gray-400">
+
+              Every suggestion, bug report and business inquiry is carefully
+              reviewed. We appreciate every message we receive and always do our
+              best to respond as quickly as possible.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <div className="h-3 bg-black" />
+
+      {/* ================= FAQ ================= */}
+
+      <section className="px-6 py-24">
+
+        <div className="mx-auto max-w-screen-2xl">
+
+          <div className="text-center">
+
+            <span className="text-sm font-bold uppercase tracking-[8px] text-blue-400">
+
+              FAQ
+
+            </span>
+
+            <h2 className="mt-6 text-4xl font-black">
+
+              Frequently Asked Questions
 
             </h2>
 
           </div>
 
-          <div className="mx-auto mt-16 max-w-5xl space-y-8">
+          <div className="h-3 bg-black" />
 
-            <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+          <div className="mt-16 space-y-6">
 
-              <h3 className="text-2xl font-bold">
+            {[
+              {
+                q: "How can I contact ToolsNestX?",
+                a: "Simply send an email to toolsnestx@gmail.com and we'll get back to you as soon as possible.",
+              },
+              {
+                q: "How long does it take to receive a reply?",
+                a: "Most emails receive a response within 24–48 hours.",
+              },
+              {
+                q: "Can I request a new tool?",
+                a: "Absolutely. We welcome ideas for new tools and features.",
+              },
+              {
+                q: "Can I report bugs?",
+                a: "Yes. If you find any issue while using our tools, please email us with as much detail as possible.",
+              },
+            ].map((item) => (
+              <details
+                key={item.q}
+                className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-blue-500/30"
+              >
+                <summary className="cursor-pointer list-none text-lg font-semibold">
+                  {item.q}
+                </summary>
 
-                How quickly will I receive a reply?
+                <p className="mt-5 leading-8 text-gray-400">
+                  {item.a}
+                </p>
 
-              </h3>
+              </details>
+            ))}
 
-              <p className="mt-5 text-lg leading-9 text-gray-400">
+          </div>
 
-                We usually respond within 24 hours, although response times
-                may vary during weekends or holidays.
+        </div>
 
-              </p>
+      </section>
 
-            </div>
+       <div className="h-4 bg-black" />
 
-            <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+            {/* ================= PRIVACY PROMISE ================= */}
 
-              <h3 className="text-2xl font-bold">
+      <section className="px-6 py-24">
 
-                Can I request a new online tool?
+        <div className="mx-auto max-w-screen-2xl">
 
-              </h3>
+          <div className="rounded-3xl border border-blue-500/20 bg-gradient-to-br from-blue-600/10 via-[#0b0b0b] to-cyan-500/10 p-10">
 
-              <p className="mt-5 text-lg leading-9 text-gray-400">
+            <div className="flex items-start gap-5">
 
-                Absolutely. We always welcome suggestions for new tools and
-                improvements that can help our users.
+              <ShieldCheck className="mt-1 h-10 w-10 text-blue-400" />
 
-              </p>
+              <div>
 
-            </div>
+                <h2 className="text-3xl font-black">
 
-            <div className="rounded-[30px] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+                  Your Privacy Matters
 
-              <h3 className="text-2xl font-bold">
+                </h2>
 
-                Do you provide business support?
+                <p className="mt-6 leading-8 text-gray-400">
 
-              </h3>
+                  Any email you send to ToolsNestX is used only to respond to
+                  your inquiry. We never sell, rent or share your personal
+                  information with third parties.
 
-              <p className="mt-5 text-lg leading-9 text-gray-400">
+                </p>
 
-                Yes. We are happy to discuss partnerships, collaborations
-                and other business opportunities.
+                <p className="mt-4 leading-8 text-gray-400">
 
-              </p>
+                  Whether you're reporting a bug, requesting a feature or asking
+                  a question, your communication remains private and secure.
+
+                </p>
+
+              </div>
 
             </div>
 
@@ -447,45 +509,31 @@ export default function ContactPage() {
         </div>
 
       </section>
+
+      <div className="h-4 bg-black" />
 
       {/* ================= CTA ================= */}
 
-      <section className="px-6 pb-32">
+      <section className="px-6 pb-28">
 
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-screen-2xl">
 
-          <div className="rounded-[42px] bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 p-14 text-center md:p-20">
+          <div className="rounded-[40px] border border-blue-500/20 bg-gradient-to-br from-blue-600/15 via-[#0b0b0b] to-cyan-500/10 p-14 text-center">
 
-            <h2 className="text-4xl font-black text-white md:text-6xl">
+            <h2 className="text-4xl font-black">
 
-              We're Always Ready To Help
+              Explore More Free Online Tools
 
             </h2>
 
-            <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-blue-100">
+            <p className="mx-auto mt-6 max-w-8xl text-lg leading-8 text-gray-400">
 
-              Whether you have questions, feedback, feature ideas or need
-              technical support, the ToolsNestX team is only one message away.
+              ToolsNestX offers powerful browser-based tools for PDFs, Images,
+              Text Utilities and Developers — all free, fast and privacy
+              focused.
 
             </p>
 
-            <div className="mt-12 flex flex-wrap justify-center gap-5">
-
-              <a
-                href="mailto:support@ToolsNestX.com"
-                className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-blue-700 transition-all duration-300 hover:scale-105"
-              >
-                Email Support
-              </a>
-
-              <Link
-                href="/"
-                className="rounded-2xl border border-white/30 bg-white/10 px-8 py-4 text-lg font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:bg-white/20"
-              >
-                Back To Home
-              </Link>
-
-            </div>
 
           </div>
 
@@ -493,6 +541,9 @@ export default function ContactPage() {
 
       </section>
 
+      <div className="h-5 bg-black" />
+
     </main>
+
   );
 }
