@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://fileneestx.online/";
+  const baseUrl = "https://toolsnestx.online";
 
   return {
     rules: {
@@ -9,8 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: `$https://fileneestx.online//sitemap.xml`,
-
+    sitemap: `${baseUrl}/sitemap.xml`,
     host: baseUrl,
   };
 }
