@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="text-4xl font-bold text-white">
-              File<span className="text-blue-500">NestX</span>
+              Tools<span className="text-blue-500">NestX</span>
             </h2>
 
             <p className="mt-6 leading-8 text-gray-400">
