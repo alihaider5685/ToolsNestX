@@ -94,7 +94,6 @@ const faqSchema =
         <div className="mx-auto max-w-screen-2xl px-6">
           <BlogContent content={blog.content} />
 
-          <BlogContent content={blog.content} />
 
     {blog.faq && blog.faq.length > 0 && (
       <div className="mt-20">
