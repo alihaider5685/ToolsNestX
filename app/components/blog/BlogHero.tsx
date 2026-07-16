@@ -1,4 +1,5 @@
 import { CalendarDays, Clock3, User } from "lucide-react";
+import Image from "next/image";
 
 type Props = {
   category: string;
@@ -19,6 +20,7 @@ export default function BlogHero({
   publishedAt,
   updatedAt,
   readTime,
+  image,
 }: Props) {
   return (
     <section className="relative overflow-hidden">
@@ -55,6 +57,17 @@ export default function BlogHero({
             <User size={16} />
             <span>{author}</span>
           </div>
+         
+       <div className="mt-12 w-full max-w-6xl">
+     <Image
+    src={image}
+    alt={title}
+    width={1200}
+    height={675}
+    priority
+    className="w-full rounded-3xl border border-white/10 object-cover shadow-2xl"
+  />
+   </div>
 
           <div className="flex items-center gap-2">
             <CalendarDays size={16} />
