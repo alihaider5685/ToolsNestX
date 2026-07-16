@@ -396,7 +396,7 @@ Formatting JSON improves readability, reduces debugging time, and helps develope
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/image-converter.webp",
 
   toolUrl: "/tools/image-converter",
 
@@ -521,7 +521,7 @@ Online image conversion is a fast and convenient way to optimize images for webs
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/pdf-splitter.webp",
 
   toolUrl: "/tools/pdf-splitter",
 
@@ -635,7 +635,7 @@ An online PDF splitter is one of the fastest ways to organize documents, extract
 
   readTime: "6 min read",
 
-  image: "",
+  image:  "/images/blogs/word-counter.webp",
 
   toolUrl: "/tools/word-counter",
 
@@ -768,7 +768,7 @@ An online word counter saves time and helps writers create accurate, readable, a
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/qr-code-generator.webp",
 
   toolUrl: "/tools/qr-generator",
 
@@ -896,7 +896,7 @@ QR codes provide a quick and convenient way to share digital information. They a
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/base64-encoder.webp",
 
   toolUrl: "/tools/base64-encoder",
 
@@ -1024,7 +1024,7 @@ A Base64 encoder and decoder is an essential utility for developers working with
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/uuid-generator.webp",
 
   toolUrl: "/tools/uuid-generator",
 
@@ -1146,7 +1146,7 @@ UUIDs provide a reliable way to generate unique identifiers for modern applicati
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/url-encode-and-decode.webp",
 
   toolUrl: "/tools/url-encoder",
 
@@ -1288,7 +1288,7 @@ URL encoding and decoding help websites, APIs, and web applications communicate 
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/html-formatter.webp",
 
   toolUrl: "/tools/html-formatter",
 
@@ -1394,7 +1394,7 @@ An HTML formatter helps developers write cleaner, more maintainable code while r
 
   readTime: "6 min read",
 
-  image: "",
+  image: "/images/blogs/html-formatter.webp",
 
   toolUrl: "/tools/css-minifier",
 
