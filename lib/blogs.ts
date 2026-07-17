@@ -61,6 +61,12 @@ export const blogs: Blog[] = [
       "reduce image size",
       "image optimization",
       "webp converter",
+      "image compressor online",
+      "image compressor free",
+      "png image compressor",
+      "image compressor android",
+      "image compressor app for pc",
+      "jpg image compressor",
     ],
 
     related: [
@@ -277,6 +283,12 @@ Merging PDF files online is fast, secure, and convenient. It helps organize docu
       "json validator",
       "beautify json",
       "format json",
+      "best json formatter",
+      "json formatter online",
+      "vscode json formatter",
+      "free json formatter",
+      "auto json formatter",
+      "format json",
     ],
 
     related: [
@@ -408,6 +420,13 @@ Formatting JSON improves readability, reduces debugging time, and helps develope
     "png to webp",
     "image format converter",
     "online image converter",
+    "image convert",
+    "image converter to jpg",
+    "convert image to webp",
+    "image converter online",
+    "image converter to png",
+    "convert images free",
+    "image converter free",
   ],
 
   related: [
@@ -533,6 +552,12 @@ Online image conversion is a fast and convenient way to optimize images for webs
     "extract pdf pages",
     "online pdf splitter",
     "separate pdf pages",
+    "pdf splitter free",
+    "pdf splitter free online",
+    "pdf splitter online",
+    "automatic pdf splitter",
+    "android pdf splitter",
+    "online pdf splitter",
   ],
 
   related: [
@@ -647,6 +672,10 @@ An online PDF splitter is one of the fastest ways to organize documents, extract
     "count words",
     "online word counter",
     "text counter",
+    "free text counter",
+    "free word counter",
+    "word counter free",
+    "text word counter",
   ],
 
   related: [
@@ -780,6 +809,13 @@ An online word counter saves time and helps writers create accurate, readable, a
     "free qr generator",
     "online qr code",
     "generate qr code",
+    "google qr code generator",
+    "online qr generator",
+   "free qr generator",
+   "free qr code generator",
+   "qr code generator free",
+   "link to qr generator",
+   "link to qr code generator",
   ],
 
   related: [
@@ -908,6 +944,11 @@ QR codes provide a quick and convenient way to share digital information. They a
     "encode base64",
     "decode base64",
     "online base64 tool",
+    "base 64 encoder online",
+    "base 64 decoder online",
+    "base64 text encoder",
+    "base64 text decoder",
+    "base 64 encoder/decoder",
   ],
 
   related: [
@@ -1036,6 +1077,12 @@ A Base64 encoder and decoder is an essential utility for developers working with
     "uuid v4",
     "online uuid generator",
     "unique id generator",
+    "online uuid generator ",
+    "random uuid generator",
+    "online uuid generator version",
+    "new uuid generator",
+    "free uuid generator",
+    "free uuid generator",
   ],
 
   related: [
@@ -1158,6 +1205,17 @@ UUIDs provide a reliable way to generate unique identifiers for modern applicati
     "encode url",
     "decode url",
     "url encoding online",
+    "html url encoder",
+    "url encoder decoder",
+    "url encoder online",
+    "url decoder online",
+    "free url endoder/decoder",
+    "free url encoder",
+    "free url decoder",
+    "http url encoder",
+    "url enoder and decoder",
+    "free url encoder and decoder",
+    "url encoder and decoder free",
   ],
 
   related: [
@@ -1300,6 +1358,12 @@ URL encoding and decoding help websites, APIs, and web applications communicate 
     "format html",
     "html beautifier",
     "online html formatter",
+    "vscode html formatter",
+    "free html formatter",
+    "html formatter online",
+    "best html formatter",
+    "html formatter free online",
+    "format html free"
   ],
 
   related: [
@@ -1394,7 +1458,7 @@ An HTML formatter helps developers write cleaner, more maintainable code while r
 
   readTime: "6 min read",
 
-  image: "/images/blogs/html-formatter.webp",
+  image: "/images/blogs/css-minifier.webp",
 
   toolUrl: "/tools/css-minifier",
 
@@ -1406,6 +1470,10 @@ An HTML formatter helps developers write cleaner, more maintainable code while r
     "compress css",
     "css optimizer",
     "online css minifier",
+    "html css minifier",
+    "online css minifier and beautifier",
+    "online css minifier tool",
+    "tailwind css minifier",
   ],
 
   related: [
