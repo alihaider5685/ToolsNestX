@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import Button from "@/app/components/common/Button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import {
   ShieldCheck,
   Smartphone,
@@ -68,14 +68,14 @@ export default function Hero() {
       <div className="absolute right-16 top-72 hidden h-24 w-24 -rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
 
      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] max-w-screen-2xl flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
+        
         {/* Badge */}
-
-        <div className="rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl">
-
-          🚀 28+ Professional Online Tools
-
+ 
+        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-300 backdrop-blur-xl sm:px-6 sm:text-sm">
+          <Sparkles size={14} className="shrink-0" />
+          30+ Professional Online Tools
         </div>
-
+        
         {/* Heading */}
 
         <h1 className="mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]">
@@ -172,3 +172,4 @@ export default function Hero() {
 </section>
 );
 }
+

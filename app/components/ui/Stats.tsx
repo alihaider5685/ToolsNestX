@@ -2,7 +2,7 @@
 export default function Stats() {
   const stats = [
     {
-      number: "28+",
+      number: "30+",
       title: "Online Tools",
     },
     {
