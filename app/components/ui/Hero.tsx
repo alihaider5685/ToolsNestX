@@ -58,9 +58,8 @@ export default function Hero() {
 
       <div className="absolute -right-28 bottom-24 h-[420px] w-[420px] rounded-full bg-cyan-500/15 blur-[160px]" />
 
-      <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+     <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
 
-      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent" />
       {/* Floating Glass */}
 
       <div className="absolute left-12 top-60 hidden h-28 w-28 rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
