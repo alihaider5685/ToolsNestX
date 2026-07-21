@@ -502,4 +502,26 @@ export const tools = [
   desc: "Generate strong and secure passwords instantly.",
   category: "Developer Tools"
   },
+  {
+  name: "Image Resizer",
+  slug: "image-resizer",
+  href: "/tools/image-resizer",
+  icon: ImageIcon,
+  color: "from-cyan-500 to-blue-500",
+  desc: "Resize JPG, PNG and WebP images instantly online.",
+  category: "Image Tools",
+  featured: false,
+  keywords: [
+    "image resizer",
+    "resize image",
+    "resize images online",
+    "jpg resizer",
+    "png resizer",
+    "webp resizer",
+    "photo resizer",
+    "picture resizer",
+    "change image dimensions",
+    "online image resizer",
+  ],
+},
 ];
