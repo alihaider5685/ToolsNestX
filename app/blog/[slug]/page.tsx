@@ -110,16 +110,9 @@ const faqSchema =
 </div>
 
           <div className="mt-20">
-            <BlogCTA toolUrl={blog.toolUrl} />
-          </div>
-
-          <div className="mt-20">
             <AuthorBox author={blog.author} />
           </div>
-
-          <div className="mt-20">
-            <RelatedBlogs currentSlug={blog.slug} />
-          </div>
+          
         </div>
       </section>
     </main>
