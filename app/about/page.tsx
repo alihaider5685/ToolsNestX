@@ -312,38 +312,33 @@ export default function AboutContent() {
       {/* ================= CTA ================= */}
       <section className="pb-28">
         <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
-          <Reveal className="w-full flex justify-center">
+           
             <div className="overflow-hidden rounded-[40px] bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 px-10 py-20 text-center">
               <h2 className="mx-auto max-w-4xl text-5xl font-black leading-tight md:text-6xl">
                 Ready To Boost Your Productivity?
               </h2>
 
-              <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-blue-100">
+              <p className="mx-auto mt-8 max-w-4xl text-xl leading-10 text-blue-100">
                 Join thousands of users who rely on ToolsNestX for fast,
                 secure, and completely free online tools. Start using
                 powerful browser utilities today.
               </p>
 
               <div className="mt-12 flex flex-wrap justify-center gap-5">
-                <Link
-                  href="/"
-                  className="inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 text-lg font-bold text-black transition-all duration-300 hover:scale-105"
-                >
-                  Explore Tools
-                  <ArrowRight size={20} />
-                </Link>
-
-                <Link
-                  href="/contact"
-                  className="rounded-2xl border border-white/30 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-white/10 hover:scale-105"
-                >
-                  Contact Us
-                </Link>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+                            <Button
+                              href="/contact"
+                              className="bg-white text-blue-700 hover:bg-gray-100"
+                              icon={<ArrowRight size={18} />}
+                            >
+                              Contact Support
+                            </Button>
+                            <Button href="/" variant="secondary" icon={<ArrowRight size={18} />}>
+                              Explore Tools
+                            </Button>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
 
       <div className="h-5 bg-black" />
 

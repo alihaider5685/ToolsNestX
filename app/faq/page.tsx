@@ -9,10 +9,12 @@ export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqs = [
+    
     {
       q: "Is ToolsNestX completely free?",
       a: "Yes. Every tool available on ToolsNestX can be used completely free without subscriptions or hidden charges. There are no premium tiers or paywalls blocking core features.",
     },
+    
     {
       q: "Do I need to create an account?",
       a: "No. Most ToolsNestX tools work instantly inside your browser. No registration, no email verification, and no login is required to start using any tool.",
@@ -199,6 +201,7 @@ export default function FAQPage() {
       <section className="px-6 py-28">
         <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
           <div className="animate-fade-up overflow-hidden rounded-[40px] border border-blue-500/20 bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 p-12 text-center md:p-20">
+          <div className="h-2 bg-blue-600" />
             <p className="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-[8px] text-blue-100">
               <Sparkles size={16} className="animate-wiggle" />
               STILL NEED HELP?
@@ -293,4 +296,4 @@ export default function FAQPage() {
   );
 }
 
-
+ 

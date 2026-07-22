@@ -31,16 +31,12 @@ const categories = [
   { name: "Developer Tools", icon: Code2, href: "/#tools" },
 ];
 
-const socials = [
-
-  { name: "Email", icon: Mail, href: "mailto:hello@toolsnestx.online" },
-];
-
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-black">
 
       {/* Ambient glow */}
+
       <div className="pointer-events-none absolute left-1/2 top-0 h-[300px] w-[600px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[140px]" />
 
       <div className="relative mx-auto max-w-screen-2xl px-6 py-20 sm:px-8 lg:py-24">
@@ -63,24 +59,6 @@ export default function Footer() {
               Developer tools — fast, secure and completely free.
             </p>
 
-            {/* Social icons */}
-            <div className="mt-8 flex items-center gap-3">
-              {socials.map((social) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={social.name}
-                    href={social.href}
-                    aria-label={social.name}
-                    target={social.href.startsWith("http") ? "_blank" : undefined}
-                    rel="noreferrer"
-                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-gray-400 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-blue-500/10 hover:text-blue-400"
-                  >
-                    <Icon size={17} />
-                  </a>
-                );
-              })}
-            </div>
           </div>
 
           {/* Quick Links */}
