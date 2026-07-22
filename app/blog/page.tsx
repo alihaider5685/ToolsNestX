@@ -61,19 +61,29 @@ export default function BlogPage() {
         </div>
 
       </section>
-      {/* ================= BLOG CARDS ================= */}
+         {/* ================= BLOG CARDS ================= */}
 
-<section className="px-6 pb-28">
-  <div className="mx-auto max-w-screen-2xl">
+<section className="px-10 md:px-12 xl:px-16 pb-28">
 
-    <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+<div className="mx-auto max-w-[1700px]">
+
+<div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
 
       {blogs.map((blog) => (
-        <Link
-          key={blog.slug}
-          href={`/blog/${blog.slug}`}
-          className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-blue-500"
-        >
+
+  <Link
+    key={blog.slug}
+    href={`/blog/${blog.slug}`}
+    className="group relative overflow-hidden rounded-xl border border-white/10 bg-gradient-to-b from-white/5 to-white/[0.02] p-8
+    backdrop-blur-xl
+    transition-all
+    duration-300
+    hover:-translate-y-2
+    hover:border-blue-500/40
+    hover:shadow-[0_0_40px_rgba(59,130,246,0.15)]
+     "
+     >
+
           <div className="mb-4 inline-flex rounded-full bg-blue-500/10 px-3 py-1 text-sm font-semibold text-blue-400">
             {blog.category}
           </div>
