@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import Button from "@/app/components/common/Button";
 
+
 const quickLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -43,6 +44,9 @@ export default function Footer() {
       <div className="pointer-events-none absolute left-1/2 top-0 h-[300px] w-[600px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[140px]" />
 
       <div className="relative mx-auto max-w-screen-2xl px-6 py-20 sm:px-8 lg:py-24">
+
+        <div className="h-5 bg-black" />
+
 
         {/* ================= MAIN GRID ================= */}
 
@@ -169,6 +173,8 @@ export default function Footer() {
               </div>
             </div>
 
+            <div className="h-2 bg-black" />
+
             <p className="mt-6 leading-8 text-gray-400">
               Hi, I'm{" "}
               <span className="font-semibold text-white">Ali Haider</span>,
@@ -192,7 +198,8 @@ export default function Footer() {
           <p className="flex items-center gap-2">
             Built with
             <span className="text-blue-500">♥</span>
-            by Ali Haider
+            by
+            <span className="font-semibold text-white">Ali Haider</span>    .
           </p>
         </div>
 

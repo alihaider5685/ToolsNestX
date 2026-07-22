@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -52,33 +51,33 @@ export default function Hero() {
 
       {/* Main Glow */}
 
-      <div className="absolute left-1/2 top-44 h-[760px] w-[760px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[190px]" />
+      <div className="animate-glow-pulse absolute left-1/2 top-44 h-[760px] w-[760px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[190px]" />
 
-      <div className="absolute -left-28 top-56 h-[420px] w-[420px] rounded-full bg-blue-500/15 blur-[160px]" />
+      <div className="animate-glow-pulse-slow absolute -left-28 top-56 h-[420px] w-[420px] rounded-full bg-blue-500/15 blur-[160px]" />
 
-      <div className="absolute -right-28 bottom-24 h-[420px] w-[420px] rounded-full bg-cyan-500/15 blur-[160px]" />
+      <div className="animate-glow-pulse-slow absolute -right-28 bottom-24 h-[420px] w-[420px] rounded-full bg-cyan-500/15 blur-[160px]" style={{ animationDelay: "1.5s" }} />
 
-      <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+      <div className="animate-glow-pulse absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
 
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent" />
       {/* Floating Glass */}
 
-      <div className="absolute left-12 top-60 hidden h-28 w-28 rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
+      <div className="animate-float absolute left-12 top-60 hidden h-28 w-28 rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
 
-      <div className="absolute right-16 top-72 hidden h-24 w-24 -rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
+      <div className="animate-float-delayed absolute right-16 top-72 hidden h-24 w-24 -rotate-12 rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl xl:block" />
 
      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] max-w-screen-2xl flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
         
         {/* Badge */}
  
-        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-300 backdrop-blur-xl sm:px-6 sm:text-sm">
-          <Sparkles size={14} className="shrink-0" />
+        <div className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-300 backdrop-blur-xl sm:px-6 sm:text-sm">
+          <Sparkles size={14} className="shrink-0 animate-wiggle" />
           30+ Professional Online Tools
         </div>
         
         {/* Heading */}
 
-        <h1 className="mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]">
+        <h1 className="animate-fade-up mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]" style={{ animationDelay: "100ms" }}>
 
           All Your
 
@@ -94,7 +93,7 @@ export default function Hero() {
 
         {/* Description */}
 
-        <p className="mt-8 max-w-3xl text-lg leading-9 text-gray-400 md:text-xl">
+        <p className="animate-fade-up mt-8 max-w-3xl text-lg leading-9 text-gray-400 md:text-xl" style={{ animationDelay: "200ms" }}>
 
           Compress images, merge PDFs, format JSON, generate QR codes,
           convert files and use powerful online tools directly in your
@@ -103,7 +102,7 @@ export default function Hero() {
         </p>
                {/* Buttons */}
 
-<div className="mt-16 mb-4 flex flex-wrap justify-center gap-5">
+<div className="animate-fade-up mt-16 mb-4 flex flex-wrap justify-center gap-5" style={{ animationDelay: "300ms" }}>
 
  <Button href="#tools">
   Explore Tools
@@ -134,13 +133,14 @@ export default function Hero() {
 
 <div className="pt-12 flex flex-wrap items-center justify-center gap-4">
 
-  {features.map((feature) => {
+  {features.map((feature, i) => {
     const Icon = feature.icon;
 
     return (
       <div
         key={feature.title}
-        className="group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10"
+        style={{ animationDelay: `${400 + i * 100}ms` }}
+        className="animate-fade-up group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10"
       >
         <Icon
           size={18}
@@ -162,14 +162,66 @@ export default function Hero() {
 {/* Bottom Decorative Glow */}
 
 <div className="pointer-events-none absolute bottom-24 left-20 hidden xl:block">
-  <div className="h-20 w-20 rounded-full bg-blue-500/20 blur-2xl" />
+  <div className="animate-float h-20 w-20 rounded-full bg-blue-500/20 blur-2xl" />
 </div>
 
 <div className="pointer-events-none absolute bottom-20 right-20 hidden xl:block">
-  <div className="h-20 w-20 rounded-full bg-cyan-500/20 blur-2xl" />
+  <div className="animate-float-delayed h-20 w-20 rounded-full bg-cyan-500/20 blur-2xl" />
 </div>
+
+<style>{`
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(28px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-up {
+    opacity: 0;
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-12deg); }
+    75% { transform: rotate(12deg); }
+  }
+  .animate-wiggle {
+    animation: wiggle 2.2s ease-in-out infinite;
+  }
+
+  @keyframes glowPulse {
+    0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
+    50% { opacity: 0.7; transform: translateX(-50%) scale(1.06); }
+  }
+  .animate-glow-pulse {
+    animation: glowPulse 6s ease-in-out infinite;
+  }
+
+  @keyframes glowPulseSlow {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.1); }
+  }
+  .animate-glow-pulse-slow {
+    animation: glowPulseSlow 8s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(12deg); }
+    50% { transform: translateY(-18px) rotate(12deg); }
+  }
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+
+  @keyframes floatDelayed {
+    0%, 100% { transform: translateY(0px) rotate(-12deg); }
+    50% { transform: translateY(-18px) rotate(-12deg); }
+  }
+  .animate-float-delayed {
+    animation: floatDelayed 5s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+`}</style>
 
 </section>
 );
 }
-
