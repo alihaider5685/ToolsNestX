@@ -101,15 +101,6 @@ export const metadata: Metadata = {
   },
 };
 
-<head>
-  <Script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4042434207039023"
-    crossOrigin="anonymous"
-    strategy="afterInteractive"
-  />
-</head>
-
 
 export default function RootLayout({
   children,
@@ -118,6 +109,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
+      <head>
+  <Script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4042434207039023"
+    crossOrigin="anonymous"
+    strategy="afterInteractive"
+  />
+</head>
+
       <body>
         {/* Organization Schema */}
         <Script
