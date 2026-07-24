@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { FileText, ArrowRight } from "lucide-react";
+import Button from "@/app/components/common/Button";
 
 export const metadata = {
   title: "Terms & Conditions | ToolsNestX",
@@ -10,6 +10,19 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <main className="overflow-hidden bg-black text-white">
+
+      {/* ================= ANIMATION KEYFRAMES ================= */}
+
+      <style>{`
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(28px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up {
+          opacity: 0;
+          animation: fadeInUp 0.8s ease-out forwards;
+        }
+      `}</style>
 
       {/* ================= BACKGROUND ================= */}
 
@@ -36,7 +49,10 @@ export default function TermsPage() {
 
           {/* Badge */}
 
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl">
+          <div
+            className="fade-up inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-6 py-2 text-sm font-semibold text-blue-300 backdrop-blur-xl"
+            style={{ animationDelay: "0ms" }}
+          >
 
             <FileText size={16} />
 
@@ -46,7 +62,10 @@ export default function TermsPage() {
 
           {/* Heading */}
 
-          <h1 className="mt-10 max-w-5xl text-5xl font-black leading-tight md:text-7xl lg:text-8xl">
+          <h1
+            className="fade-up mt-10 max-w-5xl text-5xl font-black leading-tight md:text-7xl lg:text-8xl"
+            style={{ animationDelay: "100ms" }}
+          >
 
             Terms{" "}
 
@@ -60,7 +79,10 @@ export default function TermsPage() {
 
           {/* Last Updated */}
 
-          <p className="mt-6 text-sm uppercase tracking-[4px] text-gray-500">
+          <p
+            className="fade-up mt-6 text-sm uppercase tracking-[4px] text-gray-500"
+            style={{ animationDelay: "200ms" }}
+          >
 
             Last Updated • July 2026
 
@@ -68,7 +90,10 @@ export default function TermsPage() {
 
           {/* Description */}
 
-          <p className="mx-auto mt-10 max-w-4xl text-xl leading-10 text-gray-400">
+          <p
+            className="fade-up mx-auto mt-10 max-w-4xl text-xl leading-10 text-gray-400"
+            style={{ animationDelay: "300ms" }}
+          >
 
             Welcome to ToolsNestX. These Terms & Conditions govern your use of
             our website and online tools. By accessing or using ToolsNestX,
@@ -76,7 +101,10 @@ export default function TermsPage() {
 
           </p>
 
-          <p className="mx-auto mt-8 max-w-4xl text-lg leading-9 text-gray-500">
+          <p
+            className="fade-up mx-auto mt-8 max-w-4xl text-lg leading-9 text-gray-500"
+            style={{ animationDelay: "400ms" }}
+          >
 
             Please read these Terms carefully before using our services.
             If you do not agree with any part of these Terms, you should
@@ -88,27 +116,18 @@ export default function TermsPage() {
 
           {/* Buttons */}
 
-          <div className="mt-14 flex flex-wrap justify-center gap-5">
+          <div
+            className="fade-up mt-14 flex flex-wrap justify-center gap-5"
+            style={{ animationDelay: "500ms" }}
+          >
 
-            <Link
-              href="/contact"
-              className="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 text-lg font-semibold shadow-[0_0_40px_rgba(59,130,246,.45)] transition-all duration-300 hover:scale-105"
-            >
+            <Button href="/contact" icon={<ArrowRight size={20} />}>
               Contact Us
+            </Button>
 
-              <ArrowRight
-                size={20}
-                className="transition-transform duration-300 group-hover:translate-x-1"
-              />
-
-            </Link>
-
-            <Link
-              href="/"
-              className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-lg font-semibold backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
-            >
+            <Button href="/" variant="secondary">
               Back to Home
-            </Link>
+            </Button>
 
           </div>
 
@@ -126,7 +145,7 @@ export default function TermsPage() {
 
     {/* Section Heading */}
 
-    <div className="mx-auto max-w-4xl text-center">
+    <div className="fade-up mx-auto max-w-4xl text-center">
 
       <p className="mb-5 text-sm font-bold uppercase tracking-[8px] text-blue-500">
         TERMS OF USE
@@ -159,7 +178,7 @@ export default function TermsPage() {
 
       {/* Card 1 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "0ms" }}>
 
         <h3 className="text-3xl font-bold">
           Acceptance of Terms
@@ -177,7 +196,7 @@ export default function TermsPage() {
 
       {/* Card 2 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "80ms" }}>
 
         <h3 className="text-3xl font-bold">
           Use of Services
@@ -195,7 +214,7 @@ export default function TermsPage() {
 
       {/* Card 3 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "160ms" }}>
 
         <h3 className="text-3xl font-bold">
           User Responsibilities
@@ -213,7 +232,7 @@ export default function TermsPage() {
 
       {/* Card 4 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "240ms" }}>
 
         <h3 className="text-3xl font-bold">
           Intellectual Property
@@ -231,7 +250,7 @@ export default function TermsPage() {
 
       {/* Card 5 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "320ms" }}>
 
         <h3 className="text-3xl font-bold">
           Prohibited Activities
@@ -249,7 +268,7 @@ export default function TermsPage() {
 
       {/* Card 6 */}
 
-      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+      <div className="fade-up rounded-[30px] border border-white/10 bg-[#111] p-10 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50" style={{ animationDelay: "400ms" }}>
 
         <h3 className="text-3xl font-bold">
           Disclaimer of Warranties
@@ -277,7 +296,7 @@ export default function TermsPage() {
 
   <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
 
-    <div className="mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
+    <div className="fade-up mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
 
       <h2 className="text-center text-4xl font-black md:text-5xl">
         Limitation of Liability
@@ -304,7 +323,7 @@ export default function TermsPage() {
 <section className="px-6 pb-28">
   <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
 
-  <div className="mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
+  <div className="fade-up mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
 
     <h2 className="text-center text-4xl font-black md:text-5xl">
       Changes To These Terms
@@ -331,7 +350,7 @@ export default function TermsPage() {
   <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
 
 
-  <div className="mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
+  <div className="fade-up mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
 
     <h2 className="text-center text-4xl font-black md:text-5xl">
       Governing Law
@@ -357,7 +376,7 @@ export default function TermsPage() {
   <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
 
 
-  <div className="mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
+  <div className="fade-up mx-auto max-w-6xl rounded-[36px] border border-white/10 bg-[#111] p-12 md:p-16">
 
     <h2 className="text-center text-4xl font-black md:text-5xl">
       Contact Information
@@ -383,7 +402,7 @@ export default function TermsPage() {
   <div className="mx-auto flex w-full max-w-screen-2xl flex-col items-center px-6">
 
 
-    <div className="rounded-[40px] bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 p-12 text-center md:p-20">
+    <div className="fade-up rounded-[40px] bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 p-12 text-center md:p-20">
 
       <h2 className="text-4xl font-black text-white md:text-6xl">
         Have Questions About Our Terms?
@@ -397,19 +416,16 @@ export default function TermsPage() {
 
       <div className="mt-12 flex flex-wrap justify-center gap-5">
 
-        <Link
+        <Button
           href="/contact"
-          className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-blue-700 transition hover:scale-105"
+          className="bg-white text-blue-700 hover:bg-gray-100"
         >
           Contact Us
-        </Link>
+        </Button>
 
-        <Link
-          href="/"
-          className="rounded-2xl border border-white/30 bg-white/10 px-8 py-4 text-lg font-semibold text-white backdrop-blur-xl transition hover:bg-white/20"
-        >
+        <Button href="/" variant="secondary">
           Back To Home
-        </Link>
+        </Button>
 
       </div>
 

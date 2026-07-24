@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { ShieldCheck, ArrowRight } from "lucide-react";
+import Button from "@/app/components/common/Button";
 
 export const metadata = {
   title: "Privacy Policy | ToolsNestX",
@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
   return (
     <main className="overflow-hidden bg-black text-white">
 
-      {/* ================= BACKGROUND ================= */}
+      {/* ================= BACKGROUND ================= */} 
 
       <div className="fixed inset-0 -z-10 bg-black">
         <div className="absolute inset-0 bg-gradient-to-br from-[#020617] via-black to-[#06152d]" />
@@ -89,25 +89,13 @@ export default function PrivacyPolicyPage() {
 
           <div className="mt-14 flex flex-wrap justify-center gap-5">
 
-            <Link
-              href="/contact"
-              className="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 px-8 py-4 text-lg font-semibold shadow-[0_0_40px_rgba(59,130,246,.45)] transition-all duration-300 hover:scale-105"
-            >
+            <Button href="/contact" icon={<ArrowRight size={20} />}>
               Contact Us
+            </Button>
 
-              <ArrowRight
-                size={20}
-                className="transition-transform duration-300 group-hover:translate-x-1"
-              />
-
-            </Link>
-
-            <Link
-              href="/"
-              className="rounded-2xl border border-white/10 bg-white/5 px-8 py-4 text-lg font-semibold backdrop-blur-xl transition-all duration-300 hover:border-blue-500 hover:bg-white/10"
-            >
+            <Button href="/" variant="secondary">
               Back to Home
-            </Link>
+            </Button>
 
           </div>
 
@@ -404,20 +392,16 @@ export default function PrivacyPolicyPage() {
 
       <div className="mt-14 flex flex-wrap justify-center gap-5">
 
-      
-        <Link
+        <Button
           href="/contact"
-          className="rounded-2xl bg-white px-8 py-4 text-lg font-bold text-blue-700 transition hover:scale-105"
+          className="bg-white text-blue-700 hover:bg-gray-100"
         >
           Contact Us
-        </Link>
+        </Button>
 
-        <Link
-          href="/"
-          className="rounded-2xl border border-white/30 bg-white/10 px-8 py-4 text-lg font-semibold text-white backdrop-blur-xl transition hover:bg-white/20"
-        >
+        <Button href="/" variant="secondary">
           Back To Home
-        </Link>
+        </Button>
 
       </div>
 
