@@ -15,6 +15,7 @@
   Database,
   Palette,
   KeyRound,
+  Crop,
 } from "lucide-react";
 export const tools = [
 {
@@ -496,6 +497,7 @@ export const tools = [
   },
   {
   name: "Password Generator",
+  slug: "password-generator",
   href: "/tools/password-generator",
   icon: KeyRound,
   color: "from-amber-500 to-yellow-400",
@@ -523,5 +525,5 @@ export const tools = [
     "change image dimensions",
     "online image resizer",
   ],
-},
+  },
 ];
