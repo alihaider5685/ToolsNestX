@@ -43,16 +43,17 @@ export default function Hero() {
           opacity-30
         "
       />
-
+    
       {/* Optimized Glow */}
 
-      <div className="animate-glow absolute left-1/2 top-44 h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[90px]" />
+      <div className="animate-glow absolute left-1/2 top-44 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[90px]" />
 
-      <div className="animate-glow-slow absolute -left-24 top-56 h-[340px] w-[340px] rounded-full bg-blue-500/15 blur-[80px]" />
+      <div className="animate-glow-slow absolute -left-24 top-56 h-[100px] w-[100px] rounded-full bg-blue-500/15 blur-[60px]" />
 
       <div
-        className="animate-glow-slow absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[80px]"
-        style={{ animationDelay: "2s" }}
+        className="animate-glow-slow absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[60px]"
+
+        style={{ animationDelay: "0.5s" }}
       />
 
       <div className="absolute left-1/2 top-0 h-52 w-52 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[60px]" />
@@ -87,7 +88,7 @@ export default function Hero() {
 
           <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
 
-            Online Tools
+            Online Tools 
 
           </span>
 
@@ -149,7 +150,7 @@ export default function Hero() {
               <div
                 key={feature.title}
                 style={{
-                  animationDelay: `${400 + i * 100}ms`,
+                  animationDelay: `${150 + i * 5}ms`,
                 }}
                 className="animate-fade-up group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10"
               >
