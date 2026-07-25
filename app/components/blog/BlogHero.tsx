@@ -25,7 +25,7 @@ export default function BlogHero({
   return (
     <section className="relative overflow-hidden">
       {/* Background Glow */}
-      <div className="absolute left-1/2 top-0 -z-10 h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-cyan-500/15 blur-[180px]" />
+      <div className="absolute left-1/2 top-0 -z-10 h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-cyan-500/15 blur-[80px]" />
 
       <div className="mx-auto flex max-w-7xl max-w-screen-2xl flex-col items-center px-6 py-12 text-center md:py-20">
         {/* Category */}

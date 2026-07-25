@@ -21,16 +21,16 @@ export default function HeroBackground() {
         <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-600/10 blur-[170px]" />
 
         {/* Left Glow */}
-        <div className="absolute -left-32 top-40 h-80 w-80 rounded-full bg-blue-500/15 blur-[140px]" />
+        <div className="absolute -left-32 top-40 h-80 w-80 rounded-full bg-blue-500/15 blur-[80px]" />
 
         {/* Right Glow */}
-        <div className="absolute -right-32 bottom-28 h-80 w-80 rounded-full bg-cyan-500/15 blur-[140px]" />
+        <div className="absolute -right-32 bottom-28 h-80 w-80 rounded-full bg-cyan-500/15 blur-[80px]" />
 
         {/* Top Glow */}
-        <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+        <div className="absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[80px]" />
 
         {/* Bottom Glow */}
-        <div className="absolute bottom-0 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-indigo-500/10 blur-[150px]" />
+        <div className="absolute bottom-0 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-indigo-500/10 blur-[90px]" />
 
         {/* Left Floating Glass */}
         <div className="absolute left-16 top-72 hidden h-28 w-28 rotate-12 rounded-3xl border border-white/5 bg-white/[0.03] backdrop-blur-xl xl:block" />
@@ -39,10 +39,10 @@ export default function HeroBackground() {
         <div className="absolute right-20 top-[340px] hidden h-24 w-24 -rotate-12 rounded-3xl border border-white/5 bg-white/[0.03] backdrop-blur-xl xl:block" />
 
         {/* Bottom Left Light */}
-        <div className="absolute bottom-32 left-24 h-44 w-44 rounded-full bg-blue-500/10 blur-[90px]" />
+        <div className="absolute bottom-32 left-24 h-44 w-44 rounded-full bg-blue-500/10 blur-[80px]" />
 
         {/* Bottom Right Light */}
-        <div className="absolute bottom-24 right-24 h-52 w-52 rounded-full bg-cyan-400/10 blur-[110px]" />
+        <div className="absolute bottom-24 right-24 h-52 w-52 rounded-full bg-cyan-400/10 blur-[80px]" />
 
         {/* Noise Overlay */}
         <div className="absolute inset-0 opacity-[0.03] [background-image:radial-gradient(circle_at_center,white_1px,transparent_1px)] [background-size:22px_22px]" />

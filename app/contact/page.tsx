@@ -39,7 +39,7 @@ export default function ContactPage() {
 
         <div className="absolute inset-0 -z-10">
 
-          <div className="absolute left-1/2 top-0 h-[450px] w-[450px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[130px]" />
+          <div className="absolute left-1/2 top-0 h-[450px] w-[450px] -translate-x-1/2 rounded-full bg-blue-600/10 blur-[80px]" />
 
         </div>
 

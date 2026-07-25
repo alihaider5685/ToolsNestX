@@ -82,7 +82,7 @@ export default function AboutContent() {
           opacity-20
         "
         />
-        <div className="animate-glow-pulse absolute left-1/2 top-0 h-[700px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[170px]" />
+        <div className="animate-glow-pulse absolute left-1/2 top-0 h-[700px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[100px]" />
       </div>
 
       {/* ================= HERO ================= */}

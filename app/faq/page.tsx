@@ -75,12 +75,12 @@ export default function FAQPage() {
           opacity-20
         "
         />
-        <div className="absolute left-1/2 top-0 h-[700px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[170px] animate-pulse-slow" />
+        <div className="absolute left-1/2 top-0 h-[700px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[100px] animate-pulse-slow" />
       </div>
 
       {/* ================= HERO ================= */}
       <section className="relative overflow-hidden">
-        <div className="absolute left-1/2 top-20 -z-10 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[180px]" />
+        <div className="absolute left-1/2 top-20 -z-10 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[100px]" />
 
         <div className="mx-auto flex min-h-[80vh] max-w-screen-2xl items-center justify-center px-6 py-32">
           <div className="mx-auto max-w-5xl text-center animate-fade-up">

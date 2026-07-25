@@ -13,9 +13,9 @@ export default function BlogCTA({ toolUrl }: Props) {
 
         {/* Background Glow */}
 
-        <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-500/20 blur-[120px]" />
+        <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-500/20 blur-[80px]" />
 
-        <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-cyan-500/10 blur-[120px]" />
+        <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-cyan-500/10 blur-[80px]" />
 
         <div className="relative z-10 text-center">
 
