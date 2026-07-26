@@ -44,9 +44,9 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`sticky top-0 z-50 w-full border-b backdrop-blur-2xl transition-all duration-300 ${
+        className={`sticky top-0 z-50 w-full border-b backdrop-blur-2xl transition-colors duration-300 ${
           scrolled
-            ? "border-white/10 bg-black/85 shadow-[0_4px_30px_rgba(0,0,0,0.3)]"
+            ? "border-white/10 bg-black/85 shadow-lg"
             : "border-white/5 bg-black/60"
         }`}
       >
@@ -72,14 +72,14 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`group relative text-sm font-medium transition-all duration-300 ${
+                  className={`group relative text-sm font-medium transition-colors duration-300 ${
                     isActive ? "text-blue-500" : "text-gray-300 hover:text-white"
                   }`}
                 >
                   {link.name}
 
                   <span
-                    className={`absolute -bottom-2 left-0 h-0.5 rounded-full bg-blue-500 transition-all duration-300 ${
+                    className={`absolute -bottom-2 left-0 h-0.5 rounded-full bg-blue-500 transition-colors duration-300 ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
                     }`}
                   />
@@ -109,14 +109,14 @@ export default function Navbar() {
       {/* ================= MOBILE MENU OVERLAY ================= */}
 
       <div
-        className={`fixed inset-0 z-[60] transition-all duration-300 md:hidden ${
+        className={`fixed inset-0 z-[60] transition-colors duration-300 md:hidden ${
           isOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
         }`}
       >
         {/* Backdrop */}
         <div
           onClick={() => setIsOpen(false)}
-          className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+          className="absolute inset-0 bg-black/70 backdrop-blur-lg"
         />
 
         {/* Drawer */}
@@ -155,7 +155,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`group flex items-center justify-between rounded-2xl border px-5 py-4 text-base font-medium transition-all duration-300 ${
+                  className={`group flex items-center justify-between rounded-2xl border px-5 py-4 text-base font-medium transition-colors duration-300 ${
                     isActive
                       ? "border-blue-500/30 bg-blue-500/10 text-blue-400"
                       : "border-white/5 bg-white/[0.02] text-gray-300 hover:border-white/10 hover:bg-white/5 hover:text-white"
@@ -164,7 +164,7 @@ export default function Navbar() {
                   {link.name}
                   <ArrowRight
                     size={16}
-                    className="text-gray-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-400"
+                    className="text-gray-600 transition-colors duration-300 group-hover:translate-x-1 group-hover:text-blue-400"
                   />
                 </Link>
               );

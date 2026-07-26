@@ -15,38 +15,59 @@ export const metadata: Metadata = generateToolMetadata({
     "Free HTML Minifier Online | Minify & Compress HTML Code | ToolsNestX",
 
   description:
-    "Minify and compress HTML code online for free. Remove unnecessary spaces, comments and line breaks to optimize your HTML for faster website performance.",
+    "Minify and compress HTML code online for free, instantly in your browser. Remove spaces, comments, and line breaks to speed up your website. No signup needed.",
 
   keywords: [
+    // Core
     "html minifier",
     "minify html",
     "compress html",
     "html compressor",
     "html optimizer",
+    "html cleaner",
+    "html utility",
+
+    // Online / Free intent
     "online html minifier",
     "free html minifier",
+    "minify html online",
+    "browser html minifier",
+    "html online tool",
     "html code minifier",
     "html code compressor",
-    "minify html online",
-    "html cleaner",
+    "html minify tool",
+
+    // Related actions
+    "minify html file",
     "html formatter",
     "html beautifier",
-    "html optimization",
     "reduce html size",
     "optimize html",
     "remove html whitespace",
     "remove html comments",
+    "html code optimizer",
+
+    // Low competition long-tail
+    "minify html online free no signup",
+    "compress html file online free",
+    "html minifier for faster website",
+    "reduce html file size online",
+    "minify html without installation",
+    "html minifier for production",
+    "html whitespace remover online",
+    "how to minify html online",
+    "html minifier for wordpress",
+    "bulk html minifier online free",
+
+    // Broader dev context
     "developer html tools",
     "web developer tools",
-    "browser html minifier",
-    "html online tool",
-    "html code optimizer",
     "frontend developer tools",
     "website optimization",
     "html performance",
-    "best html minifier",
-    "html utility",
-    "html minify tool",
+    "website speed optimization tool",
+
+    // Brand
     "toolsnestx html minifier",
   ],
 

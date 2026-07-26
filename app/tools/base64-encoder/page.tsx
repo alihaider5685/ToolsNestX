@@ -12,44 +12,64 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Base64 Encoder & Decoder Online | Encode & Decode Text | ToolsNestX",
+    "Free Base64 Encoder & Decoder Online | No Signup | ToolsNestX",
 
   description:
-    "Encode and decode Base64 strings online for free. Fast, secure, and browser-based Base64 encoder and decoder for developers, APIs, and web applications.",
+    "Encode and decode Base64 strings online for free, instantly in your browser. No signup, no installation. Perfect for developers, APIs, images, and web apps.",
 
   keywords: [
+    // Core
     "base64 encoder",
     "base64 decoder",
     "encode base64",
     "decode base64",
+    "base64 converter",
+    "base64 utility",
+    "base64 generator",
+    "base64 parser",
+
+    // Online / Free intent
     "base64 encode online",
     "base64 decode online",
     "online base64 encoder",
     "online base64 decoder",
     "free base64 encoder",
     "free base64 decoder",
-    "base64 converter",
+    "base64 online tool",
+    "browser base64 encoder",
+
+    // Text/String specific
     "base64 string encoder",
     "base64 string decoder",
     "text to base64",
     "base64 to text",
-    "encode text",
-    "decode text",
+    "encode text to base64",
+    "decode base64 to text",
+
+    // Low competition long-tail
+    "base64 encoder decoder no signup",
+    "encode base64 without installation",
+    "convert text to base64 online free",
+    "convert base64 to plain text online",
+    "base64 encode decode for api",
+    "base64 image encoder online free",
+    "utf8 to base64 converter online",
+    "base64 to utf8 converter online",
+    "base64 decoder for developers online",
+    "how to decode base64 string online",
+    "base64 encoder for json data",
+
+    // Broader dev context
     "developer tools",
     "api tools",
     "web developer tools",
-    "base64 utility",
-    "base64 online tool",
-    "browser base64 encoder",
     "javascript base64",
-    "utf8 to base64",
-    "base64 to utf8",
-    "base64 generator",
-    "base64 parser",
-    "best base64 encoder",
-    "toolsnestx base64 encoder",
-  ],
 
+    // Brand
+    "toolsnestx base64 encoder",
+    "toolsnestx base64 decoder",
+  ],
+  
   path: "/tools/base64-encoder",
 });
 

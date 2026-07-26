@@ -15,10 +15,24 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Text Case Converter Online | Uppercase, Lowercase & Title Case | ToolsNestX",
 
   description:
-    "Convert text to uppercase, lowercase, title case, sentence case and more instantly with our free online Text Case Converter.",
+    "Convert text to uppercase, lowercase, title case, and sentence case online for free, instantly in your browser. No signup needed.",
 
   keywords: [
+    // Core
     "text case converter",
+    "case converter",
+    "convert text case",
+    "change text case",
+    "capitalize text",
+    "text formatter",
+    "text utility",
+
+    // Online / Free intent
+    "online text case converter",
+    "free text case converter",
+    "text case converter online tool",
+
+    // Case type specific
     "uppercase converter",
     "lowercase converter",
     "title case converter",
@@ -27,16 +41,24 @@ export const metadata: Metadata = generateToolMetadata({
     "pascal case converter",
     "snake case converter",
     "kebab case converter",
-    "convert text case",
-    "change text case",
-    "online text case converter",
-    "free text case converter",
-    "capitalize text",
-    "text formatter",
-    "text utility",
+
+    // Low competition long-tail
+    "convert text to uppercase online free",
+    "convert text to title case online",
+    "convert text to camel case online free",
+    "convert text to snake case for coding",
+    "sentence case converter online free",
+    "how to change text case online",
+    "text case converter for essay titles",
+    "capitalize first letter of each word online",
+    "convert code variable name case online",
+    "text case converter without installation",
+
+    // Broader context
     "developer tools",
     "writing tools",
-    "case converter",
+
+    // Brand
     "toolsnestx text case converter",
   ],
 

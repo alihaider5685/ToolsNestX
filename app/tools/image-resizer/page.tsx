@@ -16,29 +16,57 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Image Resizer Online | Resize JPG, PNG & WebP Images | ToolsNestX",
 
   description:
-    "Resize JPG, JPEG, PNG and WebP images online instantly. Change image dimensions without losing quality using our free browser-based image resizer.",
+    "Resize JPG, PNG and WebP images online for free, instantly in your browser. Change image dimensions without losing quality. No signup needed.",
 
   keywords: [
+    // Core
     "image resizer",
     "resize image",
     "resize images online",
+    "image size changer",
+    "image dimensions",
+    "photo resizer",
+    "picture resizer",
+
+    // Online / Free intent
     "online image resizer",
     "free image resizer",
-    "change image size",
+    "resize images free",
+    "browser image resizer",
+
+    // Format specific
     "resize jpg",
     "jpg resizer",
     "resize png",
     "png resizer",
     "resize webp",
     "webp resizer",
-    "photo resizer",
-    "picture resizer",
-    "image dimensions",
+
+    // Related actions
+    "change image size",
     "resize photos",
-    "resize images free",
     "resize image without losing quality",
-    "browser image resizer",
-    "image size changer",
+    "change image dimensions online",
+    "scale image online",
+
+    // Low competition long-tail
+    "resize image online free no signup",
+    "resize image for website upload",
+    "resize image for instagram post",
+    "resize image to specific pixels online",
+    "resize photo for passport size online",
+    "resize image without losing quality online free",
+    "bulk image resizer online free",
+    "how to resize image online free",
+    "resize image for whatsapp dp",
+    "resize image for facebook cover photo",
+
+    // Broader context
+    "image tools",
+    "photo tools online",
+
+    // Brand
+    "toolsnestx image resizer",
   ],
 
   path: "/tools/image-resizer",

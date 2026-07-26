@@ -12,41 +12,62 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free JSON Formatter Online | Beautify & Format JSON | ToolsNestX",
+    "Free JSON Formatter Online | Beautify, Validate & Format JSON | ToolsNestX",
 
   description:
-    "Format, beautify and validate JSON online for free. Instantly organize JSON data with proper indentation for better readability and debugging.",
+    "Format, beautify and validate JSON online for free, instantly in your browser. Organize JSON data with proper indentation for better readability. No signup needed.",
 
   keywords: [
+    // Core
     "json formatter",
     "format json",
     "beautify json",
     "json beautifier",
     "pretty json",
+    "json parser",
+    "json cleaner",
+    "json utilities",
+
+    // Online / Free intent
     "json formatter online",
     "free json formatter",
+    "online json formatter",
+    "json beautify online",
+    "json beautifier online",
+    "format json online",
+    "browser json formatter",
+
+    // Related actions
     "json pretty print",
     "json viewer",
     "json editor",
-    "json beautify online",
     "json validator",
-    "json parser",
-    "format json online",
     "json formatting tool",
     "json lint",
-    "json beautifier online",
-    "online json formatter",
-    "api json formatter",
-    "developer json tool",
     "json syntax formatter",
     "json indentation",
     "json code formatter",
-    "json cleaner",
     "json debugging tool",
-    "json utilities",
-    "json formatting",
-    "best json formatter",
-    "browser json formatter",
+
+    // Low competition long-tail
+    "json formatter and validator online free",
+    "format json without installation",
+    "json formatter for api response",
+    "validate json syntax online free",
+    "json formatter for large files",
+    "how to format json online",
+    "minify and format json online",
+    "json formatter for nested objects",
+    "convert unformatted json to readable format",
+    "json formatter for debugging api",
+
+    // Broader dev context
+    "api json formatter",
+    "developer json tool",
+    "developer tools",
+    "web developer tools",
+
+    // Brand
     "toolsnestx json formatter",
   ],
 

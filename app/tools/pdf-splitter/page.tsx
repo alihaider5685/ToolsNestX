@@ -12,41 +12,62 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free PDF Splitter Online | Split PDF Pages Instantly | ToolsNestX",
+    "Free PDF Splitter Online | Split & Extract PDF Pages | ToolsNestX",
 
   description:
-    "Split PDF files into separate pages or extract specific page ranges online for free. Fast, secure, and browser-based PDF splitter with no registration required.",
+    "Split PDF files into separate pages or extract specific page ranges online for free, instantly in your browser. No installation, no registration required.",
 
   keywords: [
+    // Core
     "pdf splitter",
     "split pdf",
-    "split pdf online",
-    "extract pdf pages",
     "separate pdf",
     "pdf page splitter",
+    "pdf page extractor",
+    "pdf page separator",
+    "pdf file splitter",
+    "pdf organizer",
+
+    // Online / Free intent
+    "split pdf online",
     "online pdf splitter",
     "free pdf splitter",
-    "split pdf pages",
-    "extract pages from pdf",
-    "split large pdf",
-    "pdf page extractor",
-    "split pdf document",
-    "browser pdf splitter",
     "split pdf free",
-    "pdf organizer",
-    "pdf tools",
-    "pdf editor online",
-    "extract selected pages",
-    "pdf page remover",
-    "split scanned pdf",
+    "browser pdf splitter",
     "secure pdf splitter",
     "fast pdf splitter",
     "best pdf splitter",
+
+    // Related actions
+    "extract pdf pages",
+    "split pdf pages",
+    "extract pages from pdf",
+    "split large pdf",
+    "split pdf document",
+    "extract selected pages",
+    "pdf page remover",
+    "split scanned pdf",
     "split document online",
-    "pdf page separator",
     "online document splitter",
-    "pdf file splitter",
     "split multiple pdf pages",
+
+    // Low competition long-tail
+    "split pdf online free no signup",
+    "extract specific pages from pdf online",
+    "split pdf into individual pages free",
+    "remove pages from pdf online free",
+    "split pdf by page range online",
+    "extract one page from pdf online",
+    "how to split pdf file online",
+    "split large pdf into smaller files",
+    "split pdf without installation",
+    "extract pdf pages on mobile browser",
+
+    // Broader context
+    "pdf tools",
+    "pdf editor online",
+
+    // Brand
     "toolsnestx pdf splitter",
   ],
 

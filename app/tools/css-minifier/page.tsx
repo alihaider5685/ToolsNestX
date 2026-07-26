@@ -15,41 +15,61 @@ export const metadata: Metadata = generateToolMetadata({
     "Free CSS Minifier Online | Minify & Compress CSS Code | ToolsNestX",
 
   description:
-    "Minify and compress CSS code online for free. Remove unnecessary spaces, comments and line breaks to optimize your stylesheets for faster website performance.",
+    "Minify and compress CSS code online for free, instantly in your browser. Remove spaces, comments, and line breaks to speed up your website. No signup needed.",
 
   keywords: [
+    // Core
     "css minifier",
     "minify css",
     "compress css",
     "css compressor",
     "css optimizer",
+    "css cleaner",
+    "css utility",
+
+    // Online / Free intent
     "online css minifier",
     "free css minifier",
+    "css minify online",
+    "browser css minifier",
+    "css online tool",
     "css code minifier",
     "css code compressor",
+
+    // Related actions
     "minify stylesheet",
-    "css cleaner",
     "css formatter",
     "css beautifier",
-    "css optimization",
     "reduce css size",
     "optimize css",
     "remove css whitespace",
     "remove css comments",
+    "css code optimizer",
+
+    // Low competition long-tail
+    "minify css online free no signup",
+    "compress css file online free",
+    "css minifier for faster website",
+    "reduce css file size online",
+    "minify css without installation",
+    "css minifier for production",
+    "css whitespace remover online",
+    "how to minify css online",
+    "css minifier for wordpress",
+    "bulk css minifier online free",
+
+    // Broader dev context
     "developer css tools",
     "web developer tools",
-    "browser css minifier",
-    "css online tool",
-    "css code optimizer",
     "frontend developer tools",
     "website optimization",
     "css performance",
-    "best css minifier",
-    "css utility",
-    "css minify online",
+    "website speed optimization tool",
+
+    // Brand
     "toolsnestx css minifier",
   ],
-
+  
   path: "/tools/css-minifier",
 });
 

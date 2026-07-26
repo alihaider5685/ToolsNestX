@@ -15,38 +15,61 @@ export const metadata: Metadata = generateToolMetadata({
     "Free SQL Formatter Online | Beautify & Format SQL Queries | ToolsNestX",
 
   description:
-    "Format, beautify and organize SQL queries online for free. Improve SQL readability with proper indentation and formatting for MySQL, PostgreSQL, SQL Server, Oracle and more.",
+    "Format and beautify SQL queries online for free, instantly in your browser. Improve readability for MySQL, PostgreSQL, SQL Server, and Oracle. No signup needed.",
 
   keywords: [
+    // Core
     "sql formatter",
     "format sql",
     "beautify sql",
     "sql beautifier",
     "sql pretty print",
+    "sql parser",
+    "sql editor",
+
+    // Online / Free intent
     "online sql formatter",
     "free sql formatter",
-    "sql query formatter",
     "sql formatter online",
-    "sql code formatter",
-    "sql query beautifier",
+    "browser sql formatter",
+    "best sql formatter",
+
+    // Database specific
     "mysql formatter",
     "postgresql formatter",
     "sql server formatter",
     "oracle sql formatter",
     "sqlite formatter",
     "database query formatter",
+
+    // Related actions
+    "sql query formatter",
+    "sql code formatter",
+    "sql query beautifier",
     "sql syntax formatter",
-    "developer sql tools",
-    "database tools",
     "sql code beautifier",
     "sql indentation",
-    "sql editor",
-    "sql parser",
-    "sql optimizer",
-    "web developer tools",
-    "browser sql formatter",
-    "best sql formatter",
     "format sql queries",
+
+    // Low competition long-tail
+    "format sql query online free no signup",
+    "beautify sql query for readability",
+    "sql formatter for stored procedures",
+    "format long sql query online",
+    "how to format sql query online",
+    "sql formatter for mysql queries",
+    "sql query indentation tool online",
+    "convert minified sql to readable format",
+    "sql formatter for postgresql queries",
+    "clean up messy sql query online",
+
+    // Broader dev context
+    "developer sql tools",
+    "database tools",
+    "web developer tools",
+    "sql optimizer",
+
+    // Brand
     "toolsnestx sql formatter",
   ],
 

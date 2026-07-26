@@ -15,38 +15,61 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Regex Tester Online | Test & Debug Regular Expressions | ToolsNestX",
 
   description:
-    "Test, debug and validate regular expressions online with real-time matching. Free browser-based Regex Tester for developers, programmers and students.",
+    "Test, debug and validate regular expressions online for free with real-time matching. Works in your browser for developers, programmers, and students.",
 
   keywords: [
+    // Core
     "regex tester",
     "regular expression tester",
     "regex validator",
     "regex checker",
     "regex debugger",
-    "regex online",
-    "online regex tester",
-    "free regex tester",
     "regex tool",
     "regex editor",
     "regex parser",
-    "regex generator",
-    "regular expression checker",
-    "test regex",
-    "regex match",
-    "regex pattern tester",
-    "regex expression",
     "regex utility",
-    "developer regex tools",
+
+    // Online / Free intent
+    "regex online",
+    "online regex tester",
+    "free regex tester",
+    "browser regex tester",
+    "best regex tester",
+
+    // Language specific
     "javascript regex tester",
     "python regex tester",
     "php regex tester",
     "java regex tester",
+
+    // Related actions
+    "test regex",
+    "regex match",
+    "regex pattern tester",
+    "regular expression checker",
     "regex syntax checker",
-    "regex playground",
     "regex matching tool",
+    "regex generator",
+    "regex playground",
     "regex learning tool",
-    "browser regex tester",
-    "best regex tester",
+
+    // Low competition long-tail
+    "regex tester with explanation online",
+    "test regex pattern online free no signup",
+    "regex tester for email validation",
+    "regex tester for phone number pattern",
+    "how to test regex online",
+    "regex cheat sheet with tester",
+    "regex tester for extracting text",
+    "regex tester with match highlighting",
+    "validate regex pattern online free",
+    "regex tester for beginners online",
+
+    // Broader dev context
+    "developer regex tools",
+    "regex expression",
+
+    // Brand
     "toolsnestx regex tester",
   ],
 

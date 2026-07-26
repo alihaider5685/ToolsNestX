@@ -12,41 +12,67 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Hash Generator Online | Generate MD5, SHA1 & SHA256 Hash | ToolsNestX",
+    "Free Hash Generator Online | MD5, SHA1, SHA256 & SHA512 | ToolsNestX",
 
   description:
-    "Generate MD5, SHA1, SHA256, SHA384 and SHA512 hash values online for free. Fast, secure and browser-based hash generator for developers and security professionals.",
+    "Generate MD5, SHA1, SHA256, SHA384 and SHA512 hash values online for free, instantly in your browser. No signup needed. Ideal for developers and security checks.",
 
   keywords: [
+    // Core
     "hash generator",
+    "hash calculator",
+    "hash encoder",
+    "hash utility",
+    "checksum generator",
+    "generate hash",
+    "cryptographic hash",
+    "hash function",
+
+    // Algorithm specific
     "md5 generator",
     "sha1 generator",
     "sha256 generator",
     "sha384 generator",
     "sha512 generator",
-    "generate hash",
-    "online hash generator",
-    "free hash generator",
-    "hash calculator",
-    "md5 hash",
-    "sha hash",
-    "checksum generator",
-    "hash encoder",
-    "hash utility",
-    "text to hash",
-    "string hash generator",
-    "secure hash generator",
-    "developer hash tool",
-    "browser hash generator",
-    "cryptographic hash",
-    "hash function",
     "generate md5",
     "generate sha256",
-    "online checksum",
-    "data hashing tool",
+    "generate sha1 hash",
+    "md5 hash",
+    "sha hash",
+
+    // Online / Free intent
+    "online hash generator",
+    "free hash generator",
     "hash online",
+    "online checksum",
+    "browser hash generator",
+    "developer hash tool",
+
+    // Text/String specific
+    "text to hash",
+    "string hash generator",
+    "data hashing tool",
+    "convert text to hash online",
+
+    // Low competition long-tail
+    "hash generator no signup",
+    "generate md5 hash online free",
+    "generate sha256 hash online free",
+    "compare md5 checksum online",
+    "verify file checksum online free",
+    "hash generator for password verification",
+    "sha256 hash generator for developers",
+    "how to generate hash online",
+    "file integrity checksum generator online",
+    "secure hash generator online free",
+
+    // Broader dev/security context
     "encryption tools",
-    "best hash generator",
+    "security tools online",
+    "developer tools",
+    "data integrity tools",
+
+    // Brand
     "toolsnestx hash generator",
   ],
 

@@ -12,27 +12,55 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Lorem Ipsum Generator Online | Generate Placeholder Text | ToolsNestX",
+    "Free Lorem Ipsum Generator Online | Placeholder Text Generator | ToolsNestX",
 
   description:
-    "Generate Lorem Ipsum placeholder text instantly. Create paragraphs, sentences or words for web design, apps and mockups.",
+    "Generate Lorem Ipsum placeholder text online for free, instantly in your browser. Create paragraphs, sentences, or words for web design, apps, and mockups.",
 
   keywords: [
+    // Core
     "lorem ipsum generator",
     "placeholder text",
     "dummy text generator",
     "lorem ipsum",
     "generate lorem ipsum",
+    "placeholder generator",
+    "dummy content",
+    "latin text",
+
+    // Online / Free intent
     "online lorem ipsum generator",
     "free lorem ipsum",
+    "lorem ipsum online tool",
+    "browser lorem ipsum generator",
+
+    // Format specific
     "paragraph generator",
-    "dummy content",
+    "lorem ipsum paragraphs",
+    "lorem ipsum sentences",
+    "lorem ipsum words generator",
+    "random text generator",
+
+    // Low competition long-tail
+    "lorem ipsum generator by word count",
+    "lorem ipsum generator by paragraph count",
+    "generate placeholder text for website",
+    "dummy text generator for design mockup",
+    "lorem ipsum generator no signup",
+    "custom lorem ipsum length generator",
+    "placeholder text for ui design",
+    "how to generate lorem ipsum online",
+    "lorem ipsum generator for figma",
+    "fake text generator for testing",
+
+    // Broader context
     "web design text",
-    "placeholder generator",
-    "latin text",
     "website mockup text",
     "ui placeholder text",
-    "toolsnestx lorem ipsum",
+    "content placeholder tool",
+
+    // Brand
+    "toolsnestx lorem ipsum generator",
   ],
 
   path: "/tools/lorem-ipsum-generator",

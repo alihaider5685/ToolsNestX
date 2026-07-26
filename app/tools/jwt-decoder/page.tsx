@@ -15,9 +15,10 @@ export const metadata: Metadata = generateToolMetadata({
     "Free JWT Decoder Online | Decode JSON Web Tokens | ToolsNestX",
 
   description:
-    "Decode JSON Web Tokens (JWT) instantly with our free online JWT Decoder. View JWT header, payload, claims and expiration securely in your browser without sending data to a server.",
+    "Decode JSON Web Tokens (JWT) online for free. View header, payload, claims and expiration instantly in your browser, without sending data to a server.",
 
   keywords: [
+    // Core
     "jwt decoder",
     "decode jwt",
     "jwt token decoder",
@@ -25,28 +26,47 @@ export const metadata: Metadata = generateToolMetadata({
     "jwt parser",
     "jwt viewer",
     "jwt inspector",
+    "jwt utilities",
+
+    // Online / Free intent
     "online jwt decoder",
     "free jwt decoder",
-    "jwt validator",
+    "browser jwt decoder",
+    "jwt online tool",
+    "secure jwt decoder",
+
+    // Payload/Header specific
     "jwt payload decoder",
     "jwt header decoder",
+    "jwt claims viewer",
+    "jwt expiration checker",
     "decode bearer token",
+    "json token decoder",
+    "jwt token parser",
+    "jwt validator",
+
+    // Low competition long-tail
+    "decode jwt token online free no signup",
+    "jwt decoder without sending data to server",
+    "view jwt claims online free",
+    "check jwt expiration online",
+    "jwt decoder for api testing",
+    "decode bearer token online free",
+    "how to decode jwt token online",
+    "jwt debug tool for developers",
+    "jwt decoder for authentication testing",
+    "inspect jwt payload online",
+
+    // Broader dev context
     "jwt authentication",
     "jwt debug tool",
     "developer jwt tools",
-    "jwt claims viewer",
-    "jwt expiration checker",
-    "browser jwt decoder",
-    "secure jwt decoder",
     "api jwt decoder",
-    "jwt token parser",
-    "jwt online tool",
-    "jwt utilities",
-    "json token decoder",
-    "best jwt decoder",
     "jwt security tool",
     "jwt analysis",
     "developer tools",
+
+    // Brand
     "toolsnestx jwt decoder",
   ],
 

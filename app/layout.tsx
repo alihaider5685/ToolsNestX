@@ -20,24 +20,67 @@ export const metadata: Metadata = {
   description:
     "Free online tools for PDF, Images, Text and Developers. Fast, secure and easy-to-use browser-based utilities.",
 
-  keywords: [
+keywords: [
+  // Brand
+  "ToolsNestX",
+
+  // Core / Broad
   "free online tools",
   "online tools",
   "pdf tools",
   "image tools",
   "text tools",
   "developer tools",
-  "password generator",
-  "qr code generator",
-  "image compressor",
-  "image converter",
+  "browser based tools",
+  "free utilities",
+  "all in one online tools",
+
+  // Low competition - intent based
+  "free online tools no signup",
+  "online tools without registration",
+  "online tools no installation required",
+  "free tools for developers online",
+  "free online tools for students",
+  "unlimited free online tools",
+  "online tools for daily use",
+
+  // PDF Tools
   "pdf merger",
   "pdf splitter",
+  "merge pdf online free",
+  "split pdf online free no signup",
+  "compress pdf online free",
+  "pdf to word converter free",
+  "combine multiple pdf files online",
+
+  // Image Tools
+  "image compressor",
+  "image converter",
+  "compress image online free without losing quality",
+  "convert image to webp online",
+  "resize image online free",
+  "png to jpg converter online free",
+  "bulk image compressor online",
+
+  // Text Tools
   "word counter",
   "text case converter",
+  "reverse text",
+  "sort lines",
+  "remove duplicate lines",
+  "lorem ipsum generator",
+  "character counter online free",
+  "uppercase to lowercase converter online",
+  "remove extra spaces from text online",
+  "text diff checker online",
+
+  // Developer Tools
+  "password generator",
+  "qr code generator",
   "json formatter",
   "json validator",
   "base64 encoder",
+  "base64 decoder",
   "url encoder",
   "url decoder",
   "uuid generator",
@@ -54,13 +97,18 @@ export const metadata: Metadata = {
   "url parser",
   "html minifier",
   "slug generator",
-  "reverse text",
-  "sort lines",
-  "remove duplicate lines",
-  "lorem ipsum generator",
-  "browser based tools",
-  "free utilities",
-  "ToolsNestX",
+
+  // Low competition - developer long-tail
+  "json formatter and validator online free",
+  "free jwt token decoder online",
+  "online regex tester with explanation",
+  "generate random uuid online free",
+  "sha256 hash generator online free",
+  "unix timestamp to date converter online",
+  "css and js minifier free tool",
+  "url encode decode online free tool",
+  "generate strong random password online free",
+  "qr code generator without watermark free",
 ],
 
   authors: [{ name: "ToolsNestX" }],

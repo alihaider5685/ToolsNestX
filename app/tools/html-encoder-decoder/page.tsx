@@ -12,42 +12,64 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free HTML Encoder & Decoder Online | Encode & Decode HTML Entities | ToolsNestX",
+    "Free HTML Encoder & Decoder Online | HTML Entities Converter | ToolsNestX",
 
   description:
-    "Encode and decode HTML entities instantly with our free online HTML Encoder & Decoder. Convert special characters to HTML entities and decode them back securely in your browser.",
+    "Encode and decode HTML entities online for free, instantly in your browser. Convert special characters to HTML entities and back. No signup, safe and fast.",
 
   keywords: [
+    // Core
     "html encoder",
     "html decoder",
     "encode html",
     "decode html",
+    "html converter",
+    "html parser",
+    "html utility",
+    "html formatter",
+
+    // Entity specific
     "html entity encoder",
     "html entity decoder",
     "html entities",
     "html escape",
     "html unescape",
+    "convert html entities",
+    "decode html entities",
+    "html special characters",
+    "encode special characters",
+
+    // Online / Free intent
     "online html encoder",
     "online html decoder",
     "free html encoder",
     "free html decoder",
-    "html converter",
-    "html parser",
-    "html special characters",
-    "developer html tools",
+    "html online tool",
     "browser html encoder",
     "browser html decoder",
-    "html utility",
     "html encoding tool",
     "html decoding tool",
-    "convert html entities",
-    "encode special characters",
-    "decode html entities",
+
+    // Low competition long-tail
+    "html encoder decoder no signup",
+    "escape html characters online free",
+    "unescape html entities online",
+    "convert special characters to html online",
+    "html entity converter for developers",
+    "how to encode html entities online",
+    "html character encoder online free",
+    "safely decode html string online",
+    "html encoder for xss prevention",
+    "html entities cheat sheet converter",
+
+    // Broader dev context
+    "developer html tools",
     "web developer tools",
-    "html online tool",
-    "best html encoder",
-    "html formatter",
+    "developer tools",
+
+    // Brand
     "toolsnestx html encoder",
+    "toolsnestx html decoder",
   ],
 
   path: "/tools/html-encoder-decoder",

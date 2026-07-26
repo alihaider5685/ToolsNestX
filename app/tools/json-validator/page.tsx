@@ -12,41 +12,62 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free JSON Validator Online | Validate & Check JSON | ToolsNestX",
+    "Free JSON Validator Online | Validate & Check JSON Syntax | ToolsNestX",
 
   description:
-    "Validate JSON data online for free. Detect syntax errors, fix invalid JSON, and verify JSON structure instantly with our fast and secure JSON Validator.",
+    "Validate JSON data online for free, instantly in your browser. Detect syntax errors, fix invalid JSON, and verify JSON structure. No signup needed.",
 
   keywords: [
+    // Core
     "json validator",
     "validate json",
     "json checker",
     "json validation",
-    "json syntax checker",
-    "json syntax validator",
+    "json parser",
+    "json debugger",
+    "json utilities",
+
+    // Online / Free intent
     "online json validator",
     "free json validator",
+    "check json online",
+    "browser json validator",
+    "json validation tool",
+
+    // Syntax/Error specific
+    "json syntax checker",
+    "json syntax validator",
     "json lint",
-    "json parser",
     "json error checker",
     "json error finder",
-    "json debugger",
-    "check json online",
     "verify json",
-    "json validation tool",
     "json file validator",
     "json object validator",
+    "json structure validator",
+    "json code validator",
+    "fix json errors",
+
+    // Low competition long-tail
+    "validate json syntax online free no signup",
+    "find json syntax errors online",
+    "json validator for api response",
+    "check invalid json online free",
+    "json validator for large files",
+    "how to validate json online",
+    "fix broken json online free",
+    "json schema validator online free",
+    "json validator for nested objects",
+    "detect json parsing errors online",
+
+    // Broader dev context
     "json formatter",
     "json beautifier",
     "developer json tools",
     "api json validator",
-    "json structure validator",
-    "json code validator",
     "json testing tool",
-    "best json validator",
-    "browser json validator",
-    "json utilities",
-    "fix json errors",
+    "developer tools",
+
+    // Brand
     "toolsnestx json validator",
   ],
 

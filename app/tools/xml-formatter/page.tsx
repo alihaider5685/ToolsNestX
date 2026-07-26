@@ -12,41 +12,62 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free XML Formatter Online | Beautify & Format XML | ToolsNestX",
+    "Free XML Formatter Online | Beautify, Validate & Format XML | ToolsNestX",
 
   description:
-    "Format, beautify and validate XML documents online for free. Improve XML readability with proper indentation using our fast and secure browser-based XML Formatter.",
+    "Format, beautify and validate XML documents online for free, instantly in your browser. Improve readability with proper indentation. No signup needed.",
 
   keywords: [
+    // Core
     "xml formatter",
     "format xml",
     "beautify xml",
     "xml beautifier",
     "pretty xml",
-    "online xml formatter",
-    "free xml formatter",
-    "xml viewer",
-    "xml validator",
     "xml parser",
     "xml editor",
+    "xml cleaner",
+    "xml utilities",
+
+    // Online / Free intent
+    "online xml formatter",
+    "free xml formatter",
+    "xml online tool",
+    "browser xml formatter",
+    "best xml formatter",
+    "format xml online",
+    "xml beautify online",
+
+    // Related actions
+    "xml viewer",
+    "xml validator",
     "xml formatting tool",
     "xml pretty print",
     "xml code formatter",
-    "xml beautify online",
-    "developer xml tools",
-    "browser xml formatter",
-    "xml online tool",
     "xml syntax formatter",
     "xml indentation",
-    "xml utilities",
-    "xml cleaner",
-    "api xml formatter",
-    "xml debugging tool",
-    "web developer tools",
-    "best xml formatter",
-    "format xml online",
     "xml document formatter",
     "xml code beautifier",
+    "xml debugging tool",
+
+    // Low competition long-tail
+    "format xml online free no signup",
+    "validate xml syntax online free",
+    "beautify xml for readability online",
+    "xml formatter for api response",
+    "how to format xml online",
+    "convert minified xml to readable format",
+    "xml formatter for large files",
+    "xml formatter for soap requests",
+    "fix xml syntax errors online",
+    "xml formatter for configuration files",
+
+    // Broader dev context
+    "developer xml tools",
+    "api xml formatter",
+    "web developer tools",
+
+    // Brand
     "toolsnestx xml formatter",
   ],
 

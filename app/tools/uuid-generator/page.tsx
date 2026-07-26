@@ -15,38 +15,59 @@ export const metadata: Metadata = generateToolMetadata({
     "Free UUID Generator Online | Generate UUID v4 & GUID | ToolsNestX",
 
   description:
-    "Generate secure UUID v4 and GUID values instantly with our free online UUID Generator. Fast, browser-based, and perfect for developers, databases, APIs, and applications.",
+    "Generate secure UUID v4 and GUID values online for free, instantly in your browser. Perfect for developers, databases, APIs, and applications. No signup needed.",
 
   keywords: [
+    // Core
     "uuid generator",
     "guid generator",
     "generate uuid",
     "generate guid",
+    "uuid creator",
+    "guid creator",
+    "uuid utility",
+    "unique id generator",
+    "unique identifier",
+
+    // Online / Free intent
+    "online uuid generator",
+    "free uuid generator",
+    "uuid online",
+    "guid online",
+    "browser uuid generator",
+    "best uuid generator",
+
+    // Version specific
     "uuid v4 generator",
     "random uuid",
     "random guid",
-    "online uuid generator",
-    "free uuid generator",
-    "uuid creator",
-    "guid creator",
-    "unique id generator",
-    "unique identifier",
-    "uuid online",
-    "guid online",
+    "uuid string generator",
+    "generate unique id",
+    "javascript uuid",
+
+    // Low competition long-tail
+    "generate random uuid online free",
+    "uuid v4 generator for database",
+    "bulk uuid generator online free",
+    "generate multiple uuids at once",
+    "how to generate uuid online",
+    "uuid generator for api testing",
+    "guid generator for c# development",
+    "unique id generator for database records",
+    "uuid generator without installation",
+    "generate uuid for primary key",
+
+    // Broader dev context
     "developer uuid tool",
     "database uuid",
     "api uuid",
     "secure uuid",
-    "browser uuid generator",
-    "javascript uuid",
-    "uuid utility",
-    "uuid string generator",
-    "generate unique id",
     "uuid for database",
     "uuid for applications",
-    "best uuid generator",
     "uuid tools",
     "guid tools",
+
+    // Brand
     "toolsnestx uuid generator",
   ],
 

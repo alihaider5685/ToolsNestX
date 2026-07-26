@@ -16,16 +16,30 @@ export const metadata: Metadata = generateToolMetadata({
     "Free QR Code Generator Online | Create Custom QR Codes | ToolsNestX",
 
   description:
-    "Generate QR codes online for URLs, text, email, phone numbers, Wi-Fi and more. Free, fast, secure and browser-based QR code generator.",
+    "Generate QR codes online for free for URLs, text, email, phone numbers, and Wi-Fi. Instantly create and download custom QR codes in your browser. No signup.",
 
   keywords: [
+    // Core
     "qr code generator",
     "qr generator",
+    "qr code maker",
+    "qr creator",
+    "qr code creator",
+    "qr code tool",
     "create qr code",
+    "generate qr code",
+
+    // Online / Free intent
     "free qr code generator",
     "online qr generator",
+    "qr code online",
+    "free qr maker",
+    "best qr code generator",
+    "secure qr generator",
+    "browser qr generator",
+
+    // Type specific
     "custom qr code",
-    "generate qr code",
     "wifi qr code",
     "url qr code",
     "text qr code",
@@ -34,20 +48,27 @@ export const metadata: Metadata = generateToolMetadata({
     "vcard qr code",
     "business qr code",
     "website qr code",
-    "qr code maker",
-    "qr creator",
     "dynamic qr code",
     "static qr code",
+
+    // Low competition long-tail
+    "qr code generator no signup",
+    "generate qr code for wifi password",
+    "create qr code for business card",
+    "qr code generator without watermark free",
+    "download high resolution qr code free",
+    "qr code generator for whatsapp link",
+    "how to make a qr code online free",
+    "qr code generator for menu",
+    "generate qr code for google form",
+    "custom colored qr code generator online",
+
+    // Broader context
     "download qr code",
     "high quality qr code",
-    "qr code online",
     "barcode generator",
-    "free qr maker",
-    "best qr code generator",
-    "secure qr generator",
-    "browser qr generator",
-    "qr code tool",
-    "qr code creator",
+
+    // Brand
     "toolsnestx qr generator",
   ],
 

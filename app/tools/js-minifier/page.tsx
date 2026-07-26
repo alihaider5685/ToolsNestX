@@ -15,9 +15,10 @@ export const metadata: Metadata = generateToolMetadata({
     "Free JavaScript Minifier Online | Minify & Compress JS Code | ToolsNestX",
 
   description:
-    "Minify and compress JavaScript code online for free. Remove unnecessary spaces, comments and line breaks to optimize your JS files for faster website performance.",
+    "Minify and compress JavaScript code online for free, instantly in your browser. Remove spaces, comments, and line breaks to speed up your website. No signup needed.",
 
   keywords: [
+    // Core
     "javascript minifier",
     "js minifier",
     "minify javascript",
@@ -25,28 +26,48 @@ export const metadata: Metadata = generateToolMetadata({
     "compress js",
     "javascript compressor",
     "js compressor",
+    "javascript utility",
+
+    // Online / Free intent
     "online javascript minifier",
     "online js minifier",
     "free javascript minifier",
     "free js minifier",
-    "javascript optimizer",
-    "js optimizer",
+    "minify js online",
+    "browser javascript minifier",
     "javascript code minifier",
     "js code minifier",
+    "js code compressor",
+
+    // Related actions
+    "javascript optimizer",
+    "js optimizer",
     "javascript cleaner",
     "remove javascript comments",
     "optimize javascript",
     "reduce javascript size",
+
+    // Low competition long-tail
+    "minify javascript online free no signup",
+    "compress js file online free",
+    "js minifier for faster website",
+    "reduce javascript file size online",
+    "minify javascript without installation",
+    "javascript minifier for production",
+    "how to minify javascript online",
+    "js minifier for wordpress",
+    "bulk javascript minifier online free",
+    "minify es6 javascript online",
+
+    // Broader dev context
     "developer javascript tools",
     "web developer tools",
     "frontend developer tools",
-    "browser javascript minifier",
     "javascript performance",
     "website optimization",
-    "minify js online",
-    "javascript utility",
-    "best javascript minifier",
-    "js code compressor",
+    "website speed optimization tool",
+
+    // Brand
     "toolsnestx javascript minifier",
   ],
 

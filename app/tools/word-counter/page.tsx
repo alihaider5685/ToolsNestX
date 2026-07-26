@@ -15,12 +15,11 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Word Counter Online | Count Words, Characters & Sentences | ToolsNestX",
 
   description:
-    "Count words, characters, sentences, paragraphs and reading time instantly. Free online word counter for writers, students, bloggers and professionals.",
+    "Count words, characters, sentences, paragraphs, and reading time online for free, instantly in your browser. Perfect for writers, students, and bloggers.",
 
   keywords: [
+    // Core
     "word counter",
-    "online word counter",
-    "free word counter",
     "character counter",
     "character count",
     "word count",
@@ -30,23 +29,45 @@ export const metadata: Metadata = generateToolMetadata({
     "paragraph counter",
     "text counter",
     "letter counter",
+
+    // Online / Free intent
+    "online word counter",
+    "free word counter",
+    "word count online",
+    "online text counter",
     "word counting tool",
-    "essay word counter",
-    "blog word counter",
+    "word count checker",
+
+    // Related actions
     "reading time calculator",
     "writing statistics",
     "typing statistics",
     "text analyzer",
-    "online text counter",
+    "text analysis tool",
+    "word checker",
+    "count text online",
+
+    // Low competition long-tail
+    "word counter for essay online free",
+    "character counter for social media post",
+    "word counter with reading time estimate",
+    "count words in paragraph online",
+    "how to count words online free",
+    "word counter for twitter character limit",
+    "word counter for seo meta description",
+    "count sentences in text online free",
+    "word counter for blog post length",
+    "character count for instagram caption",
+
+    // Broader context
+    "essay word counter",
+    "blog word counter",
     "seo word counter",
     "content word counter",
     "article word counter",
-    "word checker",
-    "count text online",
-    "text analysis tool",
     "writing tool",
-    "word count checker",
-    "word count online",
+
+    // Brand
     "toolsnestx word counter",
   ],
 

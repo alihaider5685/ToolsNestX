@@ -16,19 +16,29 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Image Compressor Online | Compress JPG, PNG & WebP | ToolsNestX",
 
   description:
-    "Compress JPG, JPEG, PNG and WebP images online without losing quality. Reduce image file size instantly with our free, secure and browser-based image compressor.",
+    "Compress JPG, PNG and WebP images online for free without losing quality. Reduce image file size instantly in your browser. No signup, fast and secure.",
 
   keywords: [
+    // Core
     "image compressor",
     "compress image",
     "compress images online",
     "image compression",
-    "online image compressor",
-    "free image compressor",
-    "reduce image size",
-    "reduce photo size",
+    "image optimizer",
+    "optimize images",
+    "image size reducer",
     "photo compressor",
     "picture compressor",
+
+    // Online / Free intent
+    "online image compressor",
+    "free image compressor",
+    "compress images free",
+    "browser image compressor",
+    "fast image compressor",
+    "best image compressor",
+
+    // Format specific
     "compress jpg",
     "jpg compressor",
     "compress jpeg",
@@ -37,18 +47,35 @@ export const metadata: Metadata = generateToolMetadata({
     "png compressor",
     "compress webp",
     "webp compressor",
-    "image optimizer",
-    "optimize images",
+
+    // Related actions
+    "reduce image size",
+    "reduce photo size",
     "compress photos",
     "shrink image size",
     "resize and compress image",
     "lossless image compression",
     "compress images without losing quality",
-    "best image compressor",
-    "fast image compressor",
-    "browser image compressor",
-    "compress images free",
-    "image size reducer",
+
+    // Low competition long-tail
+    "compress image online free no signup",
+    "reduce image file size without losing quality",
+    "compress image for website upload",
+    "compress image under 100kb online",
+    "compress image for email attachment",
+    "bulk image compressor online free",
+    "compress png without losing transparency",
+    "how to compress image online free",
+    "compress image for instagram upload",
+    "shrink photo size for whatsapp",
+
+    // Broader context
+    "image tools",
+    "photo tools online",
+    "website image optimization",
+
+    // Brand
+    "toolsnestx image compressor",
   ],
 
   path: "/tools/image-compressor",

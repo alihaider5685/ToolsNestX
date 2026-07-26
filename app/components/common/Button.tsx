@@ -23,7 +23,7 @@ export default function Button({
   onClick,
 }: ButtonProps) {
   const base =
-    "group inline-flex h-10 items-center justify-center gap-2 rounded-xl px-6 text-[15px] font-semibold transition-all duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/30 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50";
+    "group inline-flex h-10 items-center justify-center gap-2 rounded-xl px-6 text-[15px] font-semibold transition-colors transition-transform duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/30 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50";
 
   const variants = {
     primary:

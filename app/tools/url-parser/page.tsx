@@ -15,38 +15,59 @@ export const metadata: Metadata = generateToolMetadata({
     "Free URL Parser Online | Analyze URL Components | ToolsNestX",
 
   description:
-    "Parse and analyze URLs online for free. Extract protocol, hostname, port, path, query parameters and fragments instantly with our secure browser-based URL Parser.",
+    "Parse and analyze URLs online for free, instantly in your browser. Extract protocol, hostname, port, path, query parameters, and fragments. No signup needed.",
 
   keywords: [
+    // Core
     "url parser",
     "parse url",
     "url analyzer",
     "url components",
     "url breakdown",
+    "url inspector",
+    "url utilities",
+    "url analysis tool",
+
+    // Online / Free intent
     "online url parser",
     "free url parser",
-    "url inspector",
-    "url checker",
-    "url validator",
-    "url decoder",
-    "url encoder",
+    "url parser online",
+    "browser url parser",
+    "best url parser",
+    "url online tool",
+
+    // Component specific
     "query string parser",
     "url query parser",
     "url parameters",
     "url path parser",
     "hostname parser",
+    "url checker",
+    "url validator",
+    "url debugging tool",
+
+    // Low competition long-tail
+    "extract query parameters from url online",
+    "parse url into components online free",
+    "extract hostname from url online",
+    "url parser for api development",
+    "how to parse url online free",
+    "break down url into parts online",
+    "extract path from url online free",
+    "url parser for query strings",
+    "analyze url structure online",
+    "get url parameters online free",
+
+    // Broader dev context
     "developer url tools",
     "web developer tools",
     "api url parser",
-    "browser url parser",
-    "url utilities",
     "http url parser",
     "https url parser",
-    "url analysis tool",
-    "url debugging tool",
-    "url online tool",
-    "best url parser",
-    "url parser online",
+    "url decoder",
+    "url encoder",
+
+    // Brand
     "toolsnestx url parser",
   ],
 

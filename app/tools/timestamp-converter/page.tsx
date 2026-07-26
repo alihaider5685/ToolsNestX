@@ -15,38 +15,59 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Unix Timestamp Converter Online | Timestamp to Date & Date to Timestamp | ToolsNestX",
 
   description:
-    "Convert Unix timestamps to human-readable dates and convert dates to Unix timestamps instantly. Free, fast, secure and browser-based timestamp converter.",
+    "Convert Unix timestamps to human-readable dates and dates to Unix timestamps online for free, instantly in your browser. No signup needed.",
 
   keywords: [
+    // Core
     "timestamp converter",
     "unix timestamp converter",
     "epoch converter",
-    "timestamp to date",
-    "date to timestamp",
     "unix time converter",
     "epoch time converter",
+    "timestamp calculator",
+    "timestamp utility",
+    "timestamp generator",
+
+    // Online / Free intent
     "online timestamp converter",
     "free timestamp converter",
+    "timestamp online",
+    "browser timestamp converter",
+    "best timestamp converter",
+
+    // Conversion specific
+    "timestamp to date",
+    "date to timestamp",
     "convert unix timestamp",
     "convert timestamp",
-    "timestamp calculator",
+    "unix date converter",
     "unix epoch",
     "epoch timestamp",
     "current unix timestamp",
-    "unix date converter",
+    "epoch calculator",
+
+    // Low competition long-tail
+    "convert unix timestamp to readable date online",
+    "convert date to unix timestamp online free",
+    "get current unix timestamp online",
+    "unix timestamp converter for milliseconds",
+    "how to convert unix timestamp online",
+    "epoch time to human readable date",
+    "timestamp converter for api development",
+    "unix timestamp converter with timezone",
+    "convert timestamp to local time online",
+    "unix timestamp converter for javascript",
+
+    // Broader dev context
     "developer timestamp tool",
     "api timestamp converter",
-    "browser timestamp converter",
-    "timestamp utility",
+    "unix time",
     "time converter",
     "date converter",
-    "unix time",
-    "epoch calculator",
-    "timestamp generator",
-    "timestamp online",
-    "best timestamp converter",
     "unix tools",
     "developer tools",
+
+    // Brand
     "toolsnestx timestamp converter",
   ],
 

@@ -15,38 +15,59 @@ export const metadata: Metadata = generateToolMetadata({
     "Free URL Encoder & Decoder Online | Encode & Decode URLs | ToolsNestX",
 
   description:
-    "Encode and decode URLs online for free. Convert special characters into URL-safe format and decode encoded URLs instantly with our secure browser-based tool.",
+    "Encode and decode URLs online for free, instantly in your browser. Convert special characters into URL-safe format and decode encoded URLs. No signup needed.",
 
   keywords: [
+    // Core
     "url encoder",
     "url decoder",
     "url encode",
     "url decode",
     "encode url",
     "decode url",
+    "url converter",
+    "url utilities",
+
+    // Online / Free intent
     "online url encoder",
     "online url decoder",
     "free url encoder",
     "free url decoder",
+    "url encoding online",
+    "browser url encoder",
+    "browser url decoder",
+
+    // Technical specific
     "url encoding tool",
     "url decoding tool",
-    "url converter",
     "percent encoding",
     "url escape",
     "url unescape",
     "encode special characters",
     "decode encoded url",
     "url parser",
+    "javascript url encode",
+    "javascript url decode",
+
+    // Low competition long-tail
+    "url encode decode online free no signup",
+    "encode special characters in url online",
+    "decode url query parameters online",
+    "url encoder for api requests",
+    "how to encode url online free",
+    "convert url to percent encoding online",
+    "decode url with special characters online",
+    "url encoder for query string",
+    "encode spaces in url online free",
+    "url decoder for developers online",
+
+    // Broader dev context
     "developer tools",
     "web developer tools",
     "api tools",
-    "browser url encoder",
-    "browser url decoder",
-    "javascript url encode",
-    "javascript url decode",
     "best url encoder",
-    "url utilities",
-    "url encoding online",
+
+    // Brand
     "toolsnestx url encoder",
   ],
 

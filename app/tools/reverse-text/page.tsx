@@ -15,18 +15,47 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Reverse Text Online | Reverse Words & Characters | ToolsNestX",
 
   description:
-    "Reverse text, words and characters instantly with our free online Reverse Text tool. Fast and secure browser-based utility.",
+    "Reverse text, words, and characters online for free, instantly in your browser. Fast, secure, and no signup needed.",
 
   keywords: [
+    // Core
     "reverse text",
     "text reverser",
     "reverse words",
     "reverse string",
     "reverse characters",
     "text utility",
+
+    // Online / Free intent
     "online reverse text",
     "free reverse text",
+    "reverse text online tool",
+    "browser text reverser",
+
+    // Related actions
+    "reverse sentence",
+    "flip text",
+    "reverse paragraph",
+    "mirror text generator",
+    "backwards text generator",
+
+    // Low competition long-tail
+    "reverse text online free no signup",
+    "reverse text word by word online",
+    "reverse text letter by letter online",
+    "how to reverse text online",
+    "reverse text for social media post",
+    "generate backwards text online free",
+    "reverse string online for programming",
+    "flip text upside down online",
+    "reverse text generator for prank",
+    "reverse text without installation",
+
+    // Broader dev context
     "developer text tools",
+    "text tools online",
+
+    // Brand
     "toolsnestx reverse text",
   ],
 

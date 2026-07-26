@@ -12,12 +12,13 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Remove Duplicate Lines Online | Remove Duplicate Text | ToolsNestX",
+    "Free Remove Duplicate Lines Online | Clean Text & Lists | ToolsNestX",
 
   description:
-    "Remove duplicate lines from text instantly. Clean lists, logs and large text files online for free.",
+    "Remove duplicate lines from text online for free, instantly in your browser. Clean lists, logs, and large text files. No signup needed.",
 
   keywords: [
+    // Core
     "remove duplicate lines",
     "duplicate remover",
     "remove duplicate text",
@@ -25,9 +26,37 @@ export const metadata: Metadata = generateToolMetadata({
     "unique lines",
     "remove duplicate strings",
     "text utility",
+
+    // Online / Free intent
     "online duplicate remover",
     "free duplicate remover",
+    "remove duplicates online",
+    "duplicate line remover online",
+
+    // Related actions
+    "remove duplicate rows from text",
+    "remove repeated lines",
+    "extract unique lines from text",
+    "clean duplicate entries from list",
+    "sort and remove duplicate lines",
+
+    // Low competition long-tail
+    "remove duplicate lines online free no signup",
+    "remove duplicate lines from text file online",
+    "remove duplicate lines from csv online",
+    "remove duplicate email list online free",
+    "remove duplicate lines while keeping order",
+    "how to remove duplicate lines online",
+    "remove duplicate lines from log file",
+    "remove duplicate words from list online",
+    "delete repeated lines from text online",
+    "clean up duplicate list entries online",
+
+    // Broader dev context
     "developer text tools",
+    "text tools online",
+
+    // Brand
     "toolsnestx duplicate remover",
   ],
 

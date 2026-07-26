@@ -12,42 +12,61 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Password Generator Online | Secure Random Password Generator | ToolsNestX",
+    "Free Password Generator Online | Strong & Secure Passwords | ToolsNestX",
 
   description:
-    "Generate strong, secure and random passwords instantly. Free online Password Generator with customizable length, symbols, numbers and uppercase letters. No registration required.",
+    "Generate strong, secure, and random passwords online for free, instantly in your browser. Customize length, symbols, numbers, and letters. No signup required.",
 
   keywords: [
+    // Core
     "password generator",
     "random password generator",
     "strong password",
     "secure password",
     "password creator",
+    "password maker",
+    "password tool",
+    "password utility",
+
+    // Online / Free intent
     "online password generator",
     "free password generator",
+    "password generator online",
+    "browser password generator",
+    "online password maker",
+    "free secure password",
+
+    // Related actions
     "generate password",
     "random password",
     "secure random password",
-    "complex password",
-    "strong password creator",
-    "password tool",
-    "password maker",
-    "browser password generator",
-    "safe password",
-    "custom password generator",
-    "password security",
-    "best password generator",
-    "private password generator",
-    "password generator online",
-    "toolsnestx password generator",
-    "password creator free",
-    "password generator secure",
     "generate secure password",
     "strong random password",
-    "password utility",
+    "complex password",
+    "strong password creator",
+    "custom password generator",
+    "safe password",
+
+    // Low competition long-tail
+    "password generator no signup",
+    "generate strong password with symbols",
+    "random password generator for wifi",
+    "password generator with numbers and letters",
+    "generate 16 character random password",
+    "password generator for email account",
+    "how to generate secure password online",
+    "custom length password generator online",
+    "password generator without saving data",
+    "random password generator for accounts",
+
+    // Broader context
+    "password security",
     "cyber security tools",
-    "online password maker",
-    "free secure password",
+    "private password generator",
+    "best password generator",
+
+    // Brand
+    "toolsnestx password generator",
   ],
 
   path: "/tools/password-generator",

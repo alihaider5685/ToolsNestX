@@ -15,23 +15,49 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Slug Generator Online | Create SEO Friendly URLs | ToolsNestX",
 
   description:
-    "Generate clean SEO-friendly URL slugs from any text. Convert titles into optimized URLs instantly with our free Slug Generator.",
+    "Generate clean, SEO-friendly URL slugs from any text online for free. Convert titles into optimized URLs instantly. No signup needed.",
 
   keywords: [
+    // Core
     "slug generator",
     "url slug generator",
     "seo slug",
     "slug creator",
     "generate slug",
-    "seo url",
-    "friendly url",
     "url generator",
-    "blog slug generator",
-    "wordpress slug",
+    "friendly url",
+
+    // Online / Free intent
     "online slug generator",
     "free slug generator",
+    "slug generator online tool",
+
+    // Related actions
+    "seo url",
+    "convert title to slug",
+    "text to slug converter",
+    "url slugify",
+    "slugify text online",
+
+    // Low competition long-tail
+    "slug generator online free no signup",
+    "convert title to url slug online",
+    "generate seo friendly slug from text",
+    "blog post slug generator online",
+    "how to create url slug online",
+    "slug generator for wordpress posts",
+    "slug generator for shopify products",
+    "clean url generator from title",
+    "remove special characters slug generator",
+    "convert sentence to url slug online",
+
+    // Broader context
+    "blog slug generator",
+    "wordpress slug",
     "seo tools",
     "developer tools",
+
+    // Brand
     "toolsnestx slug generator",
   ],
 

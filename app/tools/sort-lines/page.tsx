@@ -15,21 +15,50 @@ export const metadata: Metadata = generateToolMetadata({
     "Free Sort Lines Online | Alphabetically Sort Text | ToolsNestX",
 
   description:
-    "Sort text lines alphabetically in ascending or descending order instantly with our free online Sort Lines tool.",
+    "Sort text lines alphabetically in ascending or descending order online for free, instantly in your browser. No signup needed.",
 
   keywords: [
+    // Core
     "sort lines",
     "sort text",
     "alphabetical sorter",
     "sort words",
     "sort list",
     "sort strings",
+
+    // Online / Free intent
     "online text sorter",
     "text sorting tool",
+    "free line sorter",
+    "browser text sorter",
+
+    // Related actions
+    "sort lines alphabetically",
+    "sort lines a to z",
+    "sort lines z to a",
+    "sort text ascending descending",
+    "arrange text lines online",
+
+    // Low competition long-tail
+    "sort lines alphabetically online free",
+    "sort text lines a to z online",
+    "sort list of names alphabetically online",
+    "sort csv lines online free",
+    "how to sort lines online",
+    "sort lines by length online",
+    "sort text file lines online free",
+    "reverse alphabetical order sorter online",
+    "sort lines and remove duplicates online",
+    "sort text lines numerically online",
+
+    // Broader dev context
     "developer text tools",
+    "text tools online",
+
+    // Brand
     "toolsnestx sort lines",
   ],
-
+  
   path: "/tools/sort-lines",
 });
 

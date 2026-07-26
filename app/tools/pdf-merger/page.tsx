@@ -15,38 +15,58 @@ export const metadata: Metadata = generateToolMetadata({
     "Free PDF Merger Online | Merge PDF Files Instantly | ToolsNestX",
 
   description:
-    "Merge multiple PDF files into a single document online for free. Fast, secure, browser-based PDF merger with no installation or registration required.",
+    "Merge multiple PDF files into one document online for free, instantly in your browser. No installation, no registration, completely secure.",
 
   keywords: [
+    // Core
     "pdf merger",
     "merge pdf",
-    "merge pdf online",
     "combine pdf",
     "join pdf",
-    "combine pdf files",
-    "merge multiple pdf files",
     "pdf joiner",
+    "pdf combine tool",
+    "pdf file merger",
+    "pdf organizer",
+
+    // Online / Free intent
+    "merge pdf online",
     "online pdf merger",
     "free pdf merger",
-    "merge pdf documents",
-    "merge pdf pages",
-    "pdf combine tool",
-    "merge pdf without software",
+    "merge pdf free",
     "browser pdf merger",
-    "pdf file merger",
-    "merge documents",
-    "merge scanned pdf",
     "secure pdf merger",
     "fast pdf merger",
     "best pdf merger",
-    "merge pdf free",
-    "pdf editor online",
-    "pdf tools",
+
+    // Related actions
+    "combine pdf files",
+    "merge multiple pdf files",
+    "merge pdf documents",
+    "merge pdf pages",
+    "merge pdf without software",
+    "merge documents",
     "combine documents",
     "merge files online",
-    "pdf organizer",
     "online document merger",
     "merge pdf instantly",
+
+    // Low competition long-tail
+    "merge pdf online free no signup",
+    "combine pdf files without installation",
+    "merge pdf files in correct order",
+    "merge scanned pdf files online",
+    "merge pdf for job application",
+    "combine multiple pdf into one file free",
+    "how to merge pdf files online",
+    "merge pdf files without watermark",
+    "join two pdf files online free",
+    "merge pdf on mobile browser",
+
+    // Broader context
+    "pdf editor online",
+    "pdf tools",
+
+    // Brand
     "toolsnestx pdf merger",
   ],
 
