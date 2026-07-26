@@ -13,69 +13,83 @@ import {
 
 export const metadata: Metadata = generateToolMetadata({
   title:
-    "Free Image Compressor Online | Compress JPG, PNG & WebP | ToolsNestX",
+    "Free Image Converter Online | Convert JPG, PNG, WebP & More | ToolsNestX",
 
   description:
-    "Compress JPG, PNG and WebP images online for free without losing quality. Reduce image file size instantly in your browser. No signup, fast and secure.",
+    "Convert JPG, PNG, WebP and other image formats online for free. Fast, secure and browser-based image converter with no signup required.",
 
   keywords: [
     // Core
-    "image compressor",
-    "compress image",
-    "compress images online",
-    "image compression",
-    "image optimizer",
-    "optimize images",
-    "image size reducer",
-    "photo compressor",
-    "picture compressor",
+    "image converter",
+    "convert image",
+    "image format converter",
+    "image conversion",
+    "photo converter",
+    "picture converter",
 
     // Online / Free intent
-    "online image compressor",
-    "free image compressor",
-    "compress images free",
-    "browser image compressor",
-    "fast image compressor",
-    "best image compressor",
+    "online image converter",
+    "free image converter",
+    "convert images online",
+    "browser image converter",
+    "fast image converter",
+    "best image converter",
 
-    // Format specific
-    "compress jpg",
-    "jpg compressor",
-    "compress jpeg",
-    "jpeg compressor",
-    "compress png",
-    "png compressor",
-    "compress webp",
-    "webp compressor",
+    // JPG
+    "jpg converter",
+    "convert to jpg",
+    "jpg image converter",
+    "convert png to jpg",
+    "convert webp to jpg",
+    "convert jpeg to jpg",
+
+    // PNG
+    "png converter",
+    "convert to png",
+    "convert jpg to png",
+    "convert webp to png",
+    "convert image to png",
+
+    // WebP
+    "webp converter",
+    "convert to webp",
+    "convert jpg to webp",
+    "convert png to webp",
+    "webp image converter",
+
+    // JPEG
+    "jpeg converter",
+    "convert image to jpeg",
+    "convert png to jpeg",
+    "convert webp to jpeg",
 
     // Related actions
-    "reduce image size",
-    "reduce photo size",
-    "compress photos",
-    "shrink image size",
-    "resize and compress image",
-    "lossless image compression",
-    "compress images without losing quality",
+    "change image format",
+    "convert photo format",
+    "convert picture format",
+    "image file converter",
+    "photo format converter",
+    "image type converter",
 
-    // Low competition long-tail
-    "compress image online free no signup",
-    "reduce image file size without losing quality",
-    "compress image for website upload",
-    "compress image under 100kb online",
-    "compress image for email attachment",
-    "bulk image compressor online free",
-    "compress png without losing transparency",
-    "how to compress image online free",
-    "compress image for instagram upload",
-    "shrink photo size for whatsapp",
+    // Long-tail
+    "convert image online free no signup",
+    "convert image format online",
+    "convert image without losing quality",
+    "convert jpg png webp online",
+    "online photo converter free",
+    "convert image for website",
+    "convert image for social media",
+    "image converter for web",
+    "high quality image converter",
+    "instant image converter",
 
     // Broader context
     "image tools",
     "photo tools online",
-    "website image optimization",
+    "online image utilities",
 
     // Brand
-    "toolsnestx image compressor",
+    "toolsnestx image converter",
   ],
 
   path: "/tools/image-compressor",
