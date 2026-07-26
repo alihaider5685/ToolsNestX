@@ -149,24 +149,8 @@ export default function ImageResizerPage() {
         </div>
       </section>
 
-      <div className="h-10 bg-black" />
+      <div className="h-30 bg-black" />
 
-      {/* ================= ADVERTISEMENT ================= */}
-
-      <section className="px-6 pb-24">
-        <div className="mx-auto max-w-screen-2xl">
-
-          <div className="rounded-3xl border border-dashed border-white/10 bg-white/[0.03] p-8">
-
-            <div className="flex h-28 items-center justify-center rounded-2xl bg-black/40 text-sm tracking-wide text-gray-500">
-              Google AdSense (728 × 90)
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-            <div className="h-10 bg-black" />
 
       {/* ================= FEATURES ================= */}
 
@@ -647,19 +631,6 @@ export default function ImageResizerPage() {
 
       <div className="h-10 bg-black" />
 
-      {/* ================= BOTTOM AD ================= */}
-
-      <section className="px-6 pb-20">
-        <div className="mx-auto max-w-screen-2xl">
-
-          <div className="flex h-32 items-center justify-center rounded-3xl border border-dashed border-white/10 bg-white/[0.03] text-gray-500">
-            Google AdSense (Responsive)
-          </div>
-
-        </div>
-      </section>
-
-      <div className="h-10 bg-black" />
 
       {/* ================= CTA ================= */}
 

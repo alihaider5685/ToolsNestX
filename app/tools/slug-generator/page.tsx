@@ -167,25 +167,8 @@ export default function SlugGeneratorPage() {
 
       </section>
 
-      <div className="h-15 bg-black" />
+      <div className="h-30 bg-black" />
 
-      {/* ================= ADVERTISEMENT ================= */}
-
-      <section className="px-6 pb-20">
-
-        <div className="mx-auto max-w-screen-2xl">
-
-          <div className="flex h-32 items-center justify-center rounded-3xl border border-dashed border-gray-700 bg-white/[0.02] text-gray-500">
-
-            Google AdSense (728 × 90)
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <div className="h-15 bg-black" />
 
       {/* ================= FEATURES ================= */}
 
@@ -701,23 +684,6 @@ export default function SlugGeneratorPage() {
 
       <div className="h-15 bg-black" />
 
-      {/* ================= BOTTOM AD ================= */}
-
-      <section className="px-6 pb-20">
-
-        <div className="mx-auto max-w-screen-2xl">
-
-          <div className="flex h-32 items-center justify-center rounded-3xl border border-dashed border-gray-700 bg-white/[0.02] text-gray-500">
-
-            Google AdSense (Responsive)
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <div className="h-15 bg-black" />
 
       {/* ================= CTA ================= */}
 
