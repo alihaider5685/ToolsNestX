@@ -50,6 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.9,
     },
+    {
+  url: `${baseUrl}/faq`,
+  lastModified: now,
+  changeFrequency: "monthly",
+  priority: 0.8,
+  },
       ];
 
   // All Tool Pages

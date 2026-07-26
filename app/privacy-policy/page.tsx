@@ -219,7 +219,36 @@ export default function PrivacyPolicyPage() {
 
       <div className="h-5 bg-black" />
 
-      {/* Card 5 */}
+      {/* Card 5 - Google AdSense Cookies */}
+
+      <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
+
+        <h3 className="text-3xl font-bold text-white">
+          Google AdSense & Cookies
+        </h3>
+
+        <p className="mt-6 text-lg leading-9 text-gray-400">
+          ToolsNestX uses Google AdSense to display advertisements. Google, as a third-party vendor,
+           uses cookies to serve ads based on a user's prior visits to this website and other websites.
+            Google's use of advertising cookies enables it and its partners to serve ads based on your visit to ToolsNestX 
+            and/or other sites on the internet. You may opt out of personalized advertising by visiting Google Ads Settings. 
+            For more information about how Google collects and uses data, please visit Google's Privacy Policy.{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline underline-offset-4 hover:text-blue-300"
+          >
+            Google Ads Settings
+          </a>
+          .
+        </p>
+
+      </div>
+
+      <div className="h-5 bg-black" />
+
+      {/* Card 6 */}
 
       <div className="rounded-[30px] border border-white/10 bg-[#111] p-10">
 
