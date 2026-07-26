@@ -43,18 +43,14 @@ export default function Hero() {
           opacity-30
         "
       />
-    
-      {/* Optimized Glow */}
 
-      <div className="animate-glow absolute left-1/2 top-44 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[90px]" />
+      {/* Glow (static, no animation) */}
 
-      <div className="animate-glow-slow absolute -left-24 top-56 h-[100px] w-[100px] rounded-full bg-blue-500/15 blur-[60px]" />
+      <div className="absolute left-1/2 top-44 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[90px]" />
 
-      <div
-        className="animate-glow-slow absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[60px]"
+      <div className="absolute -left-24 top-56 h-[100px] w-[100px] rounded-full bg-blue-500/15 blur-[60px]" />
 
-        style={{ animationDelay: "0.5s" }}
-      />
+      <div className="absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[60px]" />
 
       <div className="absolute left-1/2 top-0 h-52 w-52 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[60px]" />
 
@@ -66,12 +62,9 @@ export default function Hero() {
 
         {/* Badge */}
 
-        <div className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-300 backdrop-blur-md sm:px-6 sm:text-sm">
+        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-xs font-semibold text-blue-300 backdrop-blur-md sm:px-6 sm:text-sm">
 
-          <Sparkles
-            size={14}
-            className="shrink-0 animate-wiggle"
-          />
+          <Sparkles size={14} className="shrink-0" />
 
           30+ Professional Online Tools
 
@@ -79,16 +72,13 @@ export default function Hero() {
 
         {/* Heading */}
 
-        <h1
-          className="animate-fade-up mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]"
-          style={{ animationDelay: "100ms" }}
-        >
+        <h1 className="mt-8 max-w-6xl text-5xl font-black leading-[1.02] tracking-tight md:text-7xl lg:text-[88px]">
 
           All Your
 
           <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
 
-            Online Tools 
+            Online Tools
 
           </span>
 
@@ -98,10 +88,7 @@ export default function Hero() {
 
         {/* Description */}
 
-        <p
-          className="animate-fade-up mt-8 max-w-3xl text-lg leading-9 text-gray-400 md:text-xl"
-          style={{ animationDelay: "200ms" }}
-        >
+        <p className="mt-8 max-w-3xl text-lg leading-9 text-gray-400 md:text-xl">
           Compress images, merge PDFs, format JSON, generate QR codes,
           convert files and use powerful online tools directly in your
           browser with no installation, no signup and completely free.
@@ -109,30 +96,16 @@ export default function Hero() {
 
         {/* Buttons */}
 
-        <div
-          className="animate-fade-up mt-16 mb-4 flex flex-wrap justify-center gap-5"
-          style={{ animationDelay: "300ms" }}
-        >
+        <div className="mt-16 mb-4 flex flex-wrap justify-center gap-5">
 
           <Button href="#tools">
             Explore Tools
-
-            <ArrowRight
-              size={20}
-              className="transition-transform duration-300 group-hover:translate-x-1"
-            />
+            <ArrowRight size={20} />
           </Button>
 
-          <Button
-            href="/about"
-            variant="secondary"
-          >
+          <Button href="/about" variant="secondary">
             Learn More
-
-            <ArrowRight
-              size={20}
-              className="transition-transform duration-300 group-hover:translate-x-1"
-            />
+            <ArrowRight size={20} />
           </Button>
 
         </div>
@@ -143,21 +116,15 @@ export default function Hero() {
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-12">
 
-          {features.map((feature, i) => {
+          {features.map((feature) => {
             const Icon = feature.icon;
 
             return (
               <div
                 key={feature.title}
-                style={{
-                  animationDelay: `${150 + i * 5}ms`,
-                }}
-                className="animate-fade-up group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/10"
+                className="flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-5 py-3"
               >
-                <Icon
-                  size={18}
-                  className="text-blue-400 transition-transform duration-300 group-hover:scale-110"
-                />
+                <Icon size={18} className="text-blue-400" />
 
                 <span className="text-sm font-medium text-gray-300">
                   {feature.title}
