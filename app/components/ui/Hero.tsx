@@ -40,25 +40,25 @@ export default function Hero() {
           absolute inset-0
           bg-[linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)]
           bg-[size:80px_80px]
-          opacity-30
+          opacity-15
         "
       />
 
       {/* Glow (static, no animation) */}
 
-      <div className="absolute left-1/2 top-44 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[90px]" />
+      <div className="absolute left-1/2 top-44 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-[40px]" />
 
-      <div className="absolute -left-24 top-56 h-[100px] w-[100px] rounded-full bg-blue-500/15 blur-[60px]" />
+      <div className="absolute -left-24 top-56 h-[100px] w-[100px] rounded-full bg-blue-500/15 blur-[30px]" />
 
-      <div className="absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[60px]" />
+      <div className="absolute -right-24 bottom-24 h-[340px] w-[340px] rounded-full bg-cyan-500/15 blur-[30px]" />
 
-      <div className="absolute left-1/2 top-0 h-52 w-52 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[60px]" />
+      <div className="absolute left-1/2 top-0 h-52 w-52 -translate-x-1/2 rounded-full bg-blue-500/10 blur-[30px]" />
 
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent" />
 
       {/* Content */}
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] max-w-screen-2xl flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
+      <div className="relative z-10 mx-auto flex min-h-[90vh] minmax-w-screen-2xl flex-col items-center justify-center px-6 pt-24 pb-16 text-center">
 
         {/* Badge */}
 
