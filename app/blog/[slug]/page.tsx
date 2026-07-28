@@ -21,6 +21,9 @@ export async function generateStaticParams() {
   }));
 }
 
+const SITE_URL = "https://toolsnestx.online";
+const SITE_NAME = "ToolsNestX";
+
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
 
@@ -32,10 +35,43 @@ export async function generateMetadata({ params }: Props) {
     };
   }
 
+  const url = `${SITE_URL}/blog/${blog.slug}`;
+  const image = blog.image ? `${SITE_URL}${blog.image}` : `${SITE_URL}/og-image.png`;
+
   return {
     title: `${blog.title} | ToolsNestX`,
     description: blog.description,
     keywords: blog.keywords,
+
+    alternates: {
+      canonical: url,
+    },
+
+    openGraph: {
+      title: blog.title,
+      description: blog.description,
+      url,
+      siteName: SITE_NAME,
+      type: "article",
+      publishedTime: blog.publishedAt,
+      modifiedTime: blog.updatedAt || blog.publishedAt,
+      authors: [blog.author],
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: blog.title,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: blog.title,
+      description: blog.description,
+      images: [image],
+    },
   };
 }
 

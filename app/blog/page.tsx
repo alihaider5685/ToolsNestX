@@ -1,12 +1,22 @@
 import { BookOpen } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { blogs } from "@/lib/blogs";
+import { generateToolMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Blog | ToolsNestX",
+export const metadata: Metadata = generateToolMetadata({
+  title: "Blog | Tips, Guides & Tutorials | ToolsNestX",
   description:
     "Explore tutorials, guides, tips, and best practices for using online tools with ToolsNestX.",
-};
+  keywords: [
+    "toolsnestx blog",
+    "online tools guides",
+    "pdf tips",
+    "image tools guide",
+    "developer tools tutorials",
+  ],
+  path: "/blog",
+});
 
 export default function BlogPage() {
   return (
