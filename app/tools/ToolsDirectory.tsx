@@ -20,7 +20,9 @@ export default function ToolsDirectory() {
   const searchParams = useSearchParams();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const [selectedCategory, setSelectedCategory] = useState("All Tools");
+  const [selectedCategory, setSelectedCategory] = useState(
+    () => searchParams.get("category") || "All Tools"
+  );
 
   // Support the site's SearchAction schema: /tools?search=xyz
   // Lazy-initialized once from the URL instead of syncing via an effect.
@@ -128,8 +130,6 @@ export default function ToolsDirectory() {
                 </kbd>
               )}
             </div>
-
-            <div className="h-3 bg-black" />
 
             {/* Quick searches */}
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2">

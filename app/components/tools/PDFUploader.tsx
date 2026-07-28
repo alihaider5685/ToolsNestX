@@ -45,21 +45,23 @@ export default function PDFUploader() {
   };
 
   return (
-    <div className="mt-10">
+    <div className="mx-auto mt-10 max-w-3xl">
 
-      <label className="flex cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-blue-500 bg-[#111827] p-12 transition hover:border-blue-400">
+      <label className="flex cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-blue-500 bg-[#111827] px-10 py-16 transition hover:border-blue-400 hover:bg-[#141d33]">
 
-        <Upload size={60} className="mb-4 text-blue-500" />
+        <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-blue-500/10">
+          <Upload size={40} className="text-blue-500" />
+        </div>
 
-        <h2 className="text-2xl font-bold text-white">
+        <h2 className="text-3xl font-bold text-white">
           Upload PDF Files
         </h2>
 
-        <p className="mt-2 text-gray-400">
+        <p className="mt-3 text-base text-gray-400">
           Select two or more PDF files
         </p>
 
-        <span className="mt-6 rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white">
+        <span className="mt-8 rounded-xl bg-blue-600 px-8 py-4 text-base font-semibold text-white transition hover:bg-blue-700">
           Choose PDFs
         </span>
 
@@ -75,10 +77,10 @@ export default function PDFUploader() {
       </label>
 
       {files.length > 0 && (
-        <div className="mt-8 rounded-2xl border border-gray-700 bg-[#111] p-6">
+        <div className="mt-8 rounded-2xl border border-gray-700 bg-[#111] p-8">
 
           <div className="flex items-center gap-3">
-            <FileText className="text-blue-500" />
+            <FileText size={26} className="text-blue-500" />
             <h2 className="text-2xl font-bold text-white">
               Selected Files
             </h2>
@@ -89,11 +91,11 @@ export default function PDFUploader() {
             {files.map((file, index) => (
               <div
                 key={index}
-                className="rounded-lg border border-gray-700 bg-[#1a1a1a] p-3 text-white"
+                className="rounded-xl border border-gray-700 bg-[#1a1a1a] px-5 py-4 text-white"
               >
-                <p>{file.name}</p>
+                <p className="text-base font-medium">{file.name}</p>
 
-                <p className="text-sm text-gray-400">
+                <p className="mt-1 text-sm text-gray-400">
                   {(file.size / 1024).toFixed(2)} KB
                 </p>
               </div>
@@ -104,7 +106,7 @@ export default function PDFUploader() {
           <button
             onClick={handleMerge}
             disabled={loading}
-            className="mt-8 w-full rounded-xl bg-blue-600 py-4 font-semibold text-white hover:bg-blue-700 disabled:opacity-50"
+            className="mt-8 w-full rounded-xl bg-blue-600 py-4 text-base font-semibold text-white transition hover:bg-blue-700 disabled:opacity-50"
           >
             {loading ? "Merging..." : "Merge & Download"}
           </button>
@@ -114,7 +116,7 @@ export default function PDFUploader() {
               setFiles([]);
               setInputKey((k) => k + 1);
             }}
-            className="mt-4 w-full rounded-xl border border-gray-600 py-4 text-white hover:bg-gray-800"
+            className="mt-4 w-full rounded-xl border border-gray-600 py-4 text-base text-white transition hover:bg-gray-800"
           >
             Upload Other PDFs
           </button>
