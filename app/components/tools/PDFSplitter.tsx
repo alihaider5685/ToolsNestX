@@ -7,7 +7,7 @@ import { splitPdf } from "@/app/lib/pdf/splitPdf";
 export default function PDFSplitter() {
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
-  const [inputKey, setInputKey] = useState(Date.now());
+  const [inputKey, setInputKey] = useState(0);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement>
@@ -104,7 +104,7 @@ export default function PDFSplitter() {
           <button
             onClick={() => {
               setFile(null);
-              setInputKey(Date.now());
+              setInputKey((k) => k + 1);
             }}
             className="mt-4 w-full rounded-xl border border-gray-600 py-4 text-white hover:bg-gray-800"
           >

@@ -7,7 +7,7 @@ import { mergePdf } from "@/app/lib/pdf/mergePdf";
 export default function PDFUploader() {
   const [files, setFiles] = useState<File[]>([]);
   const [loading, setLoading] = useState(false);
-  const [inputKey, setInputKey] = useState(Date.now());
+  const [inputKey, setInputKey] = useState(0);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement>
@@ -112,7 +112,7 @@ export default function PDFUploader() {
           <button
             onClick={() => {
               setFiles([]);
-              setInputKey(Date.now());
+              setInputKey((k) => k + 1);
             }}
             className="mt-4 w-full rounded-xl border border-gray-600 py-4 text-white hover:bg-gray-800"
           >

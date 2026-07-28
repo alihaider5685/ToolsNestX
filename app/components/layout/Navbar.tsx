@@ -11,7 +11,7 @@ const navLinks = [
   { name: "About", href: "/about" },
   { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
-  { name: "Tools", href: "/#tools" },
+  { name: "Tools", href: "/tools" },
   { name: "Blog", href: "/blog" },
 ];
 
@@ -64,9 +64,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 md:flex">
             {navLinks.map((link) => {
-              const isActive =
-                pathname === link.href ||
-                (link.href === "/#tools" && pathname === "/tools");
+              const isActive = pathname === link.href;
 
               return (
                 <Link
@@ -90,7 +88,7 @@ export default function Navbar() {
 
           {/* Right side: CTA (desktop) + Hamburger (mobile) */}
           <div className="flex items-center gap-3">
-            <Button href="/#tools" className="hidden h-6 px-5 text-sm md:inline-flex">
+            <Button href="/tools" className="hidden h-6 px-5 text-sm md:inline-flex">
               Explore Tools
             </Button>
 
@@ -146,9 +144,7 @@ export default function Navbar() {
 
           <div className="mt-10 flex flex-1 flex-col gap-2">
             {navLinks.map((link) => {
-              const isActive =
-                pathname === link.href ||
-                (link.href === "/#tools" && pathname === "/tools");
+              const isActive = pathname === link.href;
 
               return (
                 <Link
@@ -171,7 +167,7 @@ export default function Navbar() {
             })}
           </div>
 
-          <Button href="/#tools" onClick={() => setIsOpen(false)} className="w-full justify-center">
+          <Button href="/tools" onClick={() => setIsOpen(false)} className="w-full justify-center">
             Explore Tools
             <ArrowRight size={18} />
           </Button>

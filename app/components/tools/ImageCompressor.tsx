@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export default function ImageCompressor() {
-  const [inputKey, setInputKey] = useState(Date.now());
+  const [inputKey, setInputKey] = useState(0);
   const [image, setImage] = useState<File | null>(null);
   const [preview, setPreview] = useState("");
   const [quality, setQuality] = useState(80);
@@ -70,7 +70,7 @@ export default function ImageCompressor() {
     setPreview("");
     setQuality(80);
     setCompressedInfo(null);
-    setInputKey(Date.now());
+    setInputKey((k) => k + 1);
   };
 
   const savedPercent =
