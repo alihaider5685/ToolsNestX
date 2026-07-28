@@ -197,7 +197,7 @@ export default function Navbar() {
           {/* Right side: CTA (desktop) + Hamburger (mobile) */}
           <div className="flex items-center gap-3">
             <Button href="/tools" className="hidden h-6 px-5 text-sm md:inline-flex">
-              Explore Tools
+              Explore All Tools
             </Button>
 
             <button

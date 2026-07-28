@@ -99,7 +99,7 @@ export default function Hero() {
         <div className="mt-16 mb-4 flex flex-wrap justify-center gap-5">
 
           <Button href="#tools">
-            Explore Tools
+            Explore All Tools
             <ArrowRight size={20} />
           </Button>
 
